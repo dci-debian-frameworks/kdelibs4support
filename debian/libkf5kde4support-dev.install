@@ -1,0 +1,4 @@
+usr/include/KF5/
+usr/lib/*/libKF5KDE4Support.so
+usr/lib/*/cmake/KF5KDE4Support/
+usr/lib/*/cmake/KDELibs4/

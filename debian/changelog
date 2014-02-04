@@ -1,0 +1,10 @@
+kde4support (4.95.0-0ubuntu1) trusty; urgency=low
+
+  [ Scarlett Clark ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * Add rename_all_languages.diff from https://git.reviewboard.kde.org/r/115401/
+    and entry.desktop TODO this needs klocale updated to read entry.desktop renamed
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 29 Jan 2014 16:16:49 +0000

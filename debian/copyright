@@ -1,0 +1,512 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kde4support
+Source: https://projects.kde.org/projects/frameworks/kde4support
+
+Files: *
+       debian/* 
+Copyright: © 1999-2011, 2013 David Faure <faure@kde.org>
+           © 2007-2011 John Layt <john@layt.net>
+           © 2000-2007 Thiago Macieira <thiago@kde.org> <thiago.macieira@kdemail.net>
+           © 2000, 2002, 2006-2010 Alexander Neundorf <neundorf@kde.org>
+           © 2006-2008 Matthias Kretz <kretz@kde.org>
+           © 1999-2005 Waldo Bastian <bastian@kde.org>
+           © 2001, 2006-2008 Laurent Montel <montel@kde.org> <lmontel@mandrakesoft.com>
+           © 2005-2012 David Jarvie <djarvie@kde.org> <software@astrojar.org.uk>
+           © 2007-2010 Sebastian Trueg <sebastian@trueg.de> <trueg@kde.org>
+           © 2000-2005 George Staikos <staikos@kde.org>
+           © 2009-2011 Peter Penz <peter.penz19@gmail.com> <peter.penz@gmx.at>
+           © 1999-2003 Carsten Pfeiffer <pfeiffer@kde.org>
+           © 1997-2007 Stephan Kulow <coolo@kde.org>
+           © 1999-2003 Hans Petter Bieker <bieker@kde.org>
+           © 2005-2009 Olivier Goffart <ogoffart@kde.org>
+           © 1999, 2001-2002, 2006 Simon Hausmann <hausmann@kde.org>
+           © 2006 Michaël Larouche <michael.larouche@kdemail.net>
+           © 1997-2000 Torben Weis <weis@kde.org>
+           © 2001-2002, 2008 Marc Mutz <mutz@kde.org>
+           © 1999-2000, 2005-2009 Espen Sand <espen@kde.org> <freyther@kde.org> <espensa@online.no>
+           © 2001-2002, 2005-2009 Holger Freyther <freyther@kde.org> <tokoe@kde.org>
+           © 2006-2007 Tobias Koenig <tokoe@kde.org>
+           © 2001-2002 Rolf Magnus <ramagnus@kde.org>
+           © 2006, 2010 Andreas Hartmetz <ahartmetz@gmail.com>
+           © 1998-1999 Sirtaj Singh Kang <taj@kde.org>
+           © 2006-2007, 2009 Urs Wolfer <uwolfer@kde.org> <uwolfer@fwo.ch>
+           © 2002, 2005-2006 Hamish Rodda <rodda@kde.org>
+           © 2004-2008 Jarosław Staniek <staniek@kde.org>
+           © 2006, 2008 Chusslove Illich <caslav.ilic@gmx.net>
+           © 2001-2002, 2004-2005 Frerich Raabe <raabe@kde.org>
+           © 1997 Martin Jones <mjones@kde.org>
+           © 1999 Preston Brown <pbrown@kde.org>
+           © 1997-2000 Matthias Ettrich <ettrich@kde.org>
+           © 2007 Simon Edwards <simon@simonzone.com>
+           © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
+           © 2000, 2008 Dirk Mueller <mueller@kde.org>
+           © 2006 Pino Toscano <toscano.pino@tiscali.it>
+           © 2006-2007, 2009 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           © 2003, 2005 Stephan Binner <binner@kde.org>
+           © 2006-2007 Allen Winter <winter@kde.org>
+           © 2002-2003 Carlos Moro <cfmoro@correo.uniovi.es>
+           © 2007, 2013 Kevin Ottens <ervin@kde.org> <ervin+bluesystems@kde.org>
+           © 2006 Jaison Lee <lee.jaison@gmail.com>
+           © 2003, 2006 Zack Rusin <zack@kde.org>
+           © 2005 S.R.Haque <srhaque@iee.org>
+           © 2005 Thomas Braxton <brax108@cox.net>
+           © 2008-2012 Gilles Caulier <caulier.gilles@gmail.com>
+           © 1997, 1999 Mario Weilguni <mweilguni@sime.com> <mweilguni@kde.org>
+           © 1998-2000, 2002-2003 KDE Team
+           © 2000-2001, 2045 Rik Hemsley <rik@kde.org>
+           © 2002-2003 Andreas Beckermann <b_mann@gmx.de>
+           © 2001-2002 Ellis Whitehead <ellis@kde.org>
+           © 2001-2002, 2007 Fredrik Höglund <fredrik@kde.org>
+           © 2001-2002 Karol Szwed <gallium@kde.org>
+           © 2000-2001 Dawit Alemayehu <adawit@kde.org>
+           © 2002-2005 Maksim Orlovich <maksim@kde.org>
+           © 1998 Thomas Tanghus <tanghus@earthling.net>
+           © 1999-2000 Additions <espen@kde.org>
+           © 1999-2000 Reginald Stadlbauer <reggie@kde.org>
+           © 2000 Daniel M. Duley <mosfet@kde.org>
+           © 2007 Bernhard Loos <nhuh.put@web.de>
+           © 2003, 2005-2006 Sandro Giessl <giessl@kde.org> <sandro@giessl.com>
+           © 2006-2007 Montel Laurent <montel@kde.org>
+           © 2003 Nadeem Hasan <nhasan@kde.org>
+           © 1997-2000 Sven Radej <radej@kde.org> <sven@lisa.exp.univie.ac.at>
+           © 2007 Charles Connell <charles@connells.org>
+           © 1991, 2005-2011 All Rights Reserved.
+           © 2003 Lubos Lunak <l.lunak@kde.org>
+           © 2006-2009 Ralf Habacker <ralf.habacker@freenet.de>
+           © 1997-1998 Richard Moore <rich@kde.org>
+           © 2008, 2010 Rafael Fernández López <ereslibre@kde.org>
+           © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
+           © 2002 Lukas Tinkl <lukas@kde.org>
+           © 2010 Christoph Feck <christoph@maxiom.de>
+           © 1999 Ian Zepp <icszepp@islc.net>
+           © 2002-2003 Joseph Wenninger <jowenn@kde.org>
+           © 1996-1997 Bernd Johannes Wuebben <wuebben@kde.org> <wuebben@math.cornell.edu>
+           © 2006, 2011 Volker Krause <vkrause@kde.org>
+           © 2006 Martin Pool <mbp@canonical.com>
+           © 2006 Dominic Battre <dominic@battre.de>
+           © 1999 Glen Parker <glenebob@nwlink.com>
+           © 2002-2003 FarsiKDE Project
+           © 1998-2000 Keramik for KDE3,
+           © 2006 Peter Simonsson <peter.simonsson@gmail.com>
+           © 2002-2003 Arash Bijanzadeh <a.bijanzadeh@linuxiran.org>
+           © 2001 Martijn Klingens <klingens@kde.org>
+           © 2002 Malte Starostik <malte@kde.org>
+           © 2006, 2008 Benjamin Reed <ranger@befunk.com> <rangerrick@befunk.com>
+           © 2008 Lukas Appelhans <l.appelhans@gmx.de>
+           © 2012 Luca Beltrame <lbeltrame@kde.org>
+           © 2006 Tim Beaulen <tbscope@gmail.com>
+           © 2010 Teo Mrnjavac <teo@kde.org>
+           © 1999-2000 Daniel "Mosfet" Duley <mosfet@kde.org>
+           © 2009 Shaun Reich <shaun.reich@kdemail.net>
+           © 2000 Nicolas Hadacek <haadcek@kde.org>
+           © 1991 RSA Data Security Inc. Created
+           © 2008 Richard Hartmann <richih-kde@net.in.tum.de>
+           © 2009 Dario Freddi <drf@kde.org> <drf54321@gmail.com>
+           © 2009 Michael Leupold <lemma@confuego.org>
+           © 2003 Chris Howells <howells@kde.org>
+           © 1998 Daniel Grana <grana@ie.iwi.unibe.ch>
+           © 2007 Rivo Laks <rivolaks@hot.ee>
+           © 1999 Dirk A. Mueller <dmuell@gmx.net>
+           © 1997 Patrick Dowler <dowler@morgul.fsh.uvic.ca>
+           © 2001 Daniel Molkentin <molkentin@kde.org>
+           © 1996 Martynas Kunigelis
+           © 2000 Geert Jansen <jansen@kde.org>
+           © 2002-2003 Contact: Arash Bijanzadeh
+           © 2005 Brad Hards <bradh@kde.org>
+           © 2005 Ingo Kloecker <kloecker@kde.org>
+           © 2000 Michael Koch <koch@kde.org>
+           © 1997 Mark Donohoe <donohoe@kde.org>
+           © 1997 Michael Wiedmann <mw@miwie.in-berlin.de>
+           © 2007 Aron Boström <aron.bostrom@gmail.com>
+           © 2000 Antonio Larrosa <larrosa@kde.org>
+           © 2000 Kurt Granroth <granroth@kde.org>
+           © 1998-2000 TrollTech AS
+           © 2001 Michael Jarrett <michaelj@corel.com>
+           © 2006, 2009 Marcus Hufgard <marcus.hufgard@hufgard.de>
+           © 2008 Till Adam <adam@kde.org>
+           © 2009 Harald Fernengel <harry@kdevelop.org>
+           © 2007 Roberto Raggi <roberto@kdevelop.org>
+           © 2012 Victor Dodon <dodonvictor@gmail.com>
+           © 2000 Michael Matz <matz@kde.org>
+           © 2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>
+           © 2011 Raphael Kubo da Costa <kubito@gmail.com>
+           © 2008-2009 Gael Guennebaud <g.gael@free.fr>
+           © 2006 Peter Kümmel <syntheticpp@yahoo.com>
+           © 2006 Wilfried Huss <wilfried.huss@gmx.at>
+           © 2006 Egon Willighagen <egonw@users.sf.net>
+           © 2006 Marcel Wiesweg <marcel.wiesweg@gmx.de>
+           © 2011 Michael G. Hansen <mike@mghansen.de>
+           © 2006 Nicolas GOUTTE <goutte@kde.org>
+           © 1998 Ralf S. Engelschall <rse@engelschall.com>
+           © 2008 Daniel Gollub <dgollub@suse.de>
+           © 2008 Patrick Spendrin <ps_ml@gmx.de>
+           © 2010 Paulo Romulo Alves Barros <paulo.romulo@kdemail.net>
+           © 2003 Clarence Dang <dang@kde.org>
+           © 2006 Richard Laerkaeng <richard@goteborg.utfors.se>
+           ©  Ariel Glenn <ariel@columbia.edu>
+           © 2010 Romain Perier <mrpouet@gentoo.org>
+           © 2008 Adrian Page <adrian@pagenet.plus.com>
+           © 2001 Andrei Alexandrescu
+           © 2011 Michael Jansen <kde@michael-jansen.biz>
+           © 2005-2011 Kitware Inc.
+           © 2006 Alexander Dymo <adymo@kdevelop.org>
+           © 2006 Thorsten Roeder <thorsten.roeder@weihenstephan.org>
+           © 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+           © 2009 Michal Malek <michalm@jabster.pl>
+           © 2009 Helio Chissini de Castro <helio@kde.org>
+           © 2012 Rolf Eike Beer <eike@sf-mail.de>
+           © 2008 Per Øyvind Karlsen <peroyvind@mandriva.org>
+           © 2006 Gregory S. Hayes <syncomm@kde.org>
+           © 2000 Keunwoo Lee <klee@cs.washington.edu>
+           © 2007 Timo A. Hummel <timo@timohummel.com>
+           © 2007 Olaf Schmidt <ojschmidt@kde.org>
+           © 2010 Andreas Holzammer <andy@kdab.com>
+           © 2007 Will Stephenson <wstephenson@kde.org>
+           © 2009 Cyrille Berger <cberger@cberger.net>
+           © 2007 Gerd Fleischer <gerdfleischer@web.de>
+           © 2007 Andreas Pakulat <apaku@gmx.de>
+           ©  By Simon Edwards <simon@simonzone.com>
+             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: autotests/ksharedptrtest.cpp
+       autotests/ksharedptrtest.h
+       src/kdecore/ksharedptr.h
+       cmake/modules/ECMQt4To5Porting.cmake       
+Copyright: 2005 Frerich Raabe <raabe@kde.org>
+           2005-2011 Kitware, Inc.
+License: BSD 2 clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: autotests/kaccelgentest.cpp
+       autotests/kglobalstatictest.cpp
+Copyright: 2004  Frerich Raabe <raabe@kde.org>
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) version 3.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Files: autotests/globalcleanuptest.cpp
+       autotests/kconfigafterkglobaltest1.cpp
+       autotests/kconfigafterkglobaltest2.cpp
+       autotests/kglobalsettingstest.h
+       autotests/kglobaltest.cpp
+       autotests/klibloadertest.cpp
+       autotests/klibloadertest.h
+       autotests/klibloadertest4_module.cpp
+       autotests/klibloadertest4_module.h
+       autotests/klibloadertest_module.cpp
+       autotests/klibloadertest_module.h
+       autotests/klocaletest.cpp
+       autotests/klocaletest.h
+       autotests/klockfiletest.cpp
+       autotests/klockfiletest.h
+       autotests/ksavefiletest.cpp
+       autotests/ksavefiletest.h
+       autotests/kstandarddirstest.cpp
+       autotests/kstandarddirstest.h
+       autotests/ktempdirtest.cpp
+       autotests/kuniqueapptest.cpp
+       autotests/kurltest.cpp
+       autotests/kurltest.h
+       src/kdecore/k3socks.cpp
+       src/kdecore/k3socks.h
+       src/kdecore/kcmdlineargs.cpp
+       src/kdecore/kcmdlineargs.h
+       src/kdecore/kcomponentdata.cpp
+       src/kdecore/kcomponentdata.h
+       src/kdecore/kcomponentdata_p.h
+       src/kdecore/kde_file.h
+       src/kdecore/kde_file_win.cpp
+       src/kdecore/kglobal.cpp
+       src/kdecore/kglobal.h
+       src/kdecore/kkernel_mac.cpp
+       src/kdecore/kkernel_mac.h
+       src/kdecore/kkernel_win.cpp
+       src/kdecore/kkernel_win.h
+       src/kdecore/klibloader.cpp
+       src/kdecore/klibloader.h
+       src/kdecore/klockfile.h
+       src/kdecore/klockfile_unix.cpp
+       src/kdecore/klockfile_win.cpp
+       src/kdecore/kmd5.cpp
+       src/kdecore/kmd5.h
+       src/kdecore/kmimetype.cpp
+       src/kdecore/kmimetype.h
+       src/kdecore/kmimetype_p.h
+       src/kdecore/ksavefile.cpp
+       src/kdecore/ksavefile.h
+       src/kdecore/kstandarddirs.cpp
+       src/kdecore/kstringhandler_deprecated.h
+       src/kdecore/ktempdir.cpp
+       src/kdecore/ktempdir.h
+       src/kdecore/qtest_kde.cpp
+       src/kdecore/qtest_kde.h
+       src/kdeui/k3icon.cpp
+       src/kdeui/k3icon_p.h
+       src/kdeui/k4timezonewidget.cpp
+       src/kdeui/k4timezonewidget.h
+       src/kdeui/kaction.cpp
+       src/kdeui/kaction.h
+       src/kdeui/kaction_p.h
+       src/kdeui/kapplication_win.cpp
+       src/kdeui/karrowbutton.cpp
+       src/kdeui/karrowbutton.h
+       src/kdeui/kcolorchoosermode.cpp
+       src/kdeui/kcolorchoosermode_p.h
+       src/kdeui/kcolorhelpers.cpp
+       src/kdeui/kdatetimewidget.cpp
+       src/kdeui/kdatetimewidget.h
+       src/kdeui/kdatewidget.cpp
+       src/kdeui/kdatewidget.h
+       src/kdeui/kdialog_p.h
+       src/kdeui/kfadewidgeteffect.cpp
+       src/kdeui/kfadewidgeteffect.h
+       src/kdeui/kfadewidgeteffect_p.h
+       src/kdeui/kglobalsettings.cpp
+       src/kdeui/kglobalsettings.h
+       src/kdeui/khbox.cpp
+       src/kdeui/khbox.h
+       src/kdeui/kicon.cpp
+       src/kdeui/kicon.h
+       src/kdeui/klistwidget.cpp
+       src/kdeui/klistwidget.h
+       src/kdeui/kmenu.cpp
+       src/kdeui/kmenu.h
+       src/kdeui/kmessagebox_queued.cpp
+       src/kdeui/kmessagebox_queued.h
+       src/kdeui/kmessageboxmessagehandler.cpp
+       src/kdeui/kmessageboxmessagehandler.h
+       src/kdeui/kpassivepopupmessagehandler.cpp
+       src/kdeui/kpassivepopupmessagehandler.h
+       src/kdeui/kpixmapcache.cpp
+       src/kdeui/kpixmapcache.h
+       src/kdeui/kprogressdialog.cpp
+       src/kdeui/kprogressdialog.h
+       src/kdeui/kstringvalidator.cpp
+       src/kdeui/kstringvalidator.h
+       src/kdeui/ksystemtrayicon.h
+       src/kdeui/kvbox.cpp
+       src/kdeui/kvbox.h
+       src/kio/kdevicelistitem.cpp
+       src/kio/kdevicelistitem_p.h
+       src/kio/kdevicelistmodel.cpp
+       src/kio/kdevicelistmodel.h
+       src/kio/kdirselectdialog.cpp
+       src/kio/kdirselectdialog.h
+       src/kio/kdiskfreespace.cpp
+       src/kio/kdiskfreespace.h
+       src/kio/kfilemetainfowidget.cpp
+       src/kio/kfilemetainfowidget.h
+       src/kio/kfileshare.cpp
+       src/kio/kfileshare.h
+       src/kio/kfileshare_p.h
+       src/kio/kmetaprops.cpp
+       src/kio/kmetaprops.h
+       src/kio/kpreviewprops.cpp
+       src/kio/kpreviewprops.h
+       src/kio/metainfojob.cpp
+       src/kio/metainfojob.h
+       src/kio/passworddialog.cpp
+       src/kio/passworddialog.h
+       src/kioslave/metainfo/* excluding:
+       -? src/kioslave/metainfo/CMakeLists.txt
+       src/kssl/kopenssl.cpp
+       src/kssl/kopenssl.h
+       tests/kmessagetest.cpp
+       tests/kmessagetest.h
+       tests/netaccesstest.cpp
+Copyright: 2007, 2008 Matthias Kretz <kretz@kde.org>
+           2000-2007, 2009, 2011 David Faure <faure@kde.org>
+           2005 Thomas Braxton <brax108@cox.net>
+           2007 David Jarvie <software@astrojar.org.uk>
+           2006 Allen Winter <winter@kde.org>
+           2006 Jaison Lee <lee.jaison@gmail.com>
+           1999-2005 Waldo Bastian <bastian@kde.org>
+           2001-2003 George Staikos <staikos@kde.org>
+           1999 Torben Weis <weis@kde.org>           
+           2007 Bernhard Loos <nhuh.put@web.de>
+           2004-2008 Jarosław Staniek <staniek@kde.org>
+           1999 Sirtaj Singh Kanq <taj@kde.org>           
+           2009 Olivier Goffart <ogoffart@kde.org>
+           2008 Benjamin Reed <rangerrick@befunk.com>
+           2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           2008-2009 Ralf Habacker <ralf.habacker@freenet.de>
+           2000 Michael Matz <matz@kde.org>
+           2000-2001 Dawit Alemayehu <adawit@kde.org>
+           2001 Rik Hemsley (rikkus) <rik@kde.org>
+           2006 Gregory S. Hayes <syncomm@kde.org>
+           1999,2007 Stephan Kulow <coolo@kde.org>
+           1999 Ian Zepp (icszepp@islc.net)
+           2006 by Dominic Battre <dominic@battre.de>
+           2006 by Martin Pool <mbp@canonical.com>
+           2003 Joseph Wenninger <jowenn@kde.org>
+           2000 Geert Jansen <jansen@kde.org>
+                Antonio Larrosa <larrosa@kde.org>
+           2005, S.R.Haque <srhaque@iee.org>  
+           1999 Reginald Stadlbauer <reggie@kde.org>
+           1999 Simon Hausmann <hausmann@kde.org>
+           2000 Nicolas Hadacek <haadcek@kde.org>
+           2000 Kurt Granroth <granroth@kde.org>
+           2000 Michael Koch <koch@kde.org>
+           2001 Holger Freyther <freyther@kde.org>
+           2002 Ellis Whitehead <ellis@kde.org>
+           2002 Joseph Wenninger <jowenn@kde.org>           
+           2001 Frerich Raabe <raabe@kde.org>
+           2010 Christoph Feck <christoph@maxiom.de>
+           2002 Hans Petter bieker <bieker@kde.org>
+           2007, 2010 John Layt <john@layt.net>
+           2008 Rafael Fernández López <ereslibre@kde.org>
+           2008 Friedrich W. H. Kossebau <kossebau@kde.org>           
+           2000 Reginald Stadlbauer <reggie@kde.org>
+           2000 Daniel M. Duley <mosfet@kde.org>
+           2002,2006 Hamish Rodda <rodda@kde.org>
+           2006 Olivier Goffart <ogoffart@kde.org>
+           2006 Michaël Larouche <michael.larouche@kdemail.net>
+           2007 Rivo Laks <rivolaks@hot.ee>
+           1996 Martynas Kunigelis
+           2006-2007 Urs Wolfer <uwolfer at kde.org>
+           2001 Marc Mutz <mutz@kde.org>
+           1999 Matthias Ettrich <ettrich@kde.org>
+           2007 Charles Connell <charles@connells.org>
+           2008 Lukas Appelhans <l.appelhans@gmx.de>
+           2006 Michael Larouche <michael.larouche@kdemail.net>
+           2007 Kevin Ottens <ervin@kde.org>
+           2001,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+           2001 Michael Jarrett <michaelj@corel.com>
+           2009 Shaun Reich <shaun.reich@kdemail.net>
+           2008 Dirk Mueller <mueller@kde.org>
+           2008 Sebastian Trug <trueg@kde.org>
+           2001,2002 Rolf Magnus <ramagnus@kde.org>
+           2001 Laurent Montel <lmontel@mandrakesoft.com>
+           2005 Stephan Binner <binner@kde.org>
+           2001-2003 George Staikos <staikos@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Library General Public License version 2 can be found in
+ /usr/share/common-licenses/LGPL-2
+
+Files: autotests/klocaletimeformattest.cpp
+       autotests/klocaletimeformattest.h       
+Copyright: 2009  Michael Leupold <lemma@confuego.org>
+License: LGPL-2.1+ accepted by the membership of KDE e.V.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+
+Files: src/kdecore/k3bufferedsocket.cpp
+       src/kdecore/k3bufferedsocket.h
+       src/kdecore/k3clientsocketbase.cpp
+       src/kdecore/k3clientsocketbase.h
+       src/kdecore/k3resolver.cpp
+       src/kdecore/k3resolver.h
+       src/kdecore/k3resolver_p.h
+       src/kdecore/k3resolvermanager.cpp
+       src/kdecore/k3resolverstandardworkers.cpp
+       src/kdecore/k3resolverstandardworkers_p.h
+       src/kdecore/k3resolverworkerbase.cpp
+       src/kdecore/k3resolverworkerbase.h
+       src/kdecore/k3reverseresolver.cpp
+       src/kdecore/k3reverseresolver.h
+       src/kdecore/k3serversocket.cpp
+       src/kdecore/k3serversocket.h
+       src/kdecore/k3socketaddress.cpp
+       src/kdecore/k3socketaddress.h
+       src/kdecore/k3socketbase.cpp
+       src/kdecore/k3socketbase.h
+       src/kdecore/k3socketbuffer.cpp
+       src/kdecore/k3socketbuffer_p.h
+       src/kdecore/k3socketdevice.cpp
+       src/kdecore/k3socketdevice.h
+       src/kdecore/k3streamsocket.cpp
+       src/kdecore/k3streamsocket.h
+       src/kdecore/syssocket.h
+       src/kdeui/kxerrorhandler.cpp
+       src/kdeui/kxerrorhandler.h
+       tests/kxerrorhandlertest.cpp
+Copyright: 2003,2005 Thiago Macieira <thiago@kde.org>
+License: MIT
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .  
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,97 @@
+Source: kde4support
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, libkf5unitconversion-dev,
+ libx11-dev, libintl-perl, libssl-dev, libecm-dev, libqt5network5,
+ libqt5gui5, libqt5widgets5, libqt5dbus5, libqt5test5, libqt5svg5-dev,
+ libqt5concurrent5, libqt5printsupport5, libqt5xml5, qttools5-dev,
+ libkf5kjs-dev, libkf5i18n-dev, libkf5guiaddons-dev,
+ libkf5widgetsaddons-dev, libkf5dbusaddons-dev, libkf5config-dev,
+ libkf5coreaddons-dev, libkf5auth-dev, libkf5codecs-dev,
+ libkf5configwidgets-dev, libkf5itemviews-dev, libkf5iconthemes-dev,
+ libkf5windowsystem-dev, libkf5service-dev, libkf5completion-dev,
+ libkf5sonnet-dev, libkf5textwidgets-dev, libkf5xmlgui-dev,
+ libkf5bookmarks-dev, libkf5jobwidgets-dev, libkf5solid-dev,
+ kf5-kio-dev, libkf5archive-dev, kdoctools5, kdoctools5-dev,
+ libkf5crash-dev, libkf5notifications-dev, libkf5parts-dev,
+ libkf5globalaccel-dev, libqt5x11extras-dev, kgendesignerplugin,
+ libsm-dev, xauth, xvfb, openbox
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kde4support
+
+Package: libkf5kde4support-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5kde4support5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kde4support
+ This framework provides code and utilities to ease
+ the transition from kdelibs 4 to KDE Frameworks 5.
+ This includes CMake macros and C++ classes whose
+ functionality has been replaced by code in CMake,
+ Qt and other frameworks.
+ .
+ Code should aim to port away from this framework eventually.
+ The API documentation of the classes in this framework and
+ the notes at <http://community.kde.org/Frameworks/Porting_Notes>
+ should help with this.
+ .
+ Note that some of the classes in this framework, especially
+ KStandardDirs, may not work correctly unless any libraries
+ and other software using the KDE4 Support framework are
+ installed to the same location as KDE4Support, although
+ it may be sufficient to set the KDEDIRS environment
+ variable correctly.
+ .
+ Contains development files for kde4support.
+ 
+Package: libkf5kde4support5
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Porting aid from KDELibs4.
+ This framework provides code and utilities to ease
+ the transition from kdelibs 4 to KDE Frameworks 5.
+ This includes CMake macros and C++ classes whose
+ functionality has been replaced by code in CMake,
+ Qt and other frameworks.
+ .
+ Code should aim to port away from this framework eventually.
+ The API documentation of the classes in this framework and
+ the notes at <http://community.kde.org/Frameworks/Porting_Notes>
+ should help with this.
+ .
+ Note that some of the classes in this framework, especially
+ KStandardDirs, may not work correctly unless any libraries
+ and other software using the KDE4 Support framework are
+ installed to the same location as KDE4Support, although
+ it may be sufficient to set the KDEDIRS environment
+ variable correctly.
+ 
+Package: libkf5kde4support5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Depends: libkf5kde4support5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kde4support
+ This framework provides code and utilities to ease
+ the transition from kdelibs 4 to KDE Frameworks 5.
+ This includes CMake macros and C++ classes whose
+ functionality has been replaced by code in CMake,
+ Qt and other frameworks.
+ .
+ Code should aim to port away from this framework eventually.
+ The API documentation of the classes in this framework and
+ the notes at <http://community.kde.org/Frameworks/Porting_Notes>
+ should help with this.
+ .
+ Note that some of the classes in this framework, especially
+ KStandardDirs, may not work correctly unless any libraries
+ and other software using the KDE4 Support framework are
+ installed to the same location as KDE4Support, although
+ it may be sufficient to set the KDEDIRS environment
+ variable correctly.
+ .
+ Contains debug symbols for kde4support.

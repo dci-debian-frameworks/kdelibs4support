@@ -1,0 +1,5 @@
+usr/lib/*/libKF5KDE4Support.so.5*
+usr/lib/*/kde5/*
+usr/lib/*/qt5/*
+usr/bin/*
+usr/share/*
