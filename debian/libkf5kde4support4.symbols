@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5KDE4Support.so.4 libkf5kde4support4 #MINVER#
  _Z11kdeHasSocksv@Base 4.96.0
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
@@ -262,9 +262,9 @@ libKF5KDE4Support.so.4 libkf5kde4support4 #MINVER#
  _ZN11KFileDialog16setOperationModeENS_13OperationModeE@Base 4.96.0
  _ZN11KFileDialog16setPreviewWidgetEP18KPreviewWidgetBase@Base 4.96.0
  _ZN11KFileDialog16staticMetaObjectE@Base 4.96.0
- _ZN11KFileDialog18getOpenFileNameWIdERK4QUrlRK7QStringyS5_@Base 4.96.0
- _ZN11KFileDialog18getSaveFileNameWIdERK4QUrlRK7QStringyS5_6QFlagsINS_6OptionEE@Base 4.96.0
- _ZN11KFileDialog18getSaveFileNameWIdERK4QUrlRK7QStringyS5_@Base 4.96.0
+ (subst)_ZN11KFileDialog18getOpenFileNameWIdERK4QUrlRK7QString{quintptr}S5_@Base 4.96.0
+ (subst)_ZN11KFileDialog18getSaveFileNameWIdERK4QUrlRK7QString{quintptr}S5_6QFlagsINS_6OptionEE@Base 4.96.0
+ (subst)_ZN11KFileDialog18getSaveFileNameWIdERK4QUrlRK7QString{quintptr}S5_@Base 4.96.0
  _ZN11KFileDialog19setConfirmOverwriteEb@Base 4.96.0
  _ZN11KFileDialog20getExistingDirectoryERK4QUrlP7QWidgetRK7QString@Base 4.96.0
  _ZN11KFileDialog21currentFilterMimeTypeEv@Base 4.96.0
@@ -336,9 +336,9 @@ libKF5KDE4Support.so.4 libkf5kde4support4 #MINVER#
  _ZN11KMessageBox16queuedMessageBoxEP7QWidgetNS_10DialogTypeERK7QStringS5_6QFlagsINS_6OptionEE@Base 4.96.0
  _ZN11KMessageBox16queuedMessageBoxEP7QWidgetNS_10DialogTypeERK7QStringS5_@Base 4.96.0
  _ZN11KMessageBox19queuedDetailedErrorEP7QWidgetRK7QStringS4_S4_@Base 4.96.0
- _ZN11KMessageBox19queuedMessageBoxWIdEyNS_10DialogTypeERK7QStringS3_6QFlagsINS_6OptionEE@Base 4.96.0
- _ZN11KMessageBox19queuedMessageBoxWIdEyNS_10DialogTypeERK7QStringS3_@Base 4.96.0
- _ZN11KMessageBox22queuedDetailedErrorWIdEyRK7QStringS2_S2_@Base 4.96.0
+ (subst)_ZN11KMessageBox19queuedMessageBoxWIdE{quintptr}NS_10DialogTypeERK7QStringS3_6QFlagsINS_6OptionEE@Base 4.96.0
+ (subst)_ZN11KMessageBox19queuedMessageBoxWIdE{quintptr}NS_10DialogTypeERK7QStringS3_@Base 4.96.0
+ (subst)_ZN11KMessageBox22queuedDetailedErrorWIdE{quintptr}RK7QStringS2_S2_@Base 4.96.0
  _ZN11KPushButton10authorizedERKN5KAuth6ActionE@Base 4.96.0
  _ZN11KPushButton10dragObjectEv@Base 4.96.0
  _ZN11KPushButton10initWidgetERK8KGuiItem@Base 4.96.0
