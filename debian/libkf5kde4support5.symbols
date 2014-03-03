@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64 i386
-libKF5KDE4Support.so.4 libkf5kde4support4 #MINVER#
+libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _Z11kdeHasSocksv@Base 4.96.0
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -2896,8 +2896,8 @@ libKF5KDE4Support.so.4 libkf5kde4support4 #MINVER#
  _ZNK13K4AboutPerson10webAddressEv@Base 4.96.0
  _ZNK13K4AboutPerson11ocsUsernameEv@Base 4.96.0
  _ZNK13K4AboutPerson12emailAddressEv@Base 4.96.0
- _ZNK13K4AboutPerson4nameEv@Base 4.96.0
- _ZNK13K4AboutPerson4taskEv@Base 4.96.0
+ _ZNK13K4AboutPerso.5nameEv@Base 4.96.0
+ _ZNK13K4AboutPerso.5taskEv@Base 4.96.0
  _ZNK13KDataToolInfo10createToolEP7QObject@Base 4.96.0
  _ZNK13KDataToolInfo10isReadOnlyEv@Base 4.96.0
  _ZNK13KDataToolInfo12userCommandsEv@Base 4.96.0
