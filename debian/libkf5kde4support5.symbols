@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.97.0 amd64
 libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _Z11kdeHasSocksv@Base 4.96.0
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
@@ -735,6 +735,16 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN13KIntValidatorD0Ev@Base 4.96.0
  _ZN13KIntValidatorD1Ev@Base 4.96.0
  _ZN13KIntValidatorD2Ev@Base 4.96.0
+ _ZN13KPrintPreview11isAvailableEv@Base 4.97.0
+ _ZN13KPrintPreview11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
+ _ZN13KPrintPreview11qt_metacastEPKc@Base 4.97.0
+ _ZN13KPrintPreview16staticMetaObjectE@Base 4.97.0
+ _ZN13KPrintPreview9showEventEP10QShowEvent@Base 4.97.0
+ _ZN13KPrintPreviewC1EP8QPrinterP7QWidget@Base 4.97.0
+ _ZN13KPrintPreviewC2EP8QPrinterP7QWidget@Base 4.97.0
+ _ZN13KPrintPreviewD0Ev@Base 4.97.0
+ _ZN13KPrintPreviewD1Ev@Base 4.97.0
+ _ZN13KPrintPreviewD2Ev@Base 4.97.0
  _ZN13KSSLCertChain12setCertChainERK11QStringList@Base 4.96.0
  _ZN13KSSLCertChain5depthEv@Base 4.96.0
  _ZN13KSSLCertChain7isValidEv@Base 4.96.0
@@ -2537,6 +2547,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN8KTempDirC2ERK7QStringi@Base 4.96.0
  _ZN8KTempDirD1Ev@Base 4.96.0
  _ZN8KTempDirD2Ev@Base 4.96.0
+ _ZN8KdePrint17createPrintDialogEP8QPrinterP7QWidget@Base 4.97.0
+ _ZN8KdePrint17createPrintDialogEP8QPrinterRK5QListIP7QWidgetES4_@Base 4.97.0
  _ZN9KDataTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN9KDataTool11qt_metacastEPKc@Base 4.96.0
  _ZN9KDataTool16setComponentNameERK7QString@Base 4.96.0
@@ -2618,6 +2630,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN9KMimeType13findByContentEP9QIODevicePi@Base 4.96.0
  _ZN9KMimeType13findByContentERK10QByteArrayPi@Base 4.96.0
  _ZN9KMimeType13matchFileNameERK7QStringS2_@Base 4.96.0
+ _ZN9KMimeType14iconNameForUrlERK4QUrlj@Base 4.97.0
  _ZN9KMimeType15defaultMimeTypeEv@Base 4.96.0
  _ZN9KMimeType17findByFileContentERK7QStringPi@Base 4.96.0
  _ZN9KMimeType18defaultMimeTypePtrEv@Base 4.96.0
@@ -2896,8 +2909,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK13K4AboutPerson10webAddressEv@Base 4.96.0
  _ZNK13K4AboutPerson11ocsUsernameEv@Base 4.96.0
  _ZNK13K4AboutPerson12emailAddressEv@Base 4.96.0
- _ZNK13K4AboutPerso.5nameEv@Base 4.96.0
- _ZNK13K4AboutPerso.5taskEv@Base 4.96.0
+ _ZNK13K4AboutPerson4nameEv@Base 4.97.0
+ _ZNK13K4AboutPerson4taskEv@Base 4.97.0
  _ZNK13KDataToolInfo10createToolEP7QObject@Base 4.96.0
  _ZNK13KDataToolInfo10isReadOnlyEv@Base 4.96.0
  _ZNK13KDataToolInfo12userCommandsEv@Base 4.96.0
@@ -2931,6 +2944,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK13KIntValidator5fixupER7QString@Base 4.96.0
  _ZNK13KIntValidator6bottomEv@Base 4.96.0
  _ZNK13KIntValidator8validateER7QStringRi@Base 4.96.0
+ _ZNK13KPrintPreview10metaObjectEv@Base 4.97.0
  _ZNK13KSSLCertChain8getChainEv@Base 4.96.0
  _ZNK13KSplashScreen10metaObjectEv@Base 4.96.0
  _ZNK13KStandardDirs11localkdedirEv@Base 4.96.0
@@ -3719,6 +3733,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTI13KFileTreeView@Base 4.96.0
  _ZTI13KFontComboBox@Base 4.96.0
  _ZTI13KIntValidator@Base 4.96.0
+ _ZTI13KPrintPreview@Base 4.97.0
  _ZTI13KSplashScreen@Base 4.96.0
  _ZTI13KStandardDirs@Base 4.96.0
  _ZTI13KTimeZoneData@Base 4.96.0
@@ -3837,6 +3852,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTS13KFileTreeView@Base 4.96.0
  _ZTS13KFontComboBox@Base 4.96.0
  _ZTS13KIntValidator@Base 4.96.0
+ _ZTS13KPrintPreview@Base 4.97.0
  _ZTS13KSplashScreen@Base 4.96.0
  _ZTS13KStandardDirs@Base 4.96.0
  _ZTS13KTimeZoneData@Base 4.96.0
@@ -3962,6 +3978,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTV13KFileTreeView@Base 4.96.0
  _ZTV13KFontComboBox@Base 4.96.0
  _ZTV13KIntValidator@Base 4.96.0
+ _ZTV13KPrintPreview@Base 4.97.0
  _ZTV13KSplashScreen@Base 4.96.0
  _ZTV13KStandardDirs@Base 4.96.0
  _ZTV13KTimeZoneData@Base 4.96.0
@@ -4129,6 +4146,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  (c++)"non-virtual thunk to KOCRDialog::~KOCRDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4.96.0
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4.96.0
+ (c++)"non-virtual thunk to KPrintPreview::~KPrintPreview()@Base" 4.97.0
  (c++)"non-virtual thunk to KProgressDialog::~KProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPushButton::~KPushButton()@Base" 4.96.0
  (c++)"non-virtual thunk to KRestrictedLine::~KRestrictedLine()@Base" 4.96.0
@@ -4153,3 +4171,14 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  (c++)"virtual thunk to KNetwork::KSocketDevice::~KSocketDevice()@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KSocksSocketDevice::~KSocksSocketDevice()@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KStreamSocket::~KStreamSocket()@Base" 4.96.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+kio_metainfo.so libkf5kde4support5 #MINVER#
+ kdemain@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libkcm_ssl.so libkf5kde4support5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+kdedeprecated.so libkf5kde4support5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0

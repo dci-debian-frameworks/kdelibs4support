@@ -27,7 +27,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kde4support
 
-Package: libkf5kde5support-dev
+Package: libkf5kde4support-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5kde4support5 (= ${binary:Version}), ${misc:Depends}
