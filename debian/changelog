@@ -6,6 +6,7 @@ kde4support (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix symbols 
+  * Fix not-installed 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:16:41 +0000
 
