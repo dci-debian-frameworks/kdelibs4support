@@ -1,6 +1,10 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
+kdedeprecated.so libkf5kde4support5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+kio_metainfo.so libkf5kde4support5 #MINVER#
+ kdemain@Base 4.97.0
 libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
- _Z11kdeHasSocksv@Base 4.96.0
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
  _Z13kAsciiToUpperPc@Base 4.96.0
@@ -14,7 +18,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _Z6perror6QDebug9KDebugTag@Base 4.96.0
  _Z6urlcmpRK7QStringS1_@Base 4.96.0
  _Z6urlcmpRK7QStringS1_RK6QFlagsIN4KUrl12EqualsOptionEE@Base 4.96.0
- _ZGVZN6KSocks13KSocksPrivate9debugAreaEvE6s_area@Base 4.96.0
  _ZN10KFileShare10nfsEnabledEv@Base 4.96.0
  _ZN10KFileShare10readConfigEv@Base 4.96.0
  _ZN10KFileShare12isRestrictedEv@Base 4.96.0
@@ -26,7 +29,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN10KFileShare17isDirectorySharedERK7QString@Base 4.96.0
  _ZN10KFileShare9setSharedERK7QStringb@Base 4.96.0
  _ZN10KFileShare9shareModeEv@Base 4.96.0
- _ZN10KLibLoader11errorStringEi@Base 4.96.0
  _ZN10KLibLoader11findLibraryERK7QStringRK14KComponentData@Base 4.96.0
  _ZN10KLibLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KLibLoader11qt_metacastEPKc@Base 4.96.0
@@ -407,7 +409,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN12KApplication25updateRemoteUserTimestampERK7QStringi@Base 4.96.0
  _ZN12KApplication4KAppE@Base 4.96.0
  _ZN12KApplication4quitEv@Base 4.96.0
- _ZN12KApplication6notifyEP7QObjectP6QEvent@Base 4.96.0
  _ZN12KApplication9saveStateER15QSessionManager@Base 4.96.0
  _ZN12KApplicationC1Eb@Base 4.96.0
  _ZN12KApplicationC1EbRK14KComponentData@Base 4.96.0
@@ -1365,7 +1366,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN18KUniqueApplication20setHandleAutoStartedEv@Base 4.96.0
  _ZN18KUniqueApplication5startE6QFlagsINS_9StartFlagEE@Base 4.96.0
  _ZN18KUniqueApplication5startEv@Base 4.96.0
- _ZN18KUniqueApplication7Private19s_handleAutoStartedE@Base 4.96.0
  _ZN18KUniqueApplication7Private19s_multipleInstancesE@Base 4.96.0
  _ZN18KUniqueApplication7Private20_k_newInstanceNoForkEv@Base 4.96.0
  _ZN18KUniqueApplication7Private8initHackEb@Base 4.96.0
@@ -1841,37 +1841,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN6KParts7FactoryD0Ev@Base 4.96.0
  _ZN6KParts7FactoryD1Ev@Base 4.96.0
  _ZN6KParts7FactoryD2Ev@Base 4.96.0
- _ZN6KSocks10usingSocksEv@Base 4.96.0
- _ZN6KSocks11enableSocksEv@Base 4.96.0
- _ZN6KSocks11getpeernameEiP8sockaddrPj@Base 4.96.0
- _ZN6KSocks11getsocknameEiP8sockaddrPj@Base 4.96.0
- _ZN6KSocks12disableSocksEv@Base 4.96.0
- _ZN6KSocks22hasWorkingAsyncConnectEv@Base 4.96.0
- _ZN6KSocks3_meE@Base 4.96.0
- _ZN6KSocks3dieEv@Base 4.96.0
- _ZN6KSocks4bindEiP8sockaddrj@Base 4.96.0
- _ZN6KSocks4bindEiPK8sockaddrj@Base 4.96.0
- _ZN6KSocks4readEiPvm@Base 4.96.0
- _ZN6KSocks4recvEiPvmi@Base 4.96.0
- _ZN6KSocks4selfEv@Base 4.96.0
- _ZN6KSocks4sendEiPKvmi@Base 4.96.0
- _ZN6KSocks5writeEiPKvm@Base 4.96.0
- _ZN6KSocks6acceptEiP8sockaddrPj@Base 4.96.0
- _ZN6KSocks6listenEii@Base 4.96.0
- _ZN6KSocks6selectEiP6fd_setS1_S1_P7timeval@Base 4.96.0
- _ZN6KSocks6sendtoEiPKvmiPK8sockaddrj@Base 4.96.0
- _ZN6KSocks7connectEiPK8sockaddrj@Base 4.96.0
- _ZN6KSocks7disableEv@Base 4.96.0
- _ZN6KSocks8hasSocksEv@Base 4.96.0
- _ZN6KSocks8recvfromEiPvmiP8sockaddrPj@Base 4.96.0
- _ZN6KSocks9_disabledE@Base 4.96.0
- _ZN6KSocks9activatedEv@Base 4.96.0
- _ZN6KSocks9setConfigEPK12KConfigGroup@Base 4.96.0
- _ZN6KSocks9stopSocksEv@Base 4.96.0
- _ZN6KSocksC1EPK12KConfigGroup@Base 4.96.0
- _ZN6KSocksC2EPK12KConfigGroup@Base 4.96.0
- _ZN6KSocksD1Ev@Base 4.96.0
- _ZN6KSocksD2Ev@Base 4.96.0
  _ZN7K4Style10IconOptionD0Ev@Base 4.96.0
  _ZN7K4Style10IconOptionD1Ev@Base 4.96.0
  _ZN7K4Style10IconOptionD2Ev@Base 4.96.0
@@ -2158,6 +2127,19 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN8KImageIO5typesENS_4ModeE@Base 4.96.0
  _ZN8KImageIO7patternENS_4ModeE@Base 4.96.0
  _ZN8KImageIO9mimeTypesENS_4ModeE@Base 4.96.0
+ _ZN8KLibrary11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.98.0
+ _ZN8KLibrary11qt_metacastEPKc@Base 4.98.0
+ _ZN8KLibrary11setFileNameERK7QString@Base 4.98.0
+ _ZN8KLibrary16staticMetaObjectE@Base 4.98.0
+ _ZN8KLibraryC1EP7QObject@Base 4.98.0
+ _ZN8KLibraryC1ERK7QStringP7QObject@Base 4.98.0
+ _ZN8KLibraryC1ERK7QStringiP7QObject@Base 4.98.0
+ _ZN8KLibraryC2EP7QObject@Base 4.98.0
+ _ZN8KLibraryC2ERK7QStringP7QObject@Base 4.98.0
+ _ZN8KLibraryC2ERK7QStringiP7QObject@Base 4.98.0
+ _ZN8KLibraryD0Ev@Base 4.98.0
+ _ZN8KLibraryD1Ev@Base 4.98.0
+ _ZN8KLibraryD2Ev@Base 4.98.0
  _ZN8KMenuBar10closeEventEP11QCloseEvent@Base 4.96.0
  _ZN8KMenuBar10paintEventEP11QPaintEvent@Base 4.96.0
  _ZN8KMenuBar11eventFilterEP7QObjectP6QEvent@Base 4.96.0
@@ -2467,25 +2449,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN8KNetwork18KPassiveSocketBaseD0Ev@Base 4.96.0
  _ZN8KNetwork18KPassiveSocketBaseD1Ev@Base 4.96.0
  _ZN8KNetwork18KPassiveSocketBaseD2Ev@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice10writeBlockEPKcy@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice10writeBlockEPKcyRKNS_14KSocketAddressE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice4bindERKNS_14KResolverEntryE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice4pollEPbS1_S1_iS1_@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice6acceptEv@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice6listenEi@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice7connectERKNS_14KResolverEntryE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice9initSocksEv@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice9peekBlockEPcy@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice9peekBlockEPcyRNS_14KSocketAddressE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice9readBlockEPcy@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDevice9readBlockEPcyRNS_14KSocketAddressE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceC1EPKNS_11KSocketBaseE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceC1Ei@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceC2EPKNS_11KSocketBaseE@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceC2Ei@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceD0Ev@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceD1Ev@Base 4.96.0
- _ZN8KNetwork18KSocksSocketDeviceD2Ev@Base 4.96.0
  _ZN8KNetwork18KUnixSocketAddress11setPathnameERK7QString@Base 4.96.0
  _ZN8KNetwork18KUnixSocketAddressC1EPK8sockaddrt@Base 4.96.0
  _ZN8KNetwork18KUnixSocketAddressC1EPNS_18KSocketAddressDataE@Base 4.96.0
@@ -3474,6 +3437,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK7KTabBar23hoverCloseButtonDelayedEv@Base 4.96.0
  _ZNK7KTabBar24tabCloseActivatePreviousEv@Base 4.96.0
  _ZNK7KTabBar9selectTabERK6QPoint@Base 4.96.0
+ _ZNK8KLibrary10metaObjectEv@Base 4.98.0
  _ZNK8KMenuBar10metaObjectEv@Base 4.96.0
  _ZNK8KMenuBar14isTopLevelMenuEv@Base 4.96.0
  _ZNK8KMenuBar8sizeHintEv@Base 4.96.0
@@ -3561,10 +3525,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK8KNetwork18KInetSocketAddress8flowinfoEv@Base 4.96.0
  _ZNK8KNetwork18KInetSocketAddress9ipAddressEv@Base 4.96.0
  _ZNK8KNetwork18KInetSocketAddress9ipVersionEv@Base 4.96.0
- _ZNK8KNetwork18KSocksSocketDevice11peerAddressEv@Base 4.96.0
- _ZNK8KNetwork18KSocksSocketDevice12capabilitiesEv@Base 4.96.0
- _ZNK8KNetwork18KSocksSocketDevice12localAddressEv@Base 4.96.0
- _ZNK8KNetwork18KSocksSocketDevice15externalAddressEv@Base 4.96.0
  _ZNK8KNetwork18KUnixSocketAddress8pathnameEv@Base 4.96.0
  _ZNK8KNetwork9KResolver10metaObjectEv@Base 4.96.0
  _ZNK8KNetwork9KResolver11errorStringEv@Base 4.96.0
@@ -3786,6 +3746,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTI7KDialog@Base 4.96.0
  _ZTI7KLocale@Base 4.96.0
  _ZTI7KTabBar@Base 4.96.0
+ _ZTI8KLibrary@Base 4.98.0
  _ZTI8KMenuBar@Base 4.96.0
  _ZTI9KDataTool@Base 4.96.0
  _ZTI9KMimeType@Base 4.96.0
@@ -3822,7 +3783,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTIN8KNetwork17KClientSocketBaseE@Base 4.96.0
  _ZTIN8KNetwork18KInetSocketAddressE@Base 4.96.0
  _ZTIN8KNetwork18KPassiveSocketBaseE@Base 4.96.0
- _ZTIN8KNetwork18KSocksSocketDeviceE@Base 4.96.0
  _ZTIN8KNetwork18KUnixSocketAddressE@Base 4.96.0
  _ZTIN8KNetwork9KResolverE@Base 4.96.0
  _ZTS10KLibLoader@Base 4.96.0
@@ -3905,6 +3865,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTS7KDialog@Base 4.96.0
  _ZTS7KLocale@Base 4.96.0
  _ZTS7KTabBar@Base 4.96.0
+ _ZTS8KLibrary@Base 4.98.0
  _ZTS8KMenuBar@Base 4.96.0
  _ZTS9KDataTool@Base 4.96.0
  _ZTS9KMimeType@Base 4.96.0
@@ -3941,7 +3902,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTSN8KNetwork17KClientSocketBaseE@Base 4.96.0
  _ZTSN8KNetwork18KInetSocketAddressE@Base 4.96.0
  _ZTSN8KNetwork18KPassiveSocketBaseE@Base 4.96.0
- _ZTSN8KNetwork18KSocksSocketDeviceE@Base 4.96.0
  _ZTSN8KNetwork18KUnixSocketAddressE@Base 4.96.0
  _ZTSN8KNetwork9KResolverE@Base 4.96.0
  _ZTTN8KNetwork13KServerSocketE@Base 4.96.0
@@ -3951,7 +3911,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTTN8KNetwork17KActiveSocketBaseE@Base 4.96.0
  _ZTTN8KNetwork17KClientSocketBaseE@Base 4.96.0
  _ZTTN8KNetwork18KPassiveSocketBaseE@Base 4.96.0
- _ZTTN8KNetwork18KSocksSocketDeviceE@Base 4.96.0
  _ZTV10KLibLoader@Base 4.96.0
  _ZTV10KOCRDialog@Base 4.96.0
  _ZTV10KStatusBar@Base 4.96.0
@@ -4031,6 +3990,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTV7KDialog@Base 4.96.0
  _ZTV7KLocale@Base 4.96.0
  _ZTV7KTabBar@Base 4.96.0
+ _ZTV8KLibrary@Base 4.98.0
  _ZTV8KMenuBar@Base 4.96.0
  _ZTV9KDataTool@Base 4.96.0
  _ZTV9KMimeType@Base 4.96.0
@@ -4067,10 +4027,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTVN8KNetwork17KClientSocketBaseE@Base 4.96.0
  _ZTVN8KNetwork18KInetSocketAddressE@Base 4.96.0
  _ZTVN8KNetwork18KPassiveSocketBaseE@Base 4.96.0
- _ZTVN8KNetwork18KSocksSocketDeviceE@Base 4.96.0
  _ZTVN8KNetwork18KUnixSocketAddressE@Base 4.96.0
  _ZTVN8KNetwork9KResolverE@Base 4.96.0
- _ZZN6KSocks13KSocksPrivate9debugAreaEvE6s_area@Base 4.96.0
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4.96.0
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_10TextOptionENS_11ColorOptionEE13defaultOptionEvE10theDefault@Base 4.96.0
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_11ColorOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4.96.0
@@ -4136,12 +4094,6 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  (c++)"non-virtual thunk to KNetwork::KSocketDevice::listen(int)@Base" 4.96.0
  (c++)"non-virtual thunk to KNetwork::KSocketDevice::localAddress() const@Base" 4.96.0
  (c++)"non-virtual thunk to KNetwork::KSocketDevice::~KSocketDevice()@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::accept()@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::bind(KNetwork::KResolverEntry const&)@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::externalAddress() const@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::listen(int)@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::localAddress() const@Base" 4.96.0
- (c++)"non-virtual thunk to KNetwork::KSocksSocketDevice::~KSocksSocketDevice()@Base" 4.96.0
  (c++)"non-virtual thunk to KNumInput::~KNumInput()@Base" 4.96.0
  (c++)"non-virtual thunk to KOCRDialog::~KOCRDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4.96.0
@@ -4169,16 +4121,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  (c++)"virtual thunk to KNetwork::KServerSocket::~KServerSocket()@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KSocketDevice::setSocketOptions(int)@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KSocketDevice::~KSocketDevice()@Base" 4.96.0
- (c++)"virtual thunk to KNetwork::KSocksSocketDevice::~KSocksSocketDevice()@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KStreamSocket::~KStreamSocket()@Base" 4.96.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-kio_metainfo.so libkf5kde4support5 #MINVER#
- kdemain@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
 libkcm_ssl.so libkf5kde4support5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-kdedeprecated.so libkf5kde4support5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0

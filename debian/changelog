@@ -1,15 +1,13 @@
 kde4support (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
-  * New upstream alpha release
   * Rename library package for soname 5
+  * New upstream beta release
+  * Update symbols
 
   [ Scarlett Clark ]
-  * Fix symbols 
-  * Fix not-installed 
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
+  * Fix symbols
+  * Fix not-installed
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:25:27 +0000
 
