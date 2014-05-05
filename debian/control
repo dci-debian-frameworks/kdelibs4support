@@ -1,4 +1,4 @@
-Source: kde4support
+Source: kdelibs4support
 Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
