@@ -1,10 +1,5 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
-kdedeprecated.so libkf5kde4support5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-kio_metainfo.so libkf5kde4support5 #MINVER#
- kdemain@Base 4.97.0
-libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
+# SymbolsHelper-Confirmed: 4.99.0 amd64
+libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
  _Z13kAsciiToUpperPc@Base 4.96.0
@@ -673,6 +668,19 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN13K4AboutPersonD1Ev@Base 4.96.0
  _ZN13K4AboutPersonD2Ev@Base 4.96.0
  _ZN13K4AboutPersonaSERKS_@Base 4.96.0
+ _ZN13KCurrencyCode18currencyCodeToNameERK7QStringS2_@Base 4.99.0
+ _ZN13KCurrencyCode20allCurrencyCodesListE6QFlagsINS_14CurrencyStatusEE@Base 4.99.0
+ _ZN13KCurrencyCode7isValidERK7QString6QFlagsINS_14CurrencyStatusEE@Base 4.99.0
+ _ZN13KCurrencyCodeC1ERK7QStringS2_@Base 4.99.0
+ _ZN13KCurrencyCodeC1ERK9QFileInfoRK7QString@Base 4.99.0
+ _ZN13KCurrencyCodeC1ERKS_@Base 4.99.0
+ _ZN13KCurrencyCodeC2ERK7QStringS2_@Base 4.99.0
+ _ZN13KCurrencyCodeC2ERK9QFileInfoRK7QString@Base 4.99.0
+ _ZN13KCurrencyCodeC2ERKS_@Base 4.99.0
+ _ZN13KCurrencyCodeD0Ev@Base 4.99.0
+ _ZN13KCurrencyCodeD1Ev@Base 4.99.0
+ _ZN13KCurrencyCodeD2Ev@Base 4.99.0
+ _ZN13KCurrencyCodeaSERKS_@Base 4.99.0
  _ZN13KDataToolInfo5queryERK7QStringS2_S2_@Base 4.96.0
  _ZN13KDataToolInfoC1ERK28QExplicitlySharedDataPointerI8KServiceERK7QString@Base 4.96.0
  _ZN13KDataToolInfoC1ERKS_@Base 4.96.0
@@ -1818,6 +1826,41 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZN5KVBoxD1Ev@Base 4.96.0
  _ZN5KVBoxD2Ev@Base 4.96.0
  _ZN5QTest14kWaitForSignalEP7QObjectPKci@Base 4.96.0
+ _ZN5Solid10Networking13connectPolicyEv@Base 4.99.0
+ _ZN5Solid10Networking16disconnectPolicyEv@Base 4.99.0
+ _ZN5Solid10Networking16setConnectPolicyENS0_16ManagementPolicyE@Base 4.99.0
+ _ZN5Solid10Networking19setDisconnectPolicyENS0_16ManagementPolicyE@Base 4.99.0
+ _ZN5Solid10Networking6statusEv@Base 4.99.0
+ _ZN5Solid10Networking8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.99.0
+ _ZN5Solid10Networking8Notifier11qt_metacastEPKc@Base 4.99.0
+ _ZN5Solid10Networking8Notifier13shouldConnectEv@Base 4.99.0
+ _ZN5Solid10Networking8Notifier13statusChangedENS0_6StatusE@Base 4.99.0
+ _ZN5Solid10Networking8Notifier16shouldDisconnectEv@Base 4.99.0
+ _ZN5Solid10Networking8Notifier16staticMetaObjectE@Base 4.99.0
+ _ZN5Solid10Networking8NotifierC1Ev@Base 4.99.0
+ _ZN5Solid10Networking8NotifierC2Ev@Base 4.99.0
+ _ZN5Solid10Networking8NotifierD0Ev@Base 4.99.0
+ _ZN5Solid10Networking8NotifierD1Ev@Base 4.99.0
+ _ZN5Solid10Networking8NotifierD2Ev@Base 4.99.0
+ _ZN5Solid10Networking8notifierEv@Base 4.99.0
+ _ZN5Solid15PowerManagement12requestSleepENS0_10SleepStateEP7QObjectPKc@Base 4.99.0
+ _ZN5Solid15PowerManagement20stopSuppressingSleepEi@Base 4.99.0
+ _ZN5Solid15PowerManagement20supportedSleepStatesEv@Base 4.99.0
+ _ZN5Solid15PowerManagement21beginSuppressingSleepERK7QString@Base 4.99.0
+ _ZN5Solid15PowerManagement26appShouldConserveResourcesEv@Base 4.99.0
+ _ZN5Solid15PowerManagement36stopSuppressingScreenPowerManagementEi@Base 4.99.0
+ _ZN5Solid15PowerManagement37beginSuppressingScreenPowerManagementERK7QString@Base 4.99.0
+ _ZN5Solid15PowerManagement8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.99.0
+ _ZN5Solid15PowerManagement8Notifier11qt_metacastEPKc@Base 4.99.0
+ _ZN5Solid15PowerManagement8Notifier16staticMetaObjectE@Base 4.99.0
+ _ZN5Solid15PowerManagement8Notifier19resumingFromSuspendEv@Base 4.99.0
+ _ZN5Solid15PowerManagement8Notifier33appShouldConserveResourcesChangedEb@Base 4.99.0
+ _ZN5Solid15PowerManagement8NotifierC1Ev@Base 4.99.0
+ _ZN5Solid15PowerManagement8NotifierC2Ev@Base 4.99.0
+ _ZN5Solid15PowerManagement8NotifierD0Ev@Base 4.99.0
+ _ZN5Solid15PowerManagement8NotifierD1Ev@Base 4.99.0
+ _ZN5Solid15PowerManagement8NotifierD2Ev@Base 4.99.0
+ _ZN5Solid15PowerManagement8notifierEv@Base 4.99.0
  _ZN6K3IconC1Ev@Base 4.96.0
  _ZN6K3IconC2Ev@Base 4.96.0
  _ZN6K3IconD1Ev@Base 4.96.0
@@ -2874,6 +2917,24 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK13K4AboutPerson12emailAddressEv@Base 4.96.0
  _ZNK13K4AboutPerson4nameEv@Base 4.97.0
  _ZNK13K4AboutPerson4taskEv@Base 4.97.0
+ _ZNK13KCurrencyCode10symbolListEv@Base 4.99.0
+ _ZNK13KCurrencyCode11hasSubunitsEv@Base 4.99.0
+ _ZNK13KCurrencyCode13dateSuspendedEv@Base 4.99.0
+ _ZNK13KCurrencyCode13dateWithdrawnEv@Base 4.99.0
+ _ZNK13KCurrencyCode13decimalPlacesEv@Base 4.99.0
+ _ZNK13KCurrencyCode13defaultSymbolEv@Base 4.99.0
+ _ZNK13KCurrencyCode13subunitSymbolEv@Base 4.99.0
+ _ZNK13KCurrencyCode14dateIntroducedEv@Base 4.99.0
+ _ZNK13KCurrencyCode15isoCurrencyCodeEv@Base 4.99.0
+ _ZNK13KCurrencyCode15subunitsPerUnitEv@Base 4.99.0
+ _ZNK13KCurrencyCode17unambiguousSymbolEv@Base 4.99.0
+ _ZNK13KCurrencyCode22countriesUsingCurrencyEv@Base 4.99.0
+ _ZNK13KCurrencyCode22isoCurrencyCodeNumericEv@Base 4.99.0
+ _ZNK13KCurrencyCode24hasSubunitsInCirculationEv@Base 4.99.0
+ _ZNK13KCurrencyCode4nameEv@Base 4.99.0
+ _ZNK13KCurrencyCode6statusEv@Base 4.99.0
+ _ZNK13KCurrencyCode7isValidEv@Base 4.99.0
+ _ZNK13KCurrencyCode7isoNameEv@Base 4.99.0
  _ZNK13KDataToolInfo10createToolEP7QObject@Base 4.96.0
  _ZNK13KDataToolInfo10isReadOnlyEv@Base 4.96.0
  _ZNK13KDataToolInfo12userCommandsEv@Base 4.96.0
@@ -3292,6 +3353,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZNK5KMenu12mouseButtonsEv@Base 4.96.0
  _ZNK5KMenu17keyboardModifiersEv@Base 4.96.0
  _ZNK5KVBox10metaObjectEv@Base 4.96.0
+ _ZNK5Solid10Networking8Notifier10metaObjectEv@Base 4.99.0
+ _ZNK5Solid15PowerManagement8Notifier10metaObjectEv@Base 4.99.0
  _ZNK6K3Icon7isValidEv@Base 4.96.0
  _ZNK6KParts7Factory10metaObjectEv@Base 4.96.0
  _ZNK7K4Style10centerRectERK5QRectRK5QSize@Base 4.96.0
@@ -3690,6 +3753,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTI12KIntNumInput@Base 4.96.0
  _ZTI12KPixmapCache@Base 4.96.0
  _ZTI12KTextBrowser@Base 4.96.0
+ _ZTI13KCurrencyCode@Base 4.99.0
  _ZTI13KFileTreeView@Base 4.96.0
  _ZTI13KFontComboBox@Base 4.96.0
  _ZTI13KIntValidator@Base 4.96.0
@@ -3758,6 +3822,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTIN3KIO14PasswordDialogE@Base 4.96.0
  _ZTIN3KIO9NetAccessE@Base 4.96.0
  _ZTIN5KMenu12KMenuPrivateE@Base 4.96.0
+ _ZTIN5Solid10Networking8NotifierE@Base 4.99.0
+ _ZTIN5Solid15PowerManagement8NotifierE@Base 4.99.0
  _ZTIN6KParts7FactoryE@Base 4.96.0
  _ZTIN7K4Style10IconOptionE@Base 4.96.0
  _ZTIN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4.96.0
@@ -3809,6 +3875,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTS12KIntNumInput@Base 4.96.0
  _ZTS12KPixmapCache@Base 4.96.0
  _ZTS12KTextBrowser@Base 4.96.0
+ _ZTS13KCurrencyCode@Base 4.99.0
  _ZTS13KFileTreeView@Base 4.96.0
  _ZTS13KFontComboBox@Base 4.96.0
  _ZTS13KIntValidator@Base 4.96.0
@@ -3877,6 +3944,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTSN3KIO14PasswordDialogE@Base 4.96.0
  _ZTSN3KIO9NetAccessE@Base 4.96.0
  _ZTSN5KMenu12KMenuPrivateE@Base 4.96.0
+ _ZTSN5Solid10Networking8NotifierE@Base 4.99.0
+ _ZTSN5Solid15PowerManagement8NotifierE@Base 4.99.0
  _ZTSN6KParts7FactoryE@Base 4.96.0
  _ZTSN7K4Style10IconOptionE@Base 4.96.0
  _ZTSN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4.96.0
@@ -3934,6 +4003,7 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTV12KIntNumInput@Base 4.96.0
  _ZTV12KPixmapCache@Base 4.96.0
  _ZTV12KTextBrowser@Base 4.96.0
+ _ZTV13KCurrencyCode@Base 4.99.0
  _ZTV13KFileTreeView@Base 4.96.0
  _ZTV13KFontComboBox@Base 4.96.0
  _ZTV13KIntValidator@Base 4.96.0
@@ -4002,6 +4072,8 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  _ZTVN3KIO14PasswordDialogE@Base 4.96.0
  _ZTVN3KIO9NetAccessE@Base 4.96.0
  _ZTVN5KMenu12KMenuPrivateE@Base 4.96.0
+ _ZTVN5Solid10Networking8NotifierE@Base 4.99.0
+ _ZTVN5Solid15PowerManagement8NotifierE@Base 4.99.0
  _ZTVN6KParts7FactoryE@Base 4.96.0
  _ZTVN7K4Style10IconOptionE@Base 4.96.0
  _ZTVN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4.96.0
@@ -4122,6 +4194,3 @@ libKF5KDE4Support.so.5 libkf5kde4support5 #MINVER#
  (c++)"virtual thunk to KNetwork::KSocketDevice::setSocketOptions(int)@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KSocketDevice::~KSocketDevice()@Base" 4.96.0
  (c++)"virtual thunk to KNetwork::KStreamSocket::~KStreamSocket()@Base" 4.96.0
-libkcm_ssl.so libkf5kde4support5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
