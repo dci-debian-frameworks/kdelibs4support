@@ -31,7 +31,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kde4support
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kdelibs4support5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5kdelibs4support5 (= ${binary:Version}),
+ libkf5kdelibs4support5-bin (= ${binary:Version}), ${misc:Depends}
 Description: development files for kde4support
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
