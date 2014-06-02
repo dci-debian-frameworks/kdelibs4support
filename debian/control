@@ -32,7 +32,24 @@ Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5kdelibs4support5 (= ${binary:Version}),
- libkf5kdelibs4support5-bin (= ${binary:Version}), ${misc:Depends}
+ libkf5kdelibs4support5-bin (= ${binary:Version}), ${misc:Depends},
+ libkf5auth-dev,
+ libkf5configwidgets,
+ libkf5coreaddons,
+ libkf5crash,
+ libkf5designerplugin,
+ libkf5doctools,
+ libkf5emoticons,
+ libkf5guiaddons,
+ libkf5iconthemes,
+ libkf5itemmodels,
+ libkf5init,
+ libkf5notifications,
+ libkf5parts,
+ libkf5textwidgets,
+ libkf5unitconversion,
+ libkf5windowsystem,
+ qtbase5-dev
 Description: development files for kde4support
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
