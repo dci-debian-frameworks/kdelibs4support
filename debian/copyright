@@ -3,7 +3,7 @@ Upstream-Name: kde4support
 Source: https://projects.kde.org/projects/frameworks/kde4support
 
 Files: *
-       debian/* 
+       debian/*
 Copyright: © 1999-2011, 2013 David Faure <faure@kde.org>
            © 2007-2011 John Layt <john@layt.net>
            © 2000-2007 Thiago Macieira <thiago@kde.org> <thiago.macieira@kdemail.net>
@@ -187,7 +187,7 @@ License: GPL-2+
 Files: autotests/ksharedptrtest.cpp
        autotests/ksharedptrtest.h
        src/kdecore/ksharedptr.h
-       cmake/modules/ECMQt4To5Porting.cmake       
+       cmake/modules/ECMQt4To5Porting.cmake
 Copyright: 2005 Frerich Raabe <raabe@kde.org>
            2005-2011 Kitware, Inc.
 License: BSD 2 clause
@@ -367,10 +367,10 @@ Copyright: 2007, 2008 Matthias Kretz <kretz@kde.org>
            2006 Jaison Lee <lee.jaison@gmail.com>
            1999-2005 Waldo Bastian <bastian@kde.org>
            2001-2003 George Staikos <staikos@kde.org>
-           1999 Torben Weis <weis@kde.org>           
+           1999 Torben Weis <weis@kde.org>
            2007 Bernhard Loos <nhuh.put@web.de>
            2004-2008 Jarosław Staniek <staniek@kde.org>
-           1999 Sirtaj Singh Kanq <taj@kde.org>           
+           1999 Sirtaj Singh Kanq <taj@kde.org>
            2009 Olivier Goffart <ogoffart@kde.org>
            2008 Benjamin Reed <rangerrick@befunk.com>
            2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
@@ -386,7 +386,7 @@ Copyright: 2007, 2008 Matthias Kretz <kretz@kde.org>
            2003 Joseph Wenninger <jowenn@kde.org>
            2000 Geert Jansen <jansen@kde.org>
                 Antonio Larrosa <larrosa@kde.org>
-           2005, S.R.Haque <srhaque@iee.org>  
+           2005, S.R.Haque <srhaque@iee.org>
            1999 Reginald Stadlbauer <reggie@kde.org>
            1999 Simon Hausmann <hausmann@kde.org>
            2000 Nicolas Hadacek <haadcek@kde.org>
@@ -394,13 +394,13 @@ Copyright: 2007, 2008 Matthias Kretz <kretz@kde.org>
            2000 Michael Koch <koch@kde.org>
            2001 Holger Freyther <freyther@kde.org>
            2002 Ellis Whitehead <ellis@kde.org>
-           2002 Joseph Wenninger <jowenn@kde.org>           
+           2002 Joseph Wenninger <jowenn@kde.org>
            2001 Frerich Raabe <raabe@kde.org>
            2010 Christoph Feck <christoph@maxiom.de>
            2002 Hans Petter bieker <bieker@kde.org>
            2007, 2010 John Layt <john@layt.net>
            2008 Rafael Fernández López <ereslibre@kde.org>
-           2008 Friedrich W. H. Kossebau <kossebau@kde.org>           
+           2008 Friedrich W. H. Kossebau <kossebau@kde.org>
            2000 Reginald Stadlbauer <reggie@kde.org>
            2000 Daniel M. Duley <mosfet@kde.org>
            2002,2006 Hamish Rodda <rodda@kde.org>
@@ -439,7 +439,7 @@ License: LGPL-2
  /usr/share/common-licenses/LGPL-2
 
 Files: autotests/klocaletimeformattest.cpp
-       autotests/klocaletimeformattest.h       
+       autotests/klocaletimeformattest.h
 Copyright: 2009  Michael Leupold <lemma@confuego.org>
 License: LGPL-2.1+ accepted by the membership of KDE e.V.
  This library is free software; you can redistribute it and/or
@@ -498,7 +498,7 @@ License: MIT
  copies of the Software, and to permit persons to whom the
  Software is furnished to do so, subject to the following
  conditions:
- .  
+ .
  The above copyright notice and this permission notice shall be
  included in all copies or substantial portions of the Software.
  .

@@ -3,28 +3,61 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, 
- libkf5unitconversion-dev (>= 4.99.0), libx11-dev, libintl-perl,
- libssl-dev, libecm-dev, libqt5network5, libqt5gui5, libqt5widgets5,
- libqt5dbus5, libqt5test5, libqt5svg5-dev, libqt5concurrent5,
- libqt5printsupport5, libqt5xml5, qttools5-dev, libkf5kjs-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
- libkf5widgetsaddons-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5config-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
- libkf5auth-dev (>= 4.99.0), libkf5codecs-dev (>= 4.99.0),
- libkf5configwidgets-dev (>= 4.99.0), libkf5itemviews-dev (>= 4.99.0), 
- libkf5iconthemes-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0),
- libkf5service-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0),
- libkf5sonnet-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
- libkf5xmlgui-dev (>= 4.99.0), libkf5bookmarks-dev (>= 4.99.0),
- libkf5jobwidgets-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
- kf5-kio-dev (>= 4.99.0), libkf5archive-dev (>= 4.99.0),
- kdoctools-dev (>= 4.99.0), libkf5crash-dev (>= 4.99.0),
- libkf5notifications-dev (>= 4.99.0), libkf5parts-dev (>= 4.99.0),
- libkf5globalaccel-dev (>= 4.99.0), libqt5x11extras5-dev,
- kgendesignerplugin (>= 4.99.0), libsm-dev, xauth, xvfb, openbox,
- libkf5attica-dev (>= 4.99.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kf5-kio-dev (>= 4.100.0),
+               kgendesignerplugin (>= 4.100.0),
+               libecm-dev,
+               libintl-perl,
+               libkf5archive-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5notifications-dev (>= 4.100.0),
+               libkf5parts-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5unitconversion-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               libqt5concurrent5,
+               libqt5dbus5,
+               libqt5gui5,
+               libqt5network5,
+               libqt5printsupport5,
+               libqt5svg5-dev,
+               libqt5test5,
+               libqt5widgets5,
+               libqt5x11extras5-dev,
+               libqt5xml5,
+               libsm-dev,
+               libssl-dev,
+               libx11-dev,
+               openbox,
+               pkg-kde-tools,
+               qtbase5-dev,
+               qttools5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kde4support
 
@@ -130,9 +163,8 @@ Description: Porting aid from KDELibs4.
  should help with this.
  .
  This package contains binaries and plugins from kdelibs4support.
- 
+
 Package: libkf5kdelibs4support5-dbg
-Priority: extra
 Section: debug
 Architecture: any
 Depends: libkf5kdelibs4support5 (= ${binary:Version}), ${misc:Depends}
@@ -156,3 +188,6 @@ Description: debug symbols for kde4support
  variable correctly.
  .
  Contains debug symbols for kde4support.
+Pre-Depends: ${misc:Pre-Depends}
+Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
+Priority: extra
