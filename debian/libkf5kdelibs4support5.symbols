@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -2873,7 +2873,12 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK12KColorDialog12defaultColorEv@Base 4.96.0
  _ZNK12KColorDialog21isAlphaChannelEnabledEv@Base 4.96.0
  _ZNK12KColorDialog5colorEv@Base 4.96.0
- (optional=templinst)_ZNK12KConfigGroup9readCheckIiEET_PKcRKS1_@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KEditListBox10downButtonEv@Base 4.96.0
  _ZNK12KEditListBox10metaObjectEv@Base 4.96.0
  _ZNK12KEditListBox11currentItemEv@Base 4.96.0
@@ -4108,7 +4113,6 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_18DoubleButtonOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4.96.0
  _ZeqR15KSSLCertificateS0_@Base 4.96.0
  _Zls6QDebugRK14KLocalizedDate@Base 4.96.0
- _Zls6QDebugRK4QUrl@Base 4.96.0
  _ZlsR11QDataStreamRK13KFileMetaInfo@Base 4.96.0
  _ZlsR11QDataStreamRK14KLocalizedDate@Base 4.96.0
  _ZlsR11QDataStreamRK15KSSLCertificate@Base 4.96.0

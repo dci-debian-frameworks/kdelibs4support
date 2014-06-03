@@ -8,6 +8,7 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update kio metainfo install path.
+  * Update symbols file.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:17 +0100
 
