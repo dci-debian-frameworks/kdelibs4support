@@ -6,6 +6,9 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Bump depends versions
 
+  [ José Manuel Santamaría Lema ]
+  * Update kio metainfo install path.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:17 +0100
 
 kdelibs4support (4.99.0-0ubuntu1) trusty; urgency=medium
