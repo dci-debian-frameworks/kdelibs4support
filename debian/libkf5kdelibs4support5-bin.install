@@ -5,4 +5,4 @@ usr/lib/*/libexec/kf5/fileshareset
 usr/lib/*/qt5/plugins/designer/kdedeprecated.so
 usr/lib/*/qt5/plugins/kcm_ssl.so
 usr/lib/*/qt5/plugins/kded_networkstatus.so
-usr/lib/*/qt5/plugins/kio_metainfo.so
+usr/lib/*/qt5/plugins/kf5/kio/metainfo.so
