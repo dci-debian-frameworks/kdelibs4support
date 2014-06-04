@@ -12,6 +12,10 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename libkf5kdelibs4support5.lintian-overrides as
     libkf5kdelibs4support5-data.lintian-overrides.
 
+  [ Harald Sitter ]
+  * Add libkf5kdelibs4support5-bin.lintian-overrides
+    - binary-without-manpage usr/bin/kdebugdialog5
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:17 +0100
 
 kdelibs4support (4.99.0-0ubuntu1) trusty; urgency=medium
