@@ -11,6 +11,10 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update symbols file.
   * Rename libkf5kdelibs4support5.lintian-overrides as
     libkf5kdelibs4support5-data.lintian-overrides.
+  * Build against network-manager:
+    - Add network-manager-dev to build depends
+    - Add pkg-config to build depends
+    - Add kubuntu_find_networkmanager.diff
 
   [ Harald Sitter ]
   * Add libkf5kdelibs4support5-bin.lintian-overrides
