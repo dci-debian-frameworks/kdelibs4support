@@ -1,12 +1,21 @@
+commit fc795557c7ae134de040a951992925118240f906
+Author: Jan Grulich <jgrulich@redhat.com>
+Date:   Wed Jun 4 15:18:18 2014 +0200
+
+    Properly find NetworkManager cmake module
+    
+    BUG:335786
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index d656905..72832b4 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -4,7 +4,8 @@ project(KDELibs4Support)
+@@ -4,7 +4,7 @@ project(KDELibs4Support)
  
  find_package(ECM 0.0.14 REQUIRED NO_MODULE)
  
 -set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake )
-+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake 
-+    ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/)
++set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules )
  
  include(KDEInstallDirs)
  include(KDEFrameworkCompilerSettings)
