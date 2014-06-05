@@ -21,6 +21,8 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     - binary-without-manpage usr/bin/kdebugdialog5
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Rename libkf5kdelibs4support5-data to libkf5kdelibs4support-data
+    + Breaks+Replaces previous package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:17 +0100
 
