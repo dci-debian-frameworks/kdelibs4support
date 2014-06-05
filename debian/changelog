@@ -19,6 +19,8 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Add libkf5kdelibs4support5-bin.lintian-overrides
     - binary-without-manpage usr/bin/kdebugdialog5
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:47:17 +0100
 

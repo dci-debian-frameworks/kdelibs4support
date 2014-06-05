@@ -108,7 +108,6 @@ Description: development files for kde4support
  
 Package: libkf5kdelibs4support5
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
 Description: Porting aid from KDELibs4.
@@ -132,7 +131,6 @@ Description: Porting aid from KDELibs4.
  
 Package: libkf5kdelibs4support5-data
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
@@ -150,7 +148,6 @@ Description: Porting aid from KDELibs4.
  
 Package: libkf5kdelibs4support5-bin
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
@@ -190,6 +187,5 @@ Description: debug symbols for kde4support
  variable correctly.
  .
  Contains debug symbols for kde4support.
-Pre-Depends: ${misc:Pre-Depends}
 Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
 Priority: extra
