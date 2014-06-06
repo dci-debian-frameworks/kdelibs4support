@@ -133,7 +133,7 @@ Package: libkf5kdelibs4support-data
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libkf5kdelibs4support5-data
-Reaplces: libkf5kdelibs4support5-data
+Replaces: libkf5kdelibs4support5-data
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
