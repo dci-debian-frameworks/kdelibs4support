@@ -15,6 +15,7 @@ kdelibs4support (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     - Add network-manager-dev to build depends
     - Add pkg-config to build depends
     - Add kubuntu_find_networkmanager.diff
+  * Build depend on kio-dev instead of kf5-kio-dev.
 
   [ Harald Sitter ]
   * Add libkf5kdelibs4support5-bin.lintian-overrides
