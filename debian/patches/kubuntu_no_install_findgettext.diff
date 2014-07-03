@@ -1,0 +1,17 @@
+Description: don't install FindGettext.cmake, it is incompatible with one shipped in cmake
+Forwarded: kde-frameworks-devel
+Author: Jonathan Riddell <jriddell@ubuntu.com>
+Last-Update: 2014-03-07
+
+Index: kdelibs4support-5.0.0/cmake/modules/CMakeLists.txt
+===================================================================
+--- kdelibs4support-5.0.0.orig/cmake/modules/CMakeLists.txt
++++ kdelibs4support-5.0.0/cmake/modules/CMakeLists.txt
+@@ -41,7 +41,6 @@ set(cmakeFiles
+                FindGMP.cmake
+                FindGObject.cmake
+                FindGStreamer.cmake
+-               FindGettext.cmake
+                FindGphoto2.cmake
+                FindIOKit.cmake
+                KDE4Macros.cmake
