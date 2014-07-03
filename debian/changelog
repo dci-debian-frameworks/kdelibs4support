@@ -1,7 +1,11 @@
 kdelibs4support (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
   * Add kubuntu_no_install_findgettext.diff
+
+  [ Scarlett Clark ]
+  * Fix install file
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:33:24 +0200
 
