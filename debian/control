@@ -8,7 +8,7 @@ Build-Depends: cmake,
                extra-cmake-modules (>= 1.0.0),
                kdoctools-dev (>= 5.0.0),
                kio-dev (>= 5.0.0),
-               kgendesignerplugin (>= 4.100.0),
+               kgendesignerplugin (>= 5.0.0),
                libecm-dev,
                libintl-perl,
                libkf5archive-dev (>= 5.0.0),
@@ -61,7 +61,9 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
-Homepage: https://projects.kde.org/projects/frameworks/kde4support
+Homepage: https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdelibs4support
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdelibs4support
 
 Package: libkf5kdelibs4support-dev
 Section: libdevel
