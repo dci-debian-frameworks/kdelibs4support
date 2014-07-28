@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kde4support-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kde4support-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/portingAids/kdelibs4support-(.*)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d\.]*)/portingAids/kdelibs4support-(.*)\.tar\.xz
