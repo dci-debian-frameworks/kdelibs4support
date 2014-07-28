@@ -1,5 +1,5 @@
-kdelibs4support (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kdelibs4support (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 29 Jan 2014 16:16:49 +0000
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 28 Jul 2014 15:47:45 +0200
