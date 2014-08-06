@@ -1,9 +1,9 @@
-kdelibs4support (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kdelibs4support (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Removed kubuntu_fix_findgettext.diff applied upstream
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:45:09 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 06 Aug 2014 10:55:16 +0200
 
 kdelibs4support (5.0.0-0ubuntu1) utopic; urgency=medium
 
