@@ -1222,8 +1222,8 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN15KdeUiProxyStyleD0Ev@Base 4.96.0
  _ZN15KdeUiProxyStyleD1Ev@Base 4.96.0
  _ZN15KdeUiProxyStyleD2Ev@Base 4.96.0
- (arch=!armhf !i386)_ZN15QStyleOptionTabD1Ev@Base 5.1.0
- (arch=!armhf !i386)_ZN15QStyleOptionTabD2Ev@Base 5.1.0
+ (arch=!amd64 !armhf !i386)_ZN15QStyleOptionTabD1Ev@Base 4.96.0
+ (arch=!amd64 !armhf !i386)_ZN15QStyleOptionTabD2Ev@Base 4.96.0
  _ZN16K4TimeZoneWidget11displayNameERK9KTimeZone@Base 4.96.0
  _ZN16K4TimeZoneWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN16K4TimeZoneWidget11qt_metacastEPKc@Base 4.96.0

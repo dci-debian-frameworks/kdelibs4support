@@ -1,3 +1,10 @@
+kdelibs4support (5.1.0-0ubuntu3) utopic; urgency=medium
+
+  * Touch up debian/libkf5kdelibs4support5.symbols for two symbols that should
+    have been marked as not applying to amd64
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 06 Aug 2014 23:45:58 -0400
+
 kdelibs4support (5.1.0-0ubuntu2) utopic; urgency=medium
 
   * Update and confirm symbols files for all archs from build logs
