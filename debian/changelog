@@ -1,3 +1,11 @@
+kdelibs4support (5.1.0-0ubuntu2) utopic; urgency=medium
+
+  * Update and confirm symbols files for all archs from build logs
+    - Should enablem armhf to build for the first time
+  * Adjust minimum build-dep for kgendesignerplugin to >= 5.1.0  
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 06 Aug 2014 23:01:28 -0400
+
 kdelibs4support (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
