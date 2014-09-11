@@ -1,3 +1,9 @@
+kdelibs4support (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:34:59 +0000
+
 kdelibs4support (5.1.0-0ubuntu3) utopic; urgency=medium
 
   * Touch up debian/libkf5kdelibs4support5.symbols for two symbols that should
