@@ -54,7 +54,7 @@ Build-Depends: cmake,
                libx11-dev,
                network-manager-dev,
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                qttools5-dev
 Standards-Version: 3.9.5
