@@ -104,7 +104,7 @@ Description: development files for kde4support
  variable correctly.
  .
  Contains development files for kde4support.
- 
+
 Package: libkf5kdelibs4support5
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -127,7 +127,7 @@ Description: Porting aid from KDELibs4.
  installed to the same location as KDE4Support, although
  it may be sufficient to set the KDEDIRS environment
  variable correctly.
- 
+
 Package: libkf5kdelibs4support-data
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -146,7 +146,7 @@ Description: Porting aid from KDELibs4.
  should help with this.
  .
  This package contains the data files used by kdelibs4support.
- 
+
 Package: libkf5kdelibs4support5-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
