@@ -7,8 +7,8 @@ Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.2.0),
                kdoctools-dev (>= 5.2.0),
-               kio-dev (>= 5.2.0),
                kgendesignerplugin (>= 5.2.0),
+               kio-dev (>= 5.2.0),
                libecm-dev,
                libintl-perl,
                libkf5archive-dev (>= 5.2.0),
@@ -65,25 +65,26 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kd
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kdelibs4support5 (= ${binary:Version}),
- libkf5kdelibs4support5-bin (= ${binary:Version}), ${misc:Depends},
- libkf5auth-dev,
- libkf5configwidgets-dev,
- libkf5coreaddons-dev,
- libkf5crash-dev,
- kgendesignerplugin,
- kdoctools-dev,
- libkf5emoticons-dev,
- libkf5guiaddons-dev,
- libkf5iconthemes-dev,
- libkf5itemmodels-dev,
- kinit-dev,
- libkf5notifications-dev,
- libkf5parts-dev,
- libkf5textwidgets-dev,
- libkf5unitconversion-dev,
- libkf5windowsystem-dev,
- qtbase5-dev
+Depends: kdoctools-dev,
+         kgendesignerplugin,
+         kinit-dev,
+         libkf5auth-dev,
+         libkf5configwidgets-dev,
+         libkf5coreaddons-dev,
+         libkf5crash-dev,
+         libkf5emoticons-dev,
+         libkf5guiaddons-dev,
+         libkf5iconthemes-dev,
+         libkf5itemmodels-dev,
+         libkf5kdelibs4support5 (= ${binary:Version}),
+         libkf5kdelibs4support5-bin (= ${binary:Version}),
+         libkf5notifications-dev,
+         libkf5parts-dev,
+         libkf5textwidgets-dev,
+         libkf5unitconversion-dev,
+         libkf5windowsystem-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for kde4support
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
@@ -107,7 +108,7 @@ Description: development files for kde4support
 
 Package: libkf5kdelibs4support5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
@@ -130,7 +131,7 @@ Description: Porting aid from KDELibs4.
 
 Package: libkf5kdelibs4support-data
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5kdelibs4support5-data
 Replaces: libkf5kdelibs4support5-data
 Description: Porting aid from KDELibs4.
@@ -149,7 +150,7 @@ Description: Porting aid from KDELibs4.
 
 Package: libkf5kdelibs4support5-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
