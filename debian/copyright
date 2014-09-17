@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kde4support
-Source: https://projects.kde.org/projects/frameworks/kde4support
+Upstream-Name: kdelibs4support
+Source: https://projects.kde.org/projects/frameworks/kdelibs4support
 
 Files: *
        debian/*
@@ -190,7 +190,7 @@ Files: autotests/ksharedptrtest.cpp
        cmake/modules/ECMQt4To5Porting.cmake
 Copyright: 2005 Frerich Raabe <raabe@kde.org>
            2005-2011 Kitware, Inc.
-License: BSD 2 clause
+License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -441,7 +441,7 @@ License: LGPL-2
 Files: autotests/klocaletimeformattest.cpp
        autotests/klocaletimeformattest.h
 Copyright: 2009  Michael Leupold <lemma@confuego.org>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -457,6 +457,7 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+Comment: or any later version accepted by the membership of KDE e.V.
 
 Files: src/kdecore/k3bufferedsocket.cpp
        src/kdecore/k3bufferedsocket.h
