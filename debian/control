@@ -59,8 +59,8 @@ Build-Depends: cmake,
                qttools5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdelibs4support
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdelibs4support
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdelibs4support.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdelibs4support.git
 
 Package: libkf5kdelibs4support-dev
 Section: libdevel
