@@ -20,5 +20,4 @@ usr/share/kservicetypes5/kdatatool.desktop
 usr/share/kservicetypes5/kfilewrite.desktop
 usr/share/kservicetypes5/kscan.desktop
 usr/share/kservicetypes5/qimageio_plugin.desktop
-usr/share/locale/en_US/kf5_entry.desktop
-usr/share/locale/kf5_all_languages
+usr/share/locale/*
