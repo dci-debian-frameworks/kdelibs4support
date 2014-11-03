@@ -1,3 +1,9 @@
+kdelibs4support (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:30:35 +0100
+
 kdelibs4support (5.3.0-0ubuntu2) utopic; urgency=medium
 
   * Add back libkf5kdelibs4support5 depend on libkf5kdelibs4support-data
