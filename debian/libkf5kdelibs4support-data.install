@@ -21,3 +21,6 @@ usr/share/kservicetypes5/kfilewrite.desktop
 usr/share/kservicetypes5/kscan.desktop
 usr/share/kservicetypes5/qimageio_plugin.desktop
 usr/share/locale/*
+usr/share/doc/HTML/*/kdebugdialog5/index.cache.bz2
+usr/share/doc/HTML/*/kdebugdialog5/index.docbook
+usr/share/man/*/man1/kf5-config.1
