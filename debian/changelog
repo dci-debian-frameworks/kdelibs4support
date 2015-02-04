@@ -39,7 +39,7 @@ kdelibs4support (5.3.0-0ubuntu1) utopic; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Fix changelog spelling error. 
+  * Fix changelog spelling error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:35:22 +0100
 
@@ -51,7 +51,7 @@ kdelibs4support (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Cleanup copyright + move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error. 
+    space-in-std-shortname-in-dep5-copyright lintian error.
   * wrap-and-sort (revert control file as it was very very wrong afterwords).
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 20:09:27 +0200
@@ -67,7 +67,7 @@ kdelibs4support (5.1.0-0ubuntu2) utopic; urgency=medium
 
   * Update and confirm symbols files for all archs from build logs
     - Should enablem armhf to build for the first time
-  * Adjust minimum build-dep for kgendesignerplugin to >= 5.1.0  
+  * Adjust minimum build-dep for kgendesignerplugin to >= 5.1.0
 
  -- Scott Kitterman <scott@kitterman.com>  Wed, 06 Aug 2014 23:01:28 -0400
 
