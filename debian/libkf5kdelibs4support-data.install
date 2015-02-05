@@ -22,3 +22,4 @@ usr/share/kservicetypes5/kfilewrite.desktop
 usr/share/kservicetypes5/kscan.desktop
 usr/share/kservicetypes5/qimageio_plugin.desktop
 usr/share/locale/*/*/kdelibs4support.mo
+usr/share/locale/kf5_all_languages
