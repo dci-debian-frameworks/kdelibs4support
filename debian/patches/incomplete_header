@@ -1,12 +1,25 @@
 Index: kdelibs4support/src/includes/CMakeLists.txt
 ===================================================================
 --- kdelibs4support.orig/src/includes/CMakeLists.txt	2015-01-28 15:01:22.977699871 +0100
-+++ kdelibs4support/src/includes/CMakeLists.txt	2015-02-05 17:03:10.172529337 +0100
-@@ -885,7 +885,6 @@
++++ kdelibs4support/src/includes/CMakeLists.txt	2015-02-06 10:19:17.392931167 +0100
+@@ -879,20 +879,15 @@
+ install(FILES
+   Nepomuk/Query/AndTerm
+   Nepomuk/Query/ComparisonTerm
+-  Nepomuk/Query/FileQuery
+   Nepomuk/Query/GroupTerm
+   Nepomuk/Query/LiteralTerm
    Nepomuk/Query/NegationTerm
    Nepomuk/Query/OptionalTerm
    Nepomuk/Query/OrTerm
 -  Nepomuk/Query/Query
-   Nepomuk/Query/QueryParser
-   Nepomuk/Query/QueryServiceClient
+-  Nepomuk/Query/QueryParser
+-  Nepomuk/Query/QueryServiceClient
    Nepomuk/Query/ResourceTerm
+   Nepomuk/Query/ResourceTypeTerm
+   Nepomuk/Query/Result
+   Nepomuk/Query/SimpleTerm
+-  Nepomuk/Query/StandardQuery
+   Nepomuk/Query/Term
+ DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Query COMPONENT Devel)
+ 
