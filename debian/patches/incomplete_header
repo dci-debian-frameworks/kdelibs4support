@@ -1,25 +1,116 @@
 Index: kdelibs4support/src/includes/CMakeLists.txt
 ===================================================================
 --- kdelibs4support.orig/src/includes/CMakeLists.txt	2015-01-28 15:01:22.977699871 +0100
-+++ kdelibs4support/src/includes/CMakeLists.txt	2015-02-06 10:19:17.392931167 +0100
-@@ -879,20 +879,15 @@
- install(FILES
-   Nepomuk/Query/AndTerm
-   Nepomuk/Query/ComparisonTerm
++++ kdelibs4support/src/includes/CMakeLists.txt	2015-02-06 17:57:54.098614498 +0100
+@@ -467,13 +467,6 @@
+ endif ()
+ 
+ install( FILES
+-  ConversionCheck/QVconvertible
+-  ConversionCheck/type_toQString
+-  ConversionCheck/type_toQVariant
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/ConversionCheck COMPONENT Devel)
+-
+-
+-install( FILES
+   KDNSSD/Configuration
+   KDNSSD/DomainBrowser
+   KDNSSD/DomainModel
+@@ -787,18 +780,13 @@
+ 
+ 
+ install( FILES
+-  Solid/AcAdapter
+-  Solid/AudioInterface
+   Solid/Battery
+   Solid/Block
+-  Solid/Button
+   Solid/Camera
+   Solid/Device
+   Solid/DeviceInterface
+   Solid/DeviceNotifier
+-  Solid/DvbInterface
+   Solid/GenericInterface
+-  Solid/NetworkInterface
+   Solid/NetworkShare
+   Solid/Networking
+   Solid/OpticalDisc
+@@ -852,78 +840,6 @@
+   khtml/MouseReleaseEvent
+ DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/khtml COMPONENT Devel)
+ 
+-
+-install(FILES
+-  Nepomuk/File
+-  Nepomuk/KRatingPainter
+-  Nepomuk/KRatingWidget
+-  Nepomuk/MassUpdateJob
+-  Nepomuk/Resource
+-  Nepomuk/ResourceManager
+-  Nepomuk/Service
+-  Nepomuk/Tag
+-  Nepomuk/TagWidget
+-  Nepomuk/Thing
+-  Nepomuk/Variant
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk COMPONENT Devel)
+-
+-
+-install(FILES
+-  Nepomuk/Types/Class
+-  Nepomuk/Types/Literal
+-  Nepomuk/Types/Ontology
+-  Nepomuk/Types/Property
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Types COMPONENT Devel)
+-
+-
+-install(FILES
+-  Nepomuk/Query/AndTerm
+-  Nepomuk/Query/ComparisonTerm
 -  Nepomuk/Query/FileQuery
-   Nepomuk/Query/GroupTerm
-   Nepomuk/Query/LiteralTerm
-   Nepomuk/Query/NegationTerm
-   Nepomuk/Query/OptionalTerm
-   Nepomuk/Query/OrTerm
+-  Nepomuk/Query/GroupTerm
+-  Nepomuk/Query/LiteralTerm
+-  Nepomuk/Query/NegationTerm
+-  Nepomuk/Query/OptionalTerm
+-  Nepomuk/Query/OrTerm
 -  Nepomuk/Query/Query
 -  Nepomuk/Query/QueryParser
 -  Nepomuk/Query/QueryServiceClient
-   Nepomuk/Query/ResourceTerm
-   Nepomuk/Query/ResourceTypeTerm
-   Nepomuk/Query/Result
-   Nepomuk/Query/SimpleTerm
+-  Nepomuk/Query/ResourceTerm
+-  Nepomuk/Query/ResourceTypeTerm
+-  Nepomuk/Query/Result
+-  Nepomuk/Query/SimpleTerm
 -  Nepomuk/Query/StandardQuery
-   Nepomuk/Query/Term
- DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Query COMPONENT Devel)
- 
+-  Nepomuk/Query/Term
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Query COMPONENT Devel)
+-
+-
+-install(FILES
+-  Nepomuk/Utils/DynamicResourceFacet
+-  Nepomuk/Utils/Facet
+-  Nepomuk/Utils/FacetWidget
+-  Nepomuk/Utils/ProxyFacet
+-  Nepomuk/Utils/ResourceModel
+-  Nepomuk/Utils/SearchWidget
+-  Nepomuk/Utils/SimpleFacet
+-  Nepomuk/Utils/SimpleResourceModel
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Utils COMPONENT Devel)
+-
+-
+-install(FILES
+-  Nepomuk/Vocabulary/NCAL
+-  Nepomuk/Vocabulary/NCO
+-  Nepomuk/Vocabulary/NDO
+-  Nepomuk/Vocabulary/NEXIF
+-  Nepomuk/Vocabulary/NFO
+-  Nepomuk/Vocabulary/NIE
+-  Nepomuk/Vocabulary/NMM
+-  Nepomuk/Vocabulary/NMO
+-  Nepomuk/Vocabulary/NUAO
+-  Nepomuk/Vocabulary/PIMO
+-  Nepomuk/Vocabulary/TMO
+-DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Vocabulary COMPONENT Devel)
+-
+-
+ install(FILES
+   KUnitConversion/Converter
+   KUnitConversion/Unit
