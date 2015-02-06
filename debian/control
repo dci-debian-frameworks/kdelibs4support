@@ -57,6 +57,7 @@ Architecture: any
 Depends: kdoctools-dev (>= 5.6.0),
          kgendesignerplugin (>= 5.6.0),
          kross-dev,
+         libkf5crash-dev,
          libkf5configwidgets-dev (>= 5.6.0),
          libkf5dnssd-dev,
          libkf5emoticons-dev,
@@ -82,6 +83,7 @@ Depends: kdoctools-dev (>= 5.6.0),
          libkf5wallet-dev,
          libkf5webkit-dev,
          libkf5windowsystem-dev (>= 5.6.0),
+         libssl-dev,
          qtbase5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: development files for kde4support
