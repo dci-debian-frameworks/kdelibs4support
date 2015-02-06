@@ -15,6 +15,7 @@
 
 <gcc_options>
     -fPIC
+    -I/usr/include/KF5/ThreadWeaver/
 </gcc_options>
 
 </descriptor>
