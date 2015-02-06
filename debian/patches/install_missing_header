@@ -1,0 +1,13 @@
+Index: kdelibs4support/src/CMakeLists.txt
+===================================================================
+--- kdelibs4support.orig/src/CMakeLists.txt	2015-01-28 15:01:22.977699871 +0100
++++ kdelibs4support/src/CMakeLists.txt	2015-02-06 10:27:52.564091423 +0100
+@@ -523,6 +523,8 @@
+ 
+ configure_file(kssl/ksslconfig.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kssl/ksslconfig.h )
+ set_property(DIRECTORY APPEND PROPERTY ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_CURRENT_BINARY_DIR}/kssl/ksslconfig.h )
++install(FILES ${CMAKE_CURRENT_BINARY_DIR}/kssl/ksslconfig.h
++  DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support COMPONENT Devel)
+ 
+ install( FILES kdebug.areas kdebugrc DESTINATION ${CONFIG_INSTALL_DIR} )
+ 
