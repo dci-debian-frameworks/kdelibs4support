@@ -13,6 +13,7 @@
     /usr/include/KF5/KDELibs4Support/KDE/Solid/Networking
     /usr/include/KF5/KDELibs4Support/solid/networking.h
     /usr/include/KF5/KDELibs4Support/KDE/ThumbCreator
+    /usr/include/KF5/KDELibs4Support/k4style.h
     /usr/include/KF5/KDELibs4Support/ksslcertchain.h
     /usr/include/KF5/KDELibs4Support/ksslcertificate.h
 </skip_headers>
