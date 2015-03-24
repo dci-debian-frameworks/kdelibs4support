@@ -1,7 +1,7 @@
 Index: kdelibs4support/src/includes/CMakeLists.txt
 ===================================================================
---- kdelibs4support.orig/src/includes/CMakeLists.txt	2015-01-28 15:01:22.977699871 +0100
-+++ kdelibs4support/src/includes/CMakeLists.txt	2015-02-06 17:57:54.098614498 +0100
+--- kdelibs4support.orig/src/includes/CMakeLists.txt	2015-03-24 10:13:46.717145199 +0100
++++ kdelibs4support/src/includes/CMakeLists.txt	2015-03-24 10:14:06.272360482 +0100
 @@ -467,13 +467,6 @@
  endif ()
  
@@ -9,7 +9,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  ConversionCheck/QVconvertible
 -  ConversionCheck/type_toQString
 -  ConversionCheck/type_toQVariant
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/ConversionCheck COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/ConversionCheck COMPONENT Devel)
 -
 -
 -install( FILES
@@ -35,12 +35,10 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
    Solid/NetworkShare
    Solid/Networking
    Solid/OpticalDisc
-@@ -852,78 +840,6 @@
-   khtml/MouseReleaseEvent
- DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/khtml COMPONENT Devel)
+@@ -854,77 +842,6 @@
  
--
--install(FILES
+ 
+ install(FILES
 -  Nepomuk/File
 -  Nepomuk/KRatingPainter
 -  Nepomuk/KRatingWidget
@@ -52,7 +50,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  Nepomuk/TagWidget
 -  Nepomuk/Thing
 -  Nepomuk/Variant
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/Nepomuk COMPONENT Devel)
 -
 -
 -install(FILES
@@ -60,7 +58,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  Nepomuk/Types/Literal
 -  Nepomuk/Types/Ontology
 -  Nepomuk/Types/Property
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Types COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/Nepomuk/Types COMPONENT Devel)
 -
 -
 -install(FILES
@@ -81,7 +79,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  Nepomuk/Query/SimpleTerm
 -  Nepomuk/Query/StandardQuery
 -  Nepomuk/Query/Term
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Query COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/Nepomuk/Query COMPONENT Devel)
 -
 -
 -install(FILES
@@ -93,7 +91,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  Nepomuk/Utils/SearchWidget
 -  Nepomuk/Utils/SimpleFacet
 -  Nepomuk/Utils/SimpleResourceModel
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Utils COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/Nepomuk/Utils COMPONENT Devel)
 -
 -
 -install(FILES
@@ -108,9 +106,10 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
 -  Nepomuk/Vocabulary/NUAO
 -  Nepomuk/Vocabulary/PIMO
 -  Nepomuk/Vocabulary/TMO
--DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/KDELibs4Support/KDE/Nepomuk/Vocabulary COMPONENT Devel)
+-DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/Nepomuk/Vocabulary COMPONENT Devel)
 -
 -
- install(FILES
+-install(FILES
    KUnitConversion/Converter
    KUnitConversion/Unit
+   KUnitConversion/UnitCategory

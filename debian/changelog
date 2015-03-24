@@ -3,6 +3,7 @@ kdelibs4support (5.8.0-1~) UNRELEASED; urgency=medium
   * Add missing -dev dependency (cmake files depend on kinit).
   * New upstream release (5.7.0).
   * New upstream release (5.8.0).
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:23:53 +0100
 
