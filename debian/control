@@ -173,8 +173,10 @@ Description: Porting aid from KDELibs4.
 
 Package: libkf5kdelibs4support5-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Depends: libkf5kdelibs4support5 (= ${binary:Version}), ${misc:Depends}
+Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
 Description: debug symbols for kde4support
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
@@ -195,5 +197,3 @@ Description: debug symbols for kde4support
  variable correctly.
  .
  Contains debug symbols for kde4support.
-Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
-Priority: extra
