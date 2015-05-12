@@ -34,10 +34,10 @@ Build-Depends: cmake (>= 2.8.12),
                libqt5gui5,
                libqt5network5,
                libqt5printsupport5,
-               libqt5svg5-dev (>= 5.2.0~),
+               libqt5svg5-dev (>= 5.4),
                libqt5test5,
                libqt5widgets5,
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5x11extras5-dev (>= 5.4),
                libqt5xml5,
                libsm-dev,
                libssl-dev,
@@ -46,8 +46,8 @@ Build-Depends: cmake (>= 2.8.12),
                network-manager-dev (>= 0.7.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
-               qttools5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.4),
+               qttools5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
@@ -88,7 +88,7 @@ Depends: kdoctools-dev (>= 5.10.0~),
          libkf5webkit-dev,
          libkf5windowsystem-dev (>= 5.10.0~),
          libssl-dev,
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for kde4support
  This framework provides code and utilities to ease
