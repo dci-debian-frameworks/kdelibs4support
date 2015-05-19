@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    5.1.0
+</version>
+
+<headers>
+    /usr/include/KF5/KDELibs4Support/
+</headers>
+
+<skip_headers>
+    /usr/include/KF5/KDELibs4Support/KDE/Solid/Networking
+    /usr/include/KF5/KDELibs4Support/solid/networking.h
+    /usr/include/KF5/KDELibs4Support/KDE/ThumbCreator
+    /usr/include/KF5/KDELibs4Support/k4style.h
+    /usr/include/KF5/KDELibs4Support/ksslcertchain.h
+    /usr/include/KF5/KDELibs4Support/ksslcertificate.h
+</skip_headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5KDELibs4Support.so
+</libs>
+
+<gcc_options>
+    -fPIC
+    -I/usr/include/KF5/ThreadWeaver/
+    -I/usr/lib/@@DEB_HOST_MULTIARCH@@/qt5/mkspecs/common/posix/
+    -std=c++11
+</gcc_options>
+
+</descriptor>

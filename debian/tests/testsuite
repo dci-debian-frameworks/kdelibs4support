@@ -1,0 +1,9 @@
+#!/bin/sh
+
+[ -e debian/tests.home ] || mkdir debian/tests.home
+export HOME="$(pwd)/debian/tests.home"
+xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
+    dbus-launch --exit-with-session debian/tests/testsuite.xsession
+ret=$?
+rm -rf debian/tests.home
+exit $ret

@@ -16,6 +16,34 @@ kdelibs4support (5.7.0-0ubuntu1) vivid; urgency=medium
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:03:42 +0100
 
+kdelibs4support (5.8.0-1) experimental; urgency=medium
+
+  * Add missing -dev dependency (cmake files depend on kinit).
+  * New upstream release (5.7.0).
+  * New upstream release (5.8.0).
+  * Refresh patches.
+  * New patch: standarddirs_test
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Mar 2015 17:45:50 +0100
+
+kdelibs4support (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Set -data package as arch all.
+  * Update copyright information.
+  * Update install files.
+  * Update watch file.
+  * Add basic autopkgtests support.
+  * Add missing -dev dependencies.
+  * New patch: incomplete_header.
+  * New patch: install_missing_header.
+  * New patch: renamed_header.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 20:23:02 +0100
+
 kdelibs4support (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -49,7 +77,7 @@ kdelibs4support (5.3.0-0ubuntu1) utopic; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Fix changelog spelling error. 
+  * Fix changelog spelling error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:35:22 +0100
 
@@ -61,7 +89,7 @@ kdelibs4support (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Cleanup copyright + move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error. 
+    space-in-std-shortname-in-dep5-copyright lintian error.
   * wrap-and-sort (revert control file as it was very very wrong afterwords).
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 20:09:27 +0200
@@ -77,7 +105,7 @@ kdelibs4support (5.1.0-0ubuntu2) utopic; urgency=medium
 
   * Update and confirm symbols files for all archs from build logs
     - Should enablem armhf to build for the first time
-  * Adjust minimum build-dep for kgendesignerplugin to >= 5.1.0  
+  * Adjust minimum build-dep for kgendesignerplugin to >= 5.1.0
 
  -- Scott Kitterman <scott@kitterman.com>  Wed, 06 Aug 2014 23:01:28 -0400
 
