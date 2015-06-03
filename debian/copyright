@@ -753,6 +753,7 @@ Files: autotests/ktemporaryfiletest.cpp
        cmake/modules/PythonCompile.py
 Copyright: No copyright claimed
 License: public-domain
+ These files have no copyright restrictions
 
 Files: autotests/kaccelgentest.cpp
        autotests/kglobalstatictest.cpp
