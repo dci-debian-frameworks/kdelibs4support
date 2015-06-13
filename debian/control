@@ -57,6 +57,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdelibs4support.git
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: foreign
 Depends: kdoctools-dev (>= 5.11.0~),
          kgendesignerplugin (>= 5.6.0),
          kinit-dev,
@@ -117,6 +118,7 @@ Depends: libkf5kdelibs4support-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
+Multi-Arch: same
 Description: Porting aid from KDELibs4.
  This framework provides code and utilities to ease
  the transition from kdelibs 4 to KDE Frameworks 5.
