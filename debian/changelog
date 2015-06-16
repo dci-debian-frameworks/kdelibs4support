@@ -1,3 +1,10 @@
+kdelibs4support (5.9.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Update symbols file to fix FTBFS on armel, mips and mipsel.
+
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 16 Jun 2015 18:10:40 +0200
+
 kdelibs4support (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
