@@ -1,8 +1,9 @@
-kdelibs4support (5.10.0-1~) UNRELEASED; urgency=medium
+kdelibs4support (5.11.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:23:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 10:05:46 +0200
 
 kdelibs4support (5.9.0-2) experimental; urgency=medium
 
