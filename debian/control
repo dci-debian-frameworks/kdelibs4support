@@ -50,7 +50,7 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
-Homepage: https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
+Homepage: https://projects.kde.org/projects/frameworks/kdelibs4support
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdelibs4support.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdelibs4support.git
 
