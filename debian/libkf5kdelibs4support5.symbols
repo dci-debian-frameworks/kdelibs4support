@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 armel armhf mips mipsel ppc64el s390x
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -4117,6 +4117,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_18DoubleButtonOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4.96.0
  _ZeqR15KSSLCertificateS0_@Base 4.96.0
  _Zls6QDebugRK14KLocalizedDate@Base 4.96.0
+ _Zls6QDebugRK9KDateTime@Base 5.12.0
  _ZlsR11QDataStreamRK13KFileMetaInfo@Base 4.96.0
  _ZlsR11QDataStreamRK14KLocalizedDate@Base 4.96.0
  _ZlsR11QDataStreamRK15KSSLCertificate@Base 4.96.0
