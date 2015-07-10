@@ -6,6 +6,7 @@ etc/xdg/colors/Web.colors
 etc/xdg/kdebug.areas
 etc/xdg/kdebugrc
 etc/xdg/ksslcalist
+usr/share/doc/HTML/*/kcontrol/
 usr/share/doc/HTML/*/kdebugdialog5/
 usr/share/kf5/kdoctools/customization/catalog4.xml
 usr/share/kf5/kdoctools/customization/dtd/kdex.dtd
@@ -21,5 +22,4 @@ usr/share/kservicetypes5/kdatatool.desktop
 usr/share/kservicetypes5/kfilewrite.desktop
 usr/share/kservicetypes5/kscan.desktop
 usr/share/kservicetypes5/qimageio_plugin.desktop
-usr/share/locale/*/*/kdelibs4support.mo
-usr/share/locale/kf5_all_languages
+usr/share/locale/*

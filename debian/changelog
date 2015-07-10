@@ -1,8 +1,16 @@
 kdelibs4support (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge, remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:04:06 -0700
+
+kdelibs4support (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 15:51:33 +0200
 
 kdelibs4support (5.10.0-0ubuntu1) wily; urgency=medium
 
@@ -28,11 +36,12 @@ kdelibs4support (5.7.0-0ubuntu1) vivid; urgency=medium
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:03:42 +0100
 
-kdelibs4support (5.10.0-1~) UNRELEASED; urgency=medium
+kdelibs4support (5.9.0-2) experimental; urgency=medium
 
-  * New upstream release (5.10.0).
+  * Team upload.
+  * Update symbols file to fix FTBFS on armel, mips and mipsel.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:23:20 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 16 Jun 2015 18:10:40 +0200
 
 kdelibs4support (5.9.0-1) experimental; urgency=medium
 
