@@ -1,7 +1,14 @@
 kdelibs4support (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Fix merge, remove unused broken backport.
+
+  [ José Manuel Santamaría Lema ]
+  * Set libkf5kdelibs4support-data as Multi-Arch: foreign.
+
+  [ Scarlett Clark ]
+  * Apply the above patch. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:04:06 -0700
 

@@ -139,6 +139,7 @@ Description: Porting aid from KDELibs4.
  variable correctly.
 
 Package: libkf5kdelibs4support-data
+Multi-Arch: foreign
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5kdelibs4support5-data
