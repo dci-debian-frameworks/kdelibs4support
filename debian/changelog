@@ -1,3 +1,11 @@
+kdelibs4support (5.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove incorrect build-dep on libecm-dev
+  * Bump Kf5 build-dep/depends versions to 5.12
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 16 Jul 2015 23:42:07 -0400
+
 kdelibs4support (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
