@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 armel armhf mips mipsel ppc64el s390x
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -141,9 +141,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN10KUndoStack16staticMetaObjectE@Base 4.96.0
  _ZN10KUndoStackC1EP7QObject@Base 4.96.0
  _ZN10KUndoStackC2EP7QObject@Base 4.96.0
- _ZN10KUndoStackD0Ev@Base 4.96.0
- _ZN10KUndoStackD1Ev@Base 4.96.0
- _ZN10KUndoStackD2Ev@Base 4.96.0
+ (optional)_ZN10KUndoStackD0Ev@Base 4.96.0
+ (optional)_ZN10KUndoStackD1Ev@Base 4.96.0
+ (optional)_ZN10KUndoStackD2Ev@Base 4.96.0
  _ZN11K4AboutData10addLicenseENS_10LicenseKeyE@Base 4.96.0
  _ZN11K4AboutData10setAppNameERK10QByteArray@Base 4.96.0
  _ZN11K4AboutData10setLicenseENS_10LicenseKeyE@Base 4.96.0
@@ -1566,9 +1566,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN27KPassivePopupMessageHandler7messageEN8KMessage11MessageTypeERK7QStringS4_@Base 4.96.0
  _ZN27KPassivePopupMessageHandlerC1EP7QWidget@Base 4.96.0
  _ZN27KPassivePopupMessageHandlerC2EP7QWidget@Base 4.96.0
- _ZN27KPassivePopupMessageHandlerD0Ev@Base 4.96.0
- _ZN27KPassivePopupMessageHandlerD1Ev@Base 4.96.0
- _ZN27KPassivePopupMessageHandlerD2Ev@Base 4.96.0
+ (optional)_ZN27KPassivePopupMessageHandlerD0Ev@Base 4.96.0
+ (optional)_ZN27KPassivePopupMessageHandlerD1Ev@Base 4.96.0
+ (optional)_ZN27KPassivePopupMessageHandlerD2Ev@Base 4.96.0
  _ZN32KFileMetaDataConfigurationWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN32KFileMetaDataConfigurationWidget11qt_metacastEPKc@Base 4.96.0
  _ZN32KFileMetaDataConfigurationWidget16staticMetaObjectE@Base 4.96.0
@@ -1842,9 +1842,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN5Solid10Networking8Notifier16staticMetaObjectE@Base 4.99.0
  _ZN5Solid10Networking8NotifierC1Ev@Base 4.99.0
  _ZN5Solid10Networking8NotifierC2Ev@Base 4.99.0
- _ZN5Solid10Networking8NotifierD0Ev@Base 4.99.0
- _ZN5Solid10Networking8NotifierD1Ev@Base 4.99.0
- _ZN5Solid10Networking8NotifierD2Ev@Base 4.99.0
+ (optional)_ZN5Solid10Networking8NotifierD0Ev@Base 4.99.0
+ (optional)_ZN5Solid10Networking8NotifierD1Ev@Base 4.99.0
+ (optional)_ZN5Solid10Networking8NotifierD2Ev@Base 4.99.0
  _ZN5Solid10Networking8notifierEv@Base 4.99.0
  _ZN5Solid15PowerManagement12requestSleepENS0_10SleepStateEP7QObjectPKc@Base 4.99.0
  _ZN5Solid15PowerManagement20stopSuppressingSleepEi@Base 4.99.0
@@ -1860,9 +1860,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN5Solid15PowerManagement8Notifier33appShouldConserveResourcesChangedEb@Base 4.99.0
  _ZN5Solid15PowerManagement8NotifierC1Ev@Base 4.99.0
  _ZN5Solid15PowerManagement8NotifierC2Ev@Base 4.99.0
- _ZN5Solid15PowerManagement8NotifierD0Ev@Base 4.99.0
- _ZN5Solid15PowerManagement8NotifierD1Ev@Base 4.99.0
- _ZN5Solid15PowerManagement8NotifierD2Ev@Base 4.99.0
+ (optional)_ZN5Solid15PowerManagement8NotifierD0Ev@Base 4.99.0
+ (optional)_ZN5Solid15PowerManagement8NotifierD1Ev@Base 4.99.0
+ (optional)_ZN5Solid15PowerManagement8NotifierD2Ev@Base 4.99.0
  _ZN5Solid15PowerManagement8notifierEv@Base 4.99.0
  _ZN6K3IconC1Ev@Base 4.96.0
  _ZN6K3IconC2Ev@Base 4.96.0
@@ -1887,9 +1887,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN6KParts7FactoryD0Ev@Base 4.96.0
  _ZN6KParts7FactoryD1Ev@Base 4.96.0
  _ZN6KParts7FactoryD2Ev@Base 4.96.0
- _ZN7K4Style10IconOptionD0Ev@Base 4.96.0
- _ZN7K4Style10IconOptionD1Ev@Base 4.96.0
- _ZN7K4Style10IconOptionD2Ev@Base 4.96.0
+ (optional)_ZN7K4Style10IconOptionD0Ev@Base 4.96.0
+ (optional)_ZN7K4Style10IconOptionD1Ev@Base 4.96.0
+ (optional)_ZN7K4Style10IconOptionD2Ev@Base 4.96.0
  (optional=templinst)_ZN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEED0Ev@Base 4.96.0
  (optional=templinst)_ZN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEED1Ev@Base 4.96.0
  (optional=templinst)_ZN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEED2Ev@Base 4.96.0
@@ -1910,12 +1910,12 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN7K4Style10TextOptionC1Ev@Base 4.96.0
  _ZN7K4Style10TextOptionC2ERK7QString@Base 4.96.0
  _ZN7K4Style10TextOptionC2Ev@Base 4.96.0
- _ZN7K4Style10TextOptionD0Ev@Base 4.96.0
- _ZN7K4Style10TextOptionD1Ev@Base 4.96.0
- _ZN7K4Style10TextOptionD2Ev@Base 4.96.0
- _ZN7K4Style11ColorOptionD0Ev@Base 4.96.0
- _ZN7K4Style11ColorOptionD1Ev@Base 4.96.0
- _ZN7K4Style11ColorOptionD2Ev@Base 4.96.0
+ (optional)_ZN7K4Style10TextOptionD0Ev@Base 4.96.0
+ (optional)_ZN7K4Style10TextOptionD1Ev@Base 4.96.0
+ (optional)_ZN7K4Style10TextOptionD2Ev@Base 4.96.0
+ (optional)_ZN7K4Style11ColorOptionD0Ev@Base 4.96.0
+ (optional)_ZN7K4Style11ColorOptionD1Ev@Base 4.96.0
+ (optional)_ZN7K4Style11ColorOptionD2Ev@Base 4.96.0
  _ZN7K4Style11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN7K4Style11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN7K4Style11qt_metacastEPKc@Base 4.96.0
@@ -1929,13 +1929,13 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN7K4Style15customStyleHintERK7QStringPK7QWidget@Base 4.96.0
  _ZN7K4Style16customSubElementERK7QStringPK7QWidget@Base 4.96.0
  _ZN7K4Style16staticMetaObjectE@Base 4.96.0
- _ZN7K4Style17TitleButtonOptionD0Ev@Base 4.96.0
- _ZN7K4Style17TitleButtonOptionD1Ev@Base 4.96.0
- _ZN7K4Style17TitleButtonOptionD2Ev@Base 4.96.0
+ (optional)_ZN7K4Style17TitleButtonOptionD0Ev@Base 4.96.0
+ (optional)_ZN7K4Style17TitleButtonOptionD1Ev@Base 4.96.0
+ (optional)_ZN7K4Style17TitleButtonOptionD2Ev@Base 4.96.0
  _ZN7K4Style17newControlElementERK7QString@Base 4.96.0
- _ZN7K4Style18DoubleButtonOptionD0Ev@Base 4.96.0
- _ZN7K4Style18DoubleButtonOptionD1Ev@Base 4.96.0
- _ZN7K4Style18DoubleButtonOptionD2Ev@Base 4.96.0
+ (optional)_ZN7K4Style18DoubleButtonOptionD0Ev@Base 4.96.0
+ (optional)_ZN7K4Style18DoubleButtonOptionD1Ev@Base 4.96.0
+ (optional)_ZN7K4Style18DoubleButtonOptionD2Ev@Base 4.96.0
  _ZN7K4Style19setWidgetLayoutPropENS_10WidgetTypeEii@Base 4.96.0
  _ZN7K4Style20customControlElementERK7QStringPK7QWidget@Base 4.96.0
  _ZN7K4Style6polishEP12QApplication@Base 4.96.0
@@ -2056,9 +2056,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN7KDialogD1Ev@Base 4.96.0
  _ZN7KDialogD2Ev@Base 4.96.0
  _ZN7KGlobal12setAllowQuitEb@Base 4.96.0
- _ZN7KGlobal13LocaleWrapperD0Ev@Base 4.96.0
- _ZN7KGlobal13LocaleWrapperD1Ev@Base 4.96.0
- _ZN7KGlobal13LocaleWrapperD2Ev@Base 4.96.0
+ (optional)_ZN7KGlobal13LocaleWrapperD0Ev@Base 4.96.0
+ (optional)_ZN7KGlobal13LocaleWrapperD1Ev@Base 4.96.0
+ (optional)_ZN7KGlobal13LocaleWrapperD2Ev@Base 4.96.0
  _ZN7KGlobal13mainComponentEv@Base 4.96.0
  _ZN7KGlobal13staticQStringEPKc@Base 4.96.0
  _ZN7KGlobal13staticQStringERK7QString@Base 4.96.0
@@ -4028,7 +4028,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTV15KDateTimeWidget@Base 4.96.0
  _ZTV15KDoubleNumInput@Base 4.96.0
  _ZTV15KGlobalSettings@Base 4.96.0
- _ZTV15KMessageHandler@Base 4.96.0
+ (optional)_ZTV15KMessageHandler@Base 4.96.0
  _ZTV15KProgressDialog@Base 4.96.0
  _ZTV15KRestrictedLine@Base 4.96.0
  _ZTV15KSessionManager@Base 4.96.0
@@ -4085,16 +4085,16 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTVN5Solid15PowerManagement8NotifierE@Base 4.99.0
  _ZTVN6KParts7FactoryE@Base 4.96.0
  _ZTVN7K4Style10IconOptionE@Base 4.96.0
- _ZTVN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4.96.0
- _ZTVN7K4Style10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4.96.0
- _ZTVN7K4Style10OptionBaseINS_11ColorOptionENS_6OptionEEE@Base 4.96.0
- _ZTVN7K4Style10OptionBaseINS_17TitleButtonOptionENS_6OptionEEE@Base 4.96.0
- _ZTVN7K4Style10OptionBaseINS_18DoubleButtonOptionENS_6OptionEEE@Base 4.96.0
+ (optional)_ZTVN7K4Style10OptionBaseINS_10IconOptionENS_6OptionEEE@Base 4.96.0
+ (optional)_ZTVN7K4Style10OptionBaseINS_10TextOptionENS_11ColorOptionEEE@Base 4.96.0
+ (optional)_ZTVN7K4Style10OptionBaseINS_11ColorOptionENS_6OptionEEE@Base 4.96.0
+ (optional)_ZTVN7K4Style10OptionBaseINS_17TitleButtonOptionENS_6OptionEEE@Base 4.96.0
+ (optional)_ZTVN7K4Style10OptionBaseINS_18DoubleButtonOptionENS_6OptionEEE@Base 4.96.0
  _ZTVN7K4Style10TextOptionE@Base 4.96.0
  _ZTVN7K4Style11ColorOptionE@Base 4.96.0
  _ZTVN7K4Style17TitleButtonOptionE@Base 4.96.0
  _ZTVN7K4Style18DoubleButtonOptionE@Base 4.96.0
- _ZTVN7K4Style6OptionE@Base 4.96.0
+ (optional)_ZTVN7K4Style6OptionE@Base 4.96.0
  _ZTVN7KGlobal13LocaleWrapperE@Base 4.96.0
  _ZTVN8KNetwork11KSocketBaseE@Base 4.96.0
  _ZTVN8KNetwork13KServerSocketE@Base 4.96.0
@@ -4117,6 +4117,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  (optional=templinst)_ZZN7K4Style10OptionBaseINS_18DoubleButtonOptionENS_6OptionEE13defaultOptionEvE10theDefault@Base 4.96.0
  _ZeqR15KSSLCertificateS0_@Base 4.96.0
  _Zls6QDebugRK14KLocalizedDate@Base 4.96.0
+ _Zls6QDebugRK9KDateTime@Base 5.12.0
  _ZlsR11QDataStreamRK13KFileMetaInfo@Base 4.96.0
  _ZlsR11QDataStreamRK14KLocalizedDate@Base 4.96.0
  _ZlsR11QDataStreamRK15KSSLCertificate@Base 4.96.0
@@ -4177,7 +4178,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  (c++)"non-virtual thunk to KNumInput::~KNumInput()@Base" 4.96.0
  (c++)"non-virtual thunk to KOCRDialog::~KOCRDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPassivePopupMessageHandler::message(KMessage::MessageType, QString const&, QString const&)@Base" 4.96.0
- (c++)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4.96.0
+ (optional|c++)"non-virtual thunk to KPassivePopupMessageHandler::~KPassivePopupMessageHandler()@Base" 4.96.0
  (c++)"non-virtual thunk to KPrintPreview::~KPrintPreview()@Base" 4.97.0
  (c++)"non-virtual thunk to KProgressDialog::~KProgressDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KPushButton::~KPushButton()@Base" 4.96.0
