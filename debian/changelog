@@ -1,4 +1,4 @@
-kdelibs4support (5.12.0-3) UNRELEASED; urgency=medium
+kdelibs4support (5.13.0-1~) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Restrict the network-manager-dev build dependency as linux-any,
@@ -7,7 +7,10 @@ kdelibs4support (5.12.0-3) UNRELEASED; urgency=medium
     libqt5gui5, libqt5network5, libqt5printsupport5, libqt5test5,
     libqt5widgets5, and libqt5xml5, as they are covered already by qtbase5-dev.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jul 2015 08:18:55 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 09:39:08 +0200
 
 kdelibs4support (5.12.0-2) unstable; urgency=medium
 
