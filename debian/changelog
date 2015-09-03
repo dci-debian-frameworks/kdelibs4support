@@ -1,6 +1,7 @@
 kdelibs4support (5.13.0-3~) UNRELEASED; urgency=medium
 
   * 
+  * Update symbols files from buildds logs (5.13.0-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 06:54:28 +0200
 
