@@ -2670,7 +2670,8 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN9KTimeZone10TransitionD1Ev@Base 4.96.0
  _ZN9KTimeZone10TransitionD2Ev@Base 4.96.0
  _ZN9KTimeZone10TransitionaSERKS0_@Base 4.96.0
- (subst)_ZN9KTimeZone10fromTime_tE{int64_t}@Base 4.96.0
+ (arch=!x32)_ZN9KTimeZone10fromTime_tEl@Base 4.96.0
+ (arch=x32)_ZN9KTimeZone10fromTime_tEx@Base 4.96.0
  _ZN9KTimeZone10updateBaseERKS_@Base 4.96.0
  _ZN9KTimeZone11LeapSecondsC1ERK9QDateTimeiRK7QString@Base 4.96.0
  _ZN9KTimeZone11LeapSecondsC1ERKS0_@Base 4.96.0
@@ -3202,8 +3203,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK16KTimeZoneBackend16offsetAtZoneTimeEPK9KTimeZoneRK9QDateTimePi@Base 4.96.0
  _ZNK16KTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK16KTimeZoneBackend5cloneEv@Base 4.96.0
- (subst|arch=x32)_ZNK16KTimeZoneBackend5isDstEPK9KTimeZone{int64_t}@Base 5.13.0
- (subst)_ZNK16KTimeZoneBackend6offsetEPK9KTimeZone{int64_t}@Base 4.96.0
+ (arch=!x32)_ZNK16KTimeZoneBackend5isDstEPK9KTimeZonel@Base 5.13.0
+ (arch=x32)_ZNK16KTimeZoneBackend5isDstEPK9KTimeZonex@Base 5.13.0
+ (arch=!x32)_ZNK16KTimeZoneBackend6offsetEPK9KTimeZonel@Base 4.96.0
+ (arch=x32)_ZNK16KTimeZoneBackend6offsetEPK9KTimeZonex@Base 4.96.0
  _ZNK17KFadeWidgetEffect10metaObjectEv@Base 4.96.0
  _ZNK17KFileMetaInfoItem10isEditableEv@Base 4.96.0
  _ZNK17KFileMetaInfoItem10isModifiedEv@Base 4.96.0
@@ -3261,8 +3264,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK22KSystemTimeZoneBackend16offsetAtZoneTimeEPK9KTimeZoneRK9QDateTimePi@Base 4.96.0
  _ZNK22KSystemTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK22KSystemTimeZoneBackend5cloneEv@Base 4.96.0
- (subst)_ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZone{int64_t}@Base 4.96.0
- (subst|arch=x32)_ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZone{int64_t}@Base 5.13.0
+ (arch=!x32)_ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZonel@Base 4.96.0
+ (arch=x32)_ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZonex@Base 4.96.0
+ (arch=!x32)_ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZonel@Base 5.13.0
+ (arch=x32)_ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZonex@Base 5.13.0
  _ZNK22KTzfileTimeZoneBackend14hasTransitionsEPK9KTimeZone@Base 4.96.0
  _ZNK22KTzfileTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK22KTzfileTimeZoneBackend5cloneEv@Base 4.96.0
@@ -3687,10 +3692,12 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK9KTimeZone5Phase7commentEv@Base 4.96.0
  _ZNK9KTimeZone5Phase9utcOffsetEv@Base 4.96.0
  _ZNK9KTimeZone5PhaseeqERKS0_@Base 4.96.0
- (subst|arch=x32)_ZNK9KTimeZone5isDstE{int64_t}@Base 5.13.0
+ (arch=!x32)_ZNK9KTimeZone5isDstEl@Base 5.13.0
+ (arch=x32)_ZNK9KTimeZone5isDstEx@Base 5.13.0
  _ZNK9KTimeZone5parseEv@Base 4.96.0
  _ZNK9KTimeZone5toUtcERK9QDateTime@Base 4.96.0
- (subst)_ZNK9KTimeZone6offsetE{int64_t}@Base 4.96.0
+ (arch=!x32)_ZNK9KTimeZone6offsetEl@Base 4.96.0
+ (arch=x32)_ZNK9KTimeZone6offsetEx@Base 4.96.0
  _ZNK9KTimeZone6phasesEv@Base 4.96.0
  _ZNK9KTimeZone6sourceEv@Base 4.96.0
  _ZNK9KTimeZone7commentEv@Base 4.96.0
