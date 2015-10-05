@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.14.0 hppa mips64el
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -1583,7 +1583,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN3KDE12versionMinorEv@Base 4.96.0
  _ZN3KDE13versionStringEv@Base 4.96.0
  _ZN3KDE14versionReleaseEv@Base 4.96.0
- (optional=gccinternal|arch=arm64 armel armhf)_ZN3KDE4statERK7QStringP4stat@Base 5.13.0
+ (optional=gccinternal|arch=arm64 armel armhf hppa)_ZN3KDE4statERK7QStringP4stat@Base 5.13.0
  _ZN3KDE7versionEv@Base 4.96.0
  _ZN3KIO11MetaInfoJob10removeItemERK9KFileItem@Base 4.96.0
  _ZN3KIO11MetaInfoJob10slotResultEP4KJob@Base 4.96.0
@@ -2838,9 +2838,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK12KColorDialog12defaultColorEv@Base 4.96.0
  _ZNK12KColorDialog21isAlphaChannelEnabledEv@Base 4.96.0
  _ZNK12KColorDialog5colorEv@Base 4.96.0
- (optional=templinst|arch=!arm64 !armhf !mips !mipsel)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=!arm64 !armhf !mips !mips64el !mipsel)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
- (optional=templinst|arch=arm64 x32)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
+ (optional=templinst|arch=arm64 hppa x32)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
  (optional=templinst|arch=!i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
