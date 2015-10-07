@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 hppa mips64el
+# SymbolsHelper-Confirmed: 5.15.0 amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -1371,10 +1371,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN18KUniqueApplication20setHandleAutoStartedEv@Base 4.96.0
  _ZN18KUniqueApplication5startE6QFlagsINS_9StartFlagEE@Base 4.96.0
  _ZN18KUniqueApplication5startEv@Base 4.96.0
+ _ZN18KUniqueApplication7Private18s_startOwnInstanceE@Base 5.15.0
  _ZN18KUniqueApplication7Private19s_multipleInstancesE@Base 4.96.0
  _ZN18KUniqueApplication7Private20_k_newInstanceNoForkEv@Base 4.96.0
  _ZN18KUniqueApplication7Private8initHackEb@Base 4.96.0
- _ZN18KUniqueApplication7Private8s_noforkE@Base 4.96.0
  _ZN18KUniqueApplicationC1Ebb@Base 4.96.0
  _ZN18KUniqueApplicationC2Ebb@Base 4.96.0
  _ZN18KUniqueApplicationD0Ev@Base 4.96.0
