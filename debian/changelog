@@ -1,8 +1,11 @@
 kdelibs4support (5.15.0-0ubuntu2) xenial; urgency=medium
 
-  * Fix autopackagetests by adding allow-stderr to the requirements.
+  * Adjust debian/tests/control to allow stderr output from dh-acc (which
+    now happens because it tries to pass -std=c++11 to gcc instead of g++,
+    but may happen for other reasons later).  Better to have a clean test
+    with stderr than a continually failing test that people ignore.
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:35 +0100
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sun, 01 Nov 2015 19:17:24 -0600
 
 kdelibs4support (5.15.0-0ubuntu1) wily; urgency=medium
 
