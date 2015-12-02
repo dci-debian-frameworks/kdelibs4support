@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150924.0059 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0 alpha amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -289,9 +289,9 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN11KFontDialogD0Ev@Base 4.96.0
  _ZN11KFontDialogD1Ev@Base 4.96.0
  _ZN11KFontDialogD2Ev@Base 4.96.0
- (arch=!armel !armhf)_ZN11KIconEngineD0Ev@Base 4.96.0
- (arch=!armel !armhf)_ZN11KIconEngineD1Ev@Base 4.96.0
- (arch=!armel !armhf)_ZN11KIconEngineD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN11KIconEngineD2Ev@Base 4.96.0
  _ZN11KIntSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KIntSpinBox11qt_metacastEPKc@Base 4.96.0
  _ZN11KIntSpinBox12setEditFocusEb@Base 4.96.0
@@ -1371,7 +1371,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN18KUniqueApplication20setHandleAutoStartedEv@Base 4.96.0
  _ZN18KUniqueApplication5startE6QFlagsINS_9StartFlagEE@Base 4.96.0
  _ZN18KUniqueApplication5startEv@Base 4.96.0
- _ZN18KUniqueApplication7Private18s_startOwnInstanceE@Base 5.14.0+git20150924.0059
+ _ZN18KUniqueApplication7Private18s_startOwnInstanceE@Base 5.15.0
  _ZN18KUniqueApplication7Private19s_multipleInstancesE@Base 4.96.0
  _ZN18KUniqueApplication7Private20_k_newInstanceNoForkEv@Base 4.96.0
  _ZN18KUniqueApplication7Private8initHackEb@Base 4.96.0
@@ -1583,7 +1583,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN3KDE12versionMinorEv@Base 4.96.0
  _ZN3KDE13versionStringEv@Base 4.96.0
  _ZN3KDE14versionReleaseEv@Base 4.96.0
- (arch=armhf ppc64el)_ZN3KDE4statERK7QStringP4stat@Base 5.13.0
+ (optional=gccinternal|arch=alpha arm64 armel armhf hppa)_ZN3KDE4statERK7QStringP4stat@Base 5.13.0
  _ZN3KDE7versionEv@Base 4.96.0
  _ZN3KIO11MetaInfoJob10removeItemERK9KFileItem@Base 4.96.0
  _ZN3KIO11MetaInfoJob10slotResultEP4KJob@Base 4.96.0
@@ -2575,34 +2575,42 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN9KLockFile4lockE6QFlagsINS_8LockFlagEE@Base 4.96.0
  _ZN9KLockFile6unlockEv@Base 4.96.0
  _ZN9KLockFile7Private12readLockFileEv@Base 4.96.0
- _ZN9KLockFile7Private13lockFileOExclER6stat64@Base 4.96.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private13lockFileOExclER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private13lockFileOExclER6stat64@Base 5.13.0
  _ZN9KLockFile7Private15deleteStaleLockEv@Base 4.96.0
- _ZN9KLockFile7Private16lockFileWithLinkER6stat64@Base 4.96.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private16lockFileWithLinkER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private16lockFileWithLinkER6stat64@Base 5.13.0
  _ZN9KLockFile7Private17writeIntoLockFileER5QFile@Base 4.96.0
  _ZN9KLockFile7Private23deleteStaleLockWithLinkEv@Base 4.96.0
- _ZN9KLockFile7Private8lockFileER6stat64@Base 4.96.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private8lockFileER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private8lockFileER6stat64@Base 5.13.0
  _ZN9KLockFileC1ERK7QStringS2_@Base 4.96.0
  _ZN9KLockFileC2ERK7QStringS2_@Base 4.96.0
  _ZN9KLockFileD1Ev@Base 4.96.0
  _ZN9KLockFileD2Ev@Base 4.96.0
- _ZN9KMimeType10findByPathERK7QStringjbPi@Base 4.96.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType10findByPathERK7QStringjbPi@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType10findByPathERK7QStringtbPi@Base 5.13.0
  _ZN9KMimeType12allMimeTypesEv@Base 4.96.0
  _ZN9KMimeType12isBinaryDataERK7QString@Base 4.96.0
  _ZN9KMimeType13favIconForUrlERK4QUrl@Base 4.96.0
  _ZN9KMimeType13findByContentEP9QIODevicePi@Base 4.96.0
  _ZN9KMimeType13findByContentERK10QByteArrayPi@Base 4.96.0
  _ZN9KMimeType13matchFileNameERK7QStringS2_@Base 4.96.0
- _ZN9KMimeType14iconNameForUrlERK4QUrlj@Base 4.97.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType14iconNameForUrlERK4QUrlj@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType14iconNameForUrlERK4QUrlt@Base 5.13.0
  _ZN9KMimeType15defaultMimeTypeEv@Base 4.96.0
  _ZN9KMimeType17findByFileContentERK7QStringPi@Base 4.96.0
  _ZN9KMimeType18defaultMimeTypePtrEv@Base 4.96.0
  _ZN9KMimeType18isBufferBinaryDataERK10QByteArray@Base 4.96.0
- _ZN9KMimeType20findByNameAndContentERK7QStringP9QIODevicejPi@Base 4.96.0
- _ZN9KMimeType20findByNameAndContentERK7QStringRK10QByteArrayjPi@Base 4.96.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringP9QIODevicejPi@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringP9QIODevicetPi@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringRK10QByteArrayjPi@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType20findByNameAndContentERK7QStringRK10QByteArraytPi@Base 5.13.0
  _ZN9KMimeType21extractKnownExtensionERK7QString@Base 4.96.0
  _ZN9KMimeType21sharedMimeInfoVersionEv@Base 4.96.0
  _ZN9KMimeType8mimeTypeERK7QStringNS_16FindByNameOptionE@Base 4.96.0
- _ZN9KMimeType9findByUrlERK4QUrljbbPi@Base 4.96.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KMimeType9findByUrlERK4QUrljbbPi@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KMimeType9findByUrlERK4QUrltbbPi@Base 5.13.0
  _ZN9KMimeTypeC1ERK9QMimeType@Base 4.96.0
  _ZN9KMimeTypeC2ERK9QMimeType@Base 4.96.0
  _ZN9KMimeTypeD0Ev@Base 4.96.0
@@ -2662,7 +2670,8 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN9KTimeZone10TransitionD1Ev@Base 4.96.0
  _ZN9KTimeZone10TransitionD2Ev@Base 4.96.0
  _ZN9KTimeZone10TransitionaSERKS0_@Base 4.96.0
- _ZN9KTimeZone10fromTime_tEl@Base 4.96.0
+ (arch=!x32)_ZN9KTimeZone10fromTime_tEl@Base 4.96.0
+ (arch=x32)_ZN9KTimeZone10fromTime_tEx@Base 4.96.0
  _ZN9KTimeZone10updateBaseERKS_@Base 4.96.0
  _ZN9KTimeZone11LeapSecondsC1ERK9QDateTimeiRK7QString@Base 4.96.0
  _ZN9KTimeZone11LeapSecondsC1ERKS0_@Base 4.96.0
@@ -2829,11 +2838,11 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK12KColorDialog12defaultColorEv@Base 4.96.0
  _ZNK12KColorDialog21isAlphaChannelEnabledEv@Base 4.96.0
  _ZNK12KColorDialog5colorEv@Base 4.96.0
- (optional=templinst|arch=amd64 i386)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
- (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
- (optional=templinst|arch=arm64)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
- (optional=templinst|arch=!i386 !mips !mipsel !ppc64el !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
- (optional=templinst|arch=!ppc64el)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=!arm64 !armhf !mips !mips64el !mipsel)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=arm64 hppa x32)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
+ (optional=templinst|arch=!alpha !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KEditListBox10downButtonEv@Base 4.96.0
@@ -3194,8 +3203,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK16KTimeZoneBackend16offsetAtZoneTimeEPK9KTimeZoneRK9QDateTimePi@Base 4.96.0
  _ZNK16KTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK16KTimeZoneBackend5cloneEv@Base 4.96.0
- _ZNK16KTimeZoneBackend5isDstEPK9KTimeZonel@Base 4.96.0
- _ZNK16KTimeZoneBackend6offsetEPK9KTimeZonel@Base 4.96.0
+ (arch=!x32)_ZNK16KTimeZoneBackend5isDstEPK9KTimeZonel@Base 5.13.0
+ (arch=x32)_ZNK16KTimeZoneBackend5isDstEPK9KTimeZonex@Base 5.13.0
+ (arch=!x32)_ZNK16KTimeZoneBackend6offsetEPK9KTimeZonel@Base 4.96.0
+ (arch=x32)_ZNK16KTimeZoneBackend6offsetEPK9KTimeZonex@Base 4.96.0
  _ZNK17KFadeWidgetEffect10metaObjectEv@Base 4.96.0
  _ZNK17KFileMetaInfoItem10isEditableEv@Base 4.96.0
  _ZNK17KFileMetaInfoItem10isModifiedEv@Base 4.96.0
@@ -3253,8 +3264,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK22KSystemTimeZoneBackend16offsetAtZoneTimeEPK9KTimeZoneRK9QDateTimePi@Base 4.96.0
  _ZNK22KSystemTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK22KSystemTimeZoneBackend5cloneEv@Base 4.96.0
- _ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZonel@Base 4.96.0
- _ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZonel@Base 4.96.0
+ (arch=!x32)_ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZonel@Base 4.96.0
+ (arch=x32)_ZNK22KSystemTimeZoneBackend5isDstEPK9KTimeZonex@Base 4.96.0
+ (arch=!x32)_ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZonel@Base 5.13.0
+ (arch=x32)_ZNK22KSystemTimeZoneBackend6offsetEPK9KTimeZonex@Base 5.13.0
  _ZNK22KTzfileTimeZoneBackend14hasTransitionsEPK9KTimeZone@Base 4.96.0
  _ZNK22KTzfileTimeZoneBackend4typeEv@Base 4.96.0
  _ZNK22KTzfileTimeZoneBackend5cloneEv@Base 4.96.0
@@ -3679,10 +3692,12 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK9KTimeZone5Phase7commentEv@Base 4.96.0
  _ZNK9KTimeZone5Phase9utcOffsetEv@Base 4.96.0
  _ZNK9KTimeZone5PhaseeqERKS0_@Base 4.96.0
- _ZNK9KTimeZone5isDstEl@Base 4.96.0
+ (arch=!x32)_ZNK9KTimeZone5isDstEl@Base 5.13.0
+ (arch=x32)_ZNK9KTimeZone5isDstEx@Base 5.13.0
  _ZNK9KTimeZone5parseEv@Base 4.96.0
  _ZNK9KTimeZone5toUtcERK9QDateTime@Base 4.96.0
- _ZNK9KTimeZone6offsetEl@Base 4.96.0
+ (arch=!x32)_ZNK9KTimeZone6offsetEl@Base 4.96.0
+ (arch=x32)_ZNK9KTimeZone6offsetEx@Base 4.96.0
  _ZNK9KTimeZone6phasesEv@Base 4.96.0
  _ZNK9KTimeZone6sourceEv@Base 4.96.0
  _ZNK9KTimeZone7commentEv@Base 4.96.0
@@ -3701,7 +3716,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTI11KDateWidget@Base 4.96.0
  _ZTI11KFileDialog@Base 4.96.0
  _ZTI11KFontDialog@Base 4.96.0
- (arch=!armel !armhf)_ZTI11KIconEngine@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZTI11KIconEngine@Base 4.96.0
  _ZTI11KIntSpinBox@Base 4.96.0
  _ZTI11KListWidget@Base 4.96.0
  _ZTI11KPushButton@Base 4.96.0
@@ -3823,7 +3838,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTS11KDateWidget@Base 4.96.0
  _ZTS11KFileDialog@Base 4.96.0
  _ZTS11KFontDialog@Base 4.96.0
- (arch=!armel !armhf)_ZTS11KIconEngine@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZTS11KIconEngine@Base 4.96.0
  _ZTS11KIntSpinBox@Base 4.96.0
  _ZTS11KListWidget@Base 4.96.0
  _ZTS11KPushButton@Base 4.96.0
@@ -3952,7 +3967,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTV11KDateWidget@Base 4.96.0
  _ZTV11KFileDialog@Base 4.96.0
  _ZTV11KFontDialog@Base 4.96.0
- (arch=!armel !armhf)_ZTV11KIconEngine@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZTV11KIconEngine@Base 4.96.0
  _ZTV11KIntSpinBox@Base 4.96.0
  _ZTV11KListWidget@Base 4.96.0
  _ZTV11KPushButton@Base 4.96.0
