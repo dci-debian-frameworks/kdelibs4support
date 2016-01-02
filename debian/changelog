@@ -1,6 +1,10 @@
 kdelibs4support (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release Xenial
+
+  [ Bhushan Shah ]
+  * Add build-dep to kded5-dev, required for kdedmodule.desktop
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:17:59 +0000
 
