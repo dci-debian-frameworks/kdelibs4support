@@ -1,10 +1,16 @@
-kdelibs4support (5.20.0-1~1.gbpb26d68) UNRELEASED; urgency=medium
+kdelibs4support (5.20.0-1~2.gbpe2e725) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @e2e7255c9d4d4f6e9467bc09c7a3dd11d081a860 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @b26d6820cacec20d6c4c27a961715a57c7ae5af4 **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 30 Mar 2016 10:32:05 +0200
+  [ Maximiliano Curia ]
+  * Update acc test script
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:31:14 +0200
 
 kdelibs4support (5.19.0-1) experimental; urgency=medium
 
