@@ -1,3 +1,11 @@
+kdelibs4support (5.20.0-1~1.gbpb26d68) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b26d6820cacec20d6c4c27a961715a57c7ae5af4 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 30 Mar 2016 10:32:05 +0200
+
 kdelibs4support (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
