@@ -1,8 +1,17 @@
-Index: kdelibs4support/src/includes/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Sun, 10 Apr 2016 15:31:28 +0200
+Subject: incomplete_header
+
 ===================================================================
---- kdelibs4support.orig/src/includes/CMakeLists.txt	2015-03-24 10:13:46.717145199 +0100
-+++ kdelibs4support/src/includes/CMakeLists.txt	2015-03-24 10:14:06.272360482 +0100
-@@ -467,13 +467,6 @@
+---
+ src/includes/CMakeLists.txt | 83 ---------------------------------------------
+ 1 file changed, 83 deletions(-)
+
+diff --git a/src/includes/CMakeLists.txt b/src/includes/CMakeLists.txt
+index b2298be..d4d8863 100644
+--- a/src/includes/CMakeLists.txt
++++ b/src/includes/CMakeLists.txt
+@@ -467,13 +467,6 @@ if (UNIX)
  endif ()
  
  install( FILES
@@ -16,7 +25,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
    KDNSSD/Configuration
    KDNSSD/DomainBrowser
    KDNSSD/DomainModel
-@@ -787,18 +780,13 @@
+@@ -787,18 +780,13 @@ DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/KWallet COMPONENT
  
  
  install( FILES
@@ -35,7 +44,7 @@ Index: kdelibs4support/src/includes/CMakeLists.txt
    Solid/NetworkShare
    Solid/Networking
    Solid/OpticalDisc
-@@ -854,77 +842,6 @@
+@@ -854,77 +842,6 @@ DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KDELibs4Support/KDE/khtml COMPONENT De
  
  
  install(FILES

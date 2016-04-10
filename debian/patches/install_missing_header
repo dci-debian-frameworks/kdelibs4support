@@ -1,8 +1,17 @@
-Index: kdelibs4support/src/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Sun, 10 Apr 2016 15:31:28 +0200
+Subject: install_missing_header
+
 ===================================================================
---- kdelibs4support.orig/src/CMakeLists.txt	2015-03-24 10:08:23.838101510 +0100
-+++ kdelibs4support/src/CMakeLists.txt	2015-03-24 10:09:55.066440802 +0100
-@@ -523,6 +523,8 @@
+---
+ src/CMakeLists.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 245cf4c..b311595 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -522,6 +522,8 @@ install(FILES
  
  configure_file(kssl/ksslconfig.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/kssl/ksslconfig.h )
  set_property(DIRECTORY APPEND PROPERTY ADDITIONAL_MAKE_CLEAN_FILES ${CMAKE_CURRENT_BINARY_DIR}/kssl/ksslconfig.h )
