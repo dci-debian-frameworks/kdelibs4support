@@ -1,6 +1,7 @@
 kdelibs4support (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, xenial backport. 
+  * Add another manpage to not-installed. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 16:03:22 -0700
 
