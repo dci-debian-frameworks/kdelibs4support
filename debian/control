@@ -5,30 +5,30 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kded5-dev (>= 5.18.0~),
-               kdesignerplugin (>= 5.18.0~),
-               kdoctools-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kded5-dev (>= 5.19.0~),
+               kdesignerplugin (>= 5.19.0~),
+               kdoctools-dev (>= 5.19.0~),
                kgendesignerplugin (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
+               kio-dev (>= 5.19.0~),
                libintl-perl,
-               libkf5completion-dev (>= 5.18.0~),
-               libkf5config-dev (>= 5.18.0~),
-               libkf5configwidgets-dev (>= 5.18.0~),
-               libkf5crash-dev (>= 5.18.0~),
-               libkf5dbusaddons-dev (>= 5.18.0~),
-               libkf5globalaccel-dev (>= 5.18.0~),
-               libkf5guiaddons-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5iconthemes-dev (>= 5.18.0~),
-               libkf5notifications-dev (>= 5.18.0~),
-               libkf5parts-dev (>= 5.18.0~),
-               libkf5service-dev (>= 5.18.0~),
-               libkf5textwidgets-dev (>= 5.18.0~),
-               libkf5unitconversion-dev (>= 5.18.0~),
-               libkf5widgetsaddons-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
-               libkf5xmlgui-dev (>= 5.18.0~),
+               libkf5completion-dev (>= 5.19.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5configwidgets-dev (>= 5.19.0~),
+               libkf5crash-dev (>= 5.19.0~),
+               libkf5dbusaddons-dev (>= 5.19.0~),
+               libkf5globalaccel-dev (>= 5.19.0~),
+               libkf5guiaddons-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5iconthemes-dev (>= 5.19.0~),
+               libkf5notifications-dev (>= 5.19.0~),
+               libkf5parts-dev (>= 5.19.0~),
+               libkf5service-dev (>= 5.19.0~),
+               libkf5textwidgets-dev (>= 5.19.0~),
+               libkf5unitconversion-dev (>= 5.19.0~),
+               libkf5widgetsaddons-dev (>= 5.19.0~),
+               libkf5windowsystem-dev (>= 5.19.0~),
+               libkf5xmlgui-dev (>= 5.19.0~),
                libqt5svg5-dev (>= 5.4),
                libqt5x11extras5-dev (>= 5.4),
                libsm-dev,
@@ -42,23 +42,23 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdelibs4support
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdelibs4support.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdelibs4support.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdelibs4support.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdelibs4support.git
 
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: kdoctools-dev (>= 5.16.0~),
+Depends: kdoctools-dev (>= 5.19.0~),
          kgendesignerplugin (>= 5.6.0),
          kinit-dev,
          kross-dev,
-         libkf5configwidgets-dev (>= 5.16.0~),
-         libkf5crash-dev (>= 5.16.0~),
+         libkf5configwidgets-dev (>= 5.19.0~),
+         libkf5crash-dev (>= 5.19.0~),
          libkf5dnssd-dev,
          libkf5emoticons-dev,
-         libkf5guiaddons-dev (>= 5.16.0~),
-         libkf5iconthemes-dev (>= 5.16.0~),
+         libkf5guiaddons-dev (>= 5.19.0~),
+         libkf5iconthemes-dev (>= 5.19.0~),
          libkf5idletime-dev,
          libkf5itemmodels-dev,
          libkf5kcmutils-dev,
@@ -67,18 +67,18 @@ Depends: kdoctools-dev (>= 5.16.0~),
          libkf5khtml-dev,
          libkf5mediaplayer-dev,
          libkf5newstuff-dev,
-         libkf5notifications-dev (>= 5.16.0~),
+         libkf5notifications-dev (>= 5.19.0~),
          libkf5notifyconfig-dev,
-         libkf5parts-dev (>= 5.16.0~),
+         libkf5parts-dev (>= 5.19.0~),
          libkf5plotting-dev,
          libkf5style-dev,
          libkf5su-dev,
-         libkf5textwidgets-dev (>= 5.16.0~),
+         libkf5textwidgets-dev (>= 5.19.0~),
          libkf5threadweaver-dev,
-         libkf5unitconversion-dev (>= 5.16.0~),
+         libkf5unitconversion-dev (>= 5.19.0~),
          libkf5wallet-dev,
          libkf5webkit-dev,
-         libkf5windowsystem-dev (>= 5.16.0~),
+         libkf5windowsystem-dev (>= 5.19.0~),
          libssl-dev,
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
@@ -167,30 +167,3 @@ Description: Porting aid from KDELibs4.
  should help with this.
  .
  This package contains binaries and plugins from kdelibs4support.
-
-Package: libkf5kdelibs4support5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libkf5kdelibs4support5 (= ${binary:Version}), ${misc:Depends}
-Recommends: libkf5kdelibs4support5-bin (= ${binary:Version})
-Description: debug symbols for kde4support
- This framework provides code and utilities to ease
- the transition from kdelibs 4 to KDE Frameworks 5.
- This includes CMake macros and C++ classes whose
- functionality has been replaced by code in CMake,
- Qt and other frameworks.
- .
- Code should aim to port away from this framework eventually.
- The API documentation of the classes in this framework and
- the notes at <http://community.kde.org/Frameworks/Porting_Notes>
- should help with this.
- .
- Note that some of the classes in this framework, especially
- KStandardDirs, may not work correctly unless any libraries
- and other software using the KDE4 Support framework are
- installed to the same location as KDE4Support, although
- it may be sufficient to set the KDEDIRS environment
- variable correctly.
- .
- Contains debug symbols for kde4support.
