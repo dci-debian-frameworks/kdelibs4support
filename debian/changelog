@@ -1,10 +1,12 @@
-kdelibs4support (5.21.0-1~1.gbpd5f48e) UNRELEASED; urgency=medium
+kdelibs4support (5.22.0-1~1.gbpd0dca4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d5f48e806d67b8b252774d8e6d475647ddad9140 **
+  ** SNAPSHOT build @d0dca47c920b5a9ca866ade5c226625a754393d9 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @b26d6820cacec20d6c4c27a961715a57c7ae5af4 **
 
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -19,7 +21,7 @@ kdelibs4support (5.21.0-1~1.gbpd5f48e) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 15:31:32 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 15:31:35 +0200
 
 kdelibs4support (5.19.0-1) experimental; urgency=medium
 
