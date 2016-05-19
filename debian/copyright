@@ -4,16 +4,16 @@ Source: https://projects.kde.org/projects/frameworks/kdelibs4support
 
 Files: *
 Copyright: 2007, Alex Merry <alex.merry@kdemail.net>
-           2000, Alexander Neundorf <neundorf@kde.org>
            2002-2003, Andreas Beckermann <b_mann@gmx.de>
            2006-2010, Andreas Hartmetz <ahartmetz@gmail.com>
+           Andrei Alexandrescu <andrei@metalanguage.com>
            2002-2003, Arash Bijanzadeh and FarsiKDE Project <www.farsikde.org>
            2007, Aron Boström <aron.bostrom@gmail.com>
            1996-1997, Bernd Johannes Wuebben <wuebben@kde.org>
            2007, Bernhard Loos <nhuh.put@web.de>
            2005, Brad Hards <bradh@kde.org>
            2002-2003, Carlos Moro <cfmoro@correo.uniovi.es>
-           2000-2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2000-2002, Carsten Pfeiffer <pfeiffer@kde.org>
            2007, Charles Connell <charles@connells.org>
            2003, Chris Howells <howells@kde.org>
            2006-2007, Christian Ehrlicher <Ch.Ehrlicher@gmx.de>
@@ -21,7 +21,7 @@ Copyright: 2007, Alex Merry <alex.merry@kdemail.net>
            1999-2000, Daniel "Mosfet" Duley <mosfet@kde.org>
            2001, Daniel Molkentin <molkentin@kde.org>
            1999-2013, David Faure <faure@kde.org>
-           2000, David Faure <faure@kde.org>
+           2000, David Faure <faure@kde.org>, Alexander Neundorf <neundorf@kde.org>
            2005-2012, David Jarvie <djarvie@kde.org>
            2005-2007, David Jarvie <software@astrojar.org.uk>
            2000-2001, Dawit Alemayehu <adawit@kde.org>
@@ -43,7 +43,7 @@ Copyright: 2007, Alex Merry <alex.merry@kdemail.net>
            2005-2008, Jaroslaw Staniek <staniek@kde.org>
            2007-2011, John Layt <john@layt.net>
            2006-2007, Jos van den Oever <jos@vandenoever.info>
-           1998-1999, KDE Team
+           1998-2003, KDE Team
            2001-2002, Karol Szwed <gallium@kde.org>
            2000, Keunwoo Lee <klee@cs.washington.edu>
            2013, Kevin Ottens <ervin+bluesystems@kde.org>
@@ -63,11 +63,11 @@ Copyright: 2007, Alex Merry <alex.merry@kdemail.net>
            2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
            1997-2000, Matthias Ettrich <ettrich@kde.org>
            1997, Matthias Kalle Dalheimer <kalle@kde.org>
+           1997, Michael Wiedmann <mw@miwie.in-berlin.de>
            2003, Nadeem Hasan <nhasan@kde.org>
-           2006, Nicolas GOUTTE <goutte@kde.org>
            2010, Nokia Corporation and/or its subsidiary(-ies)
            2007, Olaf Schmidt <ojschmidt@kde.org>
-           2006, Olivier Goffart
+           2006-2007, Olivier Goffart
            2006, Olivier Goffart <ogoffart@kde.org>
            1997, Patrick Dowler <dowler@morgul.fsh.uvic.ca>
            2010-2011, Peter Penz <peter.penz19@gmail.com>
@@ -103,6 +103,15 @@ Copyright: 2007, Alex Merry <alex.merry@kdemail.net>
            2006-2011, Volker Krause <vkrause@kde.org>
            1999-2001, Waldo Bastian <bastian@kde.org>
            2003, Zack Rusin <zack@kde.org>
+           1998, Sirtaj Singh Kang <taj@kde.org>
+           2000, Espen Sand <espen@kde.org>
+           2008, Friedrich W. H. Kossebau <kossebau@kde.org>
+           2006, Nicolas GOUTTE <goutte@kde.org>
+           2010, Teo Mrnjavac <teo@kde.org>
+           2002-2003, Carlos Moro <cfmoro@correo.uniovi.es>
+           2002-2003, Hans Petter Bieker <bieker@kde.org>
+           2007-2010, John Layt <john@layt.net>
+           2010, Andreas Hartmetz <ahartmetz@gmail.com>
 License: LGPL-2+
 
 Files: autotests/globalcleanuptest.cpp
@@ -221,8 +230,12 @@ Files: autotests/globalcleanuptest.cpp
        src/kio/kmetaprops.h
        src/kio/kpreviewprops.cpp
        src/kio/kpreviewprops.h
+       src/kio/metainfojob.cpp
+       src/kio/metainfojob.h
        src/kio/passworddialog.cpp
        src/kio/passworddialog.h
+       src/kioslave/metainfo/metainfo.cpp
+       src/kioslave/metainfo/metainfo.h
        src/kssl/kopenssl.cpp
        src/kssl/kopenssl.h
        src/solid-networkstatus/kded/wicdcustomtypes.cpp
@@ -264,7 +277,6 @@ Copyright: 2006, Allen Winter <winter@kde.org>
            2008, Lukas Appelhans <l.appelhans@gmx.de>
            2001, Marc Mutz <mutz@kde.org>
            2006, Martin Pool <mbp@canonical.com>
-           1996, Martynas Kunigelis // krazy:exclude=copyright (email unknown)
            1999, Matthias Ettrich <ettrich@kde.org>
            2007, Matthias Kretz <kretz@kde.org>
            2001, Michael Jarrett <michaelj@corel.com>
@@ -292,26 +304,127 @@ Copyright: 2006, Allen Winter <winter@kde.org>
            2006-2007, Urs Wolfer <uwolfer@kde.org>
            1999-2005, Waldo Bastian <bastian@kde.org>
 License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation;
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: po/af/kdelibs4support.po
+       po/ar/kdelibs4support.po
+       po/as/kdelibs4support.po
+       po/ast/kdelibs4support.po
+       po/be/kdelibs4support.po
+       po/be@latin/kdelibs4support.po
+       po/bg/kdelibs4support.po
+       po/bn/kdelibs4support.po
+       po/bn_IN/kdelibs4support.po
+       po/br/kdelibs4support.po
+       po/bs/kdelibs4support.po
+       po/crh/kdelibs4support.po
+       po/cs/kdelibs4support.po
+       po/csb/kdelibs4support.po
+       po/cy/kdelibs4support.po
+       po/da/kdelibs4support.po
+       po/de/kdelibs4support.po
+       po/el/kdelibs4support.po
+       po/en_GB/kdelibs4support.po
+       po/eo/kdelibs4support.po
+       po/es/kdelibs4support.po
+       po/et/kdelibs4support.po
+       po/eu/kdelibs4support.po
+       po/fa/kdelibs4support.po
+       po/fi/kdelibs4support.po
+       po/fr/kdelibs4support.po
+       po/fy/kdelibs4support.po
+       po/ga/kdelibs4support.po
+       po/gd/kdelibs4support.po
+       po/gl/kdelibs4support.po
+       po/gu/kdelibs4support.po
+       po/ha/kdelibs4support.po
+       po/he/kdelibs4support.po
+       po/hi/kdelibs4support.po
+       po/hne/kdelibs4support.po
+       po/hr/kdelibs4support.po
+       po/hsb/kdelibs4support.po
+       po/hu/kdelibs4support.po
+       po/hy/kdelibs4support.po
+       po/ia/kdelibs4support.po
+       po/id/kdelibs4support.po
+       po/is/kdelibs4support.po
+       po/it/kdelibs4support.po
+       po/ja/kdelibs4support.po
+       po/ka/kdelibs4support.po
+       po/kk/kdelibs4support.po
+       po/km/kdelibs4support.po
+       po/kn/kdelibs4support.po
+       po/ko/kdelibs4support.po
+       po/ku/kdelibs4support.po
+       po/lb/kdelibs4support.po
+       po/lt/kdelibs4support.po
+       po/lv/kdelibs4support.po
+       po/mai/kdelibs4support.po
+       po/mk/kdelibs4support.po
+       po/ml/kdelibs4support.po
+       po/mr/kdelibs4support.po
+       po/ms/kdelibs4support.po
+       po/nb/kdelibs4support.po
+       po/nds/kdelibs4support.po
+       po/ne/kdelibs4support.po
+       po/nl/kdelibs4support.po
+       po/nn/kdelibs4support.po
+       po/oc/kdelibs4support.po
+       po/or/kdelibs4support.po
+       po/pa/kdelibs4support.po
+       po/pl/kdelibs4support.po
+       po/ps/kdelibs4support.po
+       po/pt/kdelibs4support.po
+       po/pt_BR/kdelibs4support.po
+       po/ro/kdelibs4support.po
+       po/ru/kdelibs4support.po
+       po/se/kdelibs4support.po
+       po/si/kdelibs4support.po
+       po/sk/kdelibs4support.po
+       po/sl/kdelibs4support.po
+       po/sq/kdelibs4support.po
+       po/sr/kdelibs4support.po
+       po/sr@ijekavian/kdelibs4support.po
+       po/sr@ijekavianlatin/kdelibs4support.po
+       po/sr@latin/kdelibs4support.po
+       po/sv/kdelibs4support.po
+       po/ta/kdelibs4support.po
+       po/te/kdelibs4support.po
+       po/tg/kdelibs4support.po
+       po/th/kdelibs4support.po
+       po/tr/kdelibs4support.po
+       po/tt/kdelibs4support.po
+       po/ug/kdelibs4support.po
+       po/uz/kdelibs4support.po
+       po/uz@cyrillic/kdelibs4support.po
+       po/vi/kdelibs4support.po
+       po/wa/kdelibs4support.po
+       po/xh/kdelibs4support.po
+       po/zh_CN/kdelibs4support.po
+       po/zh_HK/kdelibs4support.po
+       po/zh_TW/kdelibs4support.po
+       tests/kinputdialogtest.cpp
+Copyright: 2009, Adriaan de Groot, Mustapha Abubakar, Ibrahim Dasuna
+           2006, Canonical Ltd, and Rosetta Contributors 2006
+           1999-2009, David Faure <email>faure@kde.org</email>
+           1999-2009, David Faure <faure@kde.org>
+           1998, Erez Nir <erez-n@actcom.co.il>
+           1998-2011, Free Software Foundation, Inc
+           2008-2009, K Desktop Environment
+           2005, KDE Russian translation team
+           2000-2003, KDE e.v
+           2007, KDE i18n Project for Vietnamese
+           1999-2003, Meni Livne <livne@kde.org>
+           2009, Rosetta Contributors and Canonical Ltd 2009
+           2002-2015, This_file_is_part_of_KDE
+           2001, translate.org.za
+           Nadeem Hasan <nhasan@kde.org>
+License: GPL-2
 
 Files: cmake/CheckStructMember.cmake
        cmake/FindDocBookXML4.cmake
        cmake/FindLibintl.cmake
+       cmake/FindPerlModules.cmake
+       cmake/modules/COPYING-CMAKE-SCRIPTS
        cmake/modules/CheckPointerMember.cmake
        cmake/modules/CheckPrototypeExists.cmake
        cmake/modules/CheckStructMember.cmake
@@ -326,7 +439,6 @@ Files: cmake/CheckStructMember.cmake
        cmake/modules/FindCarbon.cmake
        cmake/modules/FindENCHANT.cmake
        cmake/modules/FindEigen.cmake
-       cmake/modules/FindEigen2.cmake
        cmake/modules/FindExiv2.cmake
        cmake/modules/FindFFmpeg.cmake
        cmake/modules/FindFlac.cmake
@@ -340,7 +452,6 @@ Files: cmake/CheckStructMember.cmake
        cmake/modules/FindIOKit.cmake
        cmake/modules/FindKDE4Internal.cmake
        cmake/modules/FindKDE4Workspace.cmake
-       cmake/modules/FindKDevPlatform.cmake
        cmake/modules/FindKNepomuk.cmake
        cmake/modules/FindKdcraw.cmake
        cmake/modules/FindKdeMultimedia.cmake
@@ -376,7 +487,6 @@ Files: cmake/CheckStructMember.cmake
        cmake/modules/FindTaglib.cmake
        cmake/modules/FindUDev.cmake
        cmake/modules/FindUSB.cmake
-       cmake/modules/FindWcecompat.cmake
        cmake/modules/FindXine.cmake
        cmake/modules/FindXmms.cmake
        cmake/modules/HandleImportedTargetsInCMakeRequiredLibraries.cmake
@@ -388,17 +498,16 @@ Files: cmake/CheckStructMember.cmake
        cmake/modules/NepomukAddOntologyClasses.cmake
        cmake/modules/PythonMacros.cmake
        cmake/modules/SIPMacros.cmake
-       cmake/modules/Win32Macros.cmake
        cmake/modules/kde4_exec_via_sh.cmake
+       cmake/uriencode.cmake
        src/KDECoreMacros.cmake
        src/KDEUIMacros.cmake
        src/kde4uic.cmake
 Copyright: 2008, Adrian Page <adrian@pagenet.plus.com>
+           2015, Alex Merry <alex.merry@kde.org>
            2006, Alexander Dymo <adymo@kdevelop.org>
            2006-2010, Alexander Neundorf <neundorf@kde.org>
            2007, Allen Winter <winter@kde.org>
-           2010, Andreas Holzammer <andy@kdab.com>
-           2007, Andreas Pakulat <apaku@gmx.de>
            2006, Benjamin Reed <ranger@befunk.com>
            2007, Charles Connell <charles@connells.org>
            2007, Christian Ehrlicher <ch.ehrlicher@gmx.de>
@@ -410,7 +519,6 @@ Copyright: 2008, Adrian Page <adrian@pagenet.plus.com>
            2009, Dario Freddi <drf@kde.org>
            2006, David Faure <faure@kde.org>
            2006, Egon Willighagen <egonw@users.sf.net>
-           2008-2009, Gael Guennebaud <g.gael@free.fr>
            2007, Gerd Fleischer <gerdfleischer@web.de>
            2008-2012, Gilles Caulier <caulier.gilles@gmail.com>
            2009, Harald Fernengel <harry@kdevelop.org>
@@ -421,16 +529,14 @@ Copyright: 2008, Adrian Page <adrian@pagenet.plus.com>
            2012, Luca Beltrame <lbeltrame@kde.org>
            2010-2014, Luigi Toscano <luigi.toscano@tiscali.it>
            2009, Marcus Hufgard <Marcus.Hufgard@hufgard.de>
-           2006, Marcus Hufgard <hufgardm@hufgard.de>
+           2006, Marcus Hufgard <hufgardm@hufgard.de> 2006
            2006-2008, Matthias Kretz <kretz@kde.org>
            2011, Michael G. Hansen <mike@mghansen.de>
            2011, Michael Jansen <kde@michael-jansen.biz>
            2009, Michal Malek <michalm@jabster.pl>
-           2006-2007, Montel Laurent <montel@kde.org>
            2008, Per Øyvind Karlsen <peroyvind@mandriva.org>
            2006, Pino Toscano <toscano.pino@tiscali.it>
            2010, Rafael Fernández López <ereslibre@kde.org>
-           2006-2007, Ralf Habacker
            2011, Raphael Kubo da Costa <kubito@gmail.com>
            2006, Richard Laerkaeng <richard@goteborg.utfors.se>
            2012, Rolf Eike Beer <eike@sf-mail.de>
@@ -444,28 +550,6 @@ Copyright: 2008, Adrian Page <adrian@pagenet.plus.com>
            2007, Will Stephenson <wstephenson@kde.org>
            2006, Zack Rusin <zack@kde.org>
 License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- .
- 1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: src/kdecore/k3bufferedsocket.cpp
        src/kdecore/k3bufferedsocket.h
@@ -503,26 +587,6 @@ Copyright: 2003, Lubos Lunak <l.lunak@kde.org>
            2010, Sune Vuorela <sune@debian.org>
            2003-2005, Thiago Macieira <thiago@kde.org>
 License: Expat
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated documentation
- files (the "Software"), to deal in the Software without
- restriction, including without limitation the rights to use,
- copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the
- Software is furnished to do so, subject to the following
- conditions:
- .
- The above copyright notice and this permission notice shall be
- included in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
 
 Files: autotests/klocaletimeformattest.cpp
        autotests/klocaletimeformattest.h
@@ -545,6 +609,9 @@ Files: autotests/klocaletimeformattest.cpp
        src/solid/powermanagement_p.h
        tests/networkingclient.cpp
        tests/networkingclient.h
+       po/ca/kdelibs4support.po
+       po/ca@valencia/kdelibs4support.po
+       po/uk/kdelibs4support.po
 Copyright: 2006-2007, Kevin Ottens <ervin@kde.org>
            2010, Klarälvdalens Datakonsult AB
            2011, Lamarque V. Souza <lamarque@gmail.com>
@@ -553,27 +620,8 @@ Copyright: 2006-2007, Kevin Ottens <ervin@kde.org>
            2009, Michael Leupold <lemma@confuego.org>
            2013, Patrick von Reth <vonreth@kde.org>
            2005-2007, Will Stephenson <wstephenson@kde.org>
+           2002-2015, This_file_is_part_of_KDE
 License: LGPL-2.1+3+KDEeV
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) version 3, or any
- later version accepted by the membership of KDE e.V. (or its
- successor approved by the membership of KDE e.V.), which shall
- act as a proxy defined in Section 6 of version 3 of the license.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public
- License along with this library. If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU Lesser General Public License
- version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1", likewise,
- the complete text of the GNU Lesser General Public License version 3 can be
- found in "/usr/share/common-licenses/LGPL-3".
 
 Files: cmake/modules/BasicFindPackageVersion.cmake.in
        cmake/modules/CMakeLists.txt
@@ -586,16 +634,136 @@ Files: cmake/modules/BasicFindPackageVersion.cmake.in
        cmake/modules/KDE4Defaults.cmake
        cmake/modules/MacroKAuth.cmake
        cmake/modules/NepomukMacros.cmake
+       cmake/modules/README
        cmake/modules/Win32.Manifest.in
        cmake/modules/check_installed_exports_file.cmake
        cmake/modules/cmake-modules-styleguide.txt
        cmake/modules/config-alsa.h.cmake
        cmake/modules/create_exe_symlink.cmake
        cmake/modules/kde4_cmake_uninstall.cmake.in
+       cmake/modules/FindEigen2.cmake
+       cmake/modules/FindKDevPlatform.cmake
+       cmake/modules/FindWcecompat.cmake
+       cmake/modules/Win32Macros.cmake
 Copyright: 2009, Alexander Neundorf <neundorf@kde.org>
            2008, Patrick Spendrin <ps_ml@gmx.de>
            2010, Paulo Romulo Alves Barros <paulo.romulo@kdemail.net>
            2007, Sebastian Trueg <trueg@kde.org>
+           2010, Andreas Holzammer <andy@kdab.com>
+           2007, Andreas Pakulat <apaku@gmx.de>
+           2008-2009, Gael Guennebaud <g.gael@free.fr>
+           2006-2007, Montel Laurent <montel@kde.org>
+           2006-2007, Ralf Habacker
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ cmake/modules/COPYING-CMAKE-SCRIPTS
+
+Files: COPYING
+       src/customization/catalog4.xml
+       src/customization/dtd/kdex.dtd.cmake
+       src/kio/fileshareset
+       src/kssl/kssl/cert_extract.c
+       tests/kfontdialogtest.cpp
+       tests/networkingservice.cpp
+       tests/networkingservice.h
+Copyright: Ariel Glenn <ariel@columbia.edu>
+           1996, Bernd Johannes Wuebben
+           2001-2002, Frederik Fouvry
+           1989-1991, Free Software Foundation, Inc
+           2001-2002, MandrakeSoft <pixel@mandriva.com>
+           1998, Ralf S. Engelschall <rse@engelschall.com>
+           2005-2007, Will Stephenson <wstephenson@kde.org>
+License: GPL-2+
+
+Files: autotests/kcmdlineargs_unittest.cpp
+       autotests/kdebug_unittest.cpp
+       autotests/kdebug_unittest.h
+       autotests/kdebugtest.cpp
+       autotests/kmimetypetest.cpp
+       autotests/kmimetypetest.h
+       src/kio/kfileitemactionplugin.cpp
+       src/kio/kfileitemactionplugin.h
+Copyright: 2014, Albert Astals Cid <aacid@kde.org>
+           1999-2009, David Faure <faure@kde.org>
+           2006, Marcel Wiesweg <marcel.wiesweg@gmx.de>
+           2010, Sebastian Trueg <trueg@kde.org>
+           2000-2005, Stephan Kulow <coolo@kde.org>
+           2007, Thiago Macieira <thiago@kde.org>
+           1999, Waldo Bastian <bastian@kde.org>
+License: LGPL-2+3+KDEeV
+
+Files: src/kdeui/kfadewidgeteffect.cpp
+       src/kdeui/kfadewidgeteffect.h
+       src/kdeui/kfadewidgeteffect_p.h
+Copyright: 2008, Matthias Kretz <kretz@kde.org>
+           2008, Rafael Fernández López <ereslibre@kde.org>
+License: LGPL-2+3
+
+Files: autotests/ksharedptrtest.cpp
+       autotests/ksharedptrtest.h
+       src/kdecore/ksharedptr.h
+Copyright: 2005, Frerich Raabe <raabe@kde.org>
+License: BSD-2-clause
+
+Files: autotests/ktemporaryfiletest.cpp
+       autotests/ktemporaryfiletest.h
+       cmake/modules/PythonCompile.py
+Copyright: No copyright claimed
+License: public-domain
+
+Files: autotests/kaccelgentest.cpp
+       autotests/kglobalstatictest.cpp
+Copyright: 2004, Frerich Raabe <raabe@kde.org>
+           2007, Matthias Kretz <kretz@kde.org>
+License: GPL-2+3
+
+Files: autotests/kfadewidgeteffecttest.cpp
+Copyright: 2008, Matthias Kretz <kretz@kde.org>
+License: Expat-like-Highscore
+ Permission to use, copy, modify, and distribute this software
+ and its documentation for any purpose and without fee is hereby
+ granted, provided that the above copyright notice appear in all
+ copies and that both that the copyright notice and this
+ permission notice and warranty disclaimer appear in supporting
+ documentation, and that the name of the author not be used in
+ advertising or publicity pertaining to distribution of the
+ software without specific, written prior permission.
+ .
+ The author disclaim all warranties with regard to this
+ software, including all implied warranties of merchantability
+ and fitness.  In no event shall the author be liable for any
+ special, indirect or consequential damages or any damages
+ whatsoever resulting from loss of use, data or profits, whether
+ in an action of contract, negligence or other tortious action,
+ arising out of or in connection with the use or performance of
+ this software.
+
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: LGPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -619,24 +787,140 @@ License: BSD-3-clause
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-Comment: No explicit license found, using license(s) from:
- cmake/modules/COPYING-CMAKE-SCRIPTS
 
-Files: autotests/kcmdlineargs_unittest.cpp
-       autotests/kdebug_unittest.cpp
-       autotests/kdebug_unittest.h
-       autotests/kdebugtest.cpp
-       autotests/kmimetypetest.cpp
-       autotests/kmimetypetest.h
-       src/kio/kfileitemactionplugin.cpp
-       src/kio/kfileitemactionplugin.h
-Copyright: 2014, Albert Astals Cid <aacid@kde.org>
-           1999-2009, David Faure <faure@kde.org>
-           2006, Marcel Wiesweg <marcel.wiesweg@gmx.de>
-           2010, Sebastian Trueg <trueg@kde.org>
-           2000-2005, Stephan Kulow <coolo@kde.org>
-           2007, Thiago Macieira <thiago@kde.org>
-           1999, Waldo Bastian <bastian@kde.org>
+License: Expat
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ Licensed under the GNU General Public License version 2
+ .
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published
+ by the Free Software Foundation; either version 2 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License, or (at your option) version 3.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2", likewise, the
+ complete text of the GNU General Public License version 3 can be found in
+ "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation;
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2+3
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) version 3.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2",
+ likewise, the complete text of the GNU Lesser General Public License version
+ 3 can be found in "/usr/share/common-licenses/LGPL-3".
+
 License: LGPL-2+3+KDEeV
  This library is free software; you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
@@ -659,185 +943,24 @@ License: LGPL-2+3+KDEeV
  likewise, the complete text of the GNU Lesser General Public License version
  3 can be found in "/usr/share/common-licenses/LGPL-3".
 
-Files: src/kdeui/kfadewidgeteffect.cpp
-       src/kdeui/kfadewidgeteffect.h
-       src/kdeui/kfadewidgeteffect_p.h
-       src/kio/metainfojob.cpp
-       src/kio/metainfojob.h
-       src/kioslave/metainfo/metainfo.cpp
-       src/kioslave/metainfo/metainfo.h
-Copyright: 2008, Matthias Kretz <kretz@kde.org>
-           2008, Rafael Fernández López <ereslibre@kde.org>
-           2001-2002, Rolf Magnus <ramagnus@kde.org>
-License: LGPL-2+3
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) version 3.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU Library General Public
- License version 2 can be found in "/usr/share/common-licenses/LGPL-2",
- likewise, the complete text of the GNU Lesser General Public License version
- 3 can be found in "/usr/share/common-licenses/LGPL-3".
-
-Files: src/customization/dtd/kdex.dtd.cmake
-       src/kssl/kssl/cert_extract.c
-       tests/kfontdialogtest.cpp
-       tests/knuminputtest.cpp
-       tests/knuminputtest.h
-       tests/networkingservice.cpp
-       tests/networkingservice.h
-Copyright: Ariel Glenn <ariel@columbia.edu>
-           1996, Bernd Johannes Wuebben
-           1999, Dirk A. Mueller <dmuell@gmx.net>
-           2002, Frederik Fouvry
-           1998, Ralf S. Engelschall <rse@engelschall.com>
-           2005-2007, Will Stephenson <wstephenson@kde.org>
-License: GPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published
- by the Free Software Foundation; either version 2 of the License,
- or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-Files: autotests/ksharedptrtest.cpp
-       autotests/ksharedptrtest.h
-       src/kdecore/ksharedptr.h
-Copyright: 2005, Frerich Raabe <raabe@kde.org>
-License: BSD-2-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- .
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files: autotests/ktemporaryfiletest.cpp
-       autotests/ktemporaryfiletest.h
-       cmake/modules/PythonCompile.py
-Copyright: No copyright claimed
-License: public-domain
-
-Files: autotests/kaccelgentest.cpp
-       autotests/kglobalstatictest.cpp
-Copyright: 2004  Frerich Raabe <raabe@kde.org>
-License: GPL-2+3
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License, or (at your option) version 3.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in "/usr/share/common-licenses/GPL-2", likewise, the
- complete text of the GNU General Public License version 3 can be found in
- "/usr/share/common-licenses/GPL-3".
-
-Files: autotests/kfadewidgeteffecttest.cpp
-Copyright: 2008, Matthias Kretz <kretz@kde.org>
-License: Permissive
- Permission to use, copy, modify, and distribute this software
- and its documentation for any purpose and without fee is hereby
- granted, provided that the above copyright notice appear in all
- copies and that both that the copyright notice and this
- permission notice and warranty disclaimer appear in supporting
- documentation, and that the name of the author not be used in
- advertising or publicity pertaining to distribution of the
- software without specific, written prior permission.
- .
- The author disclaim all warranties with regard to this
- software, including all implied warranties of merchantability
- and fitness.  In no event shall the author be liable for any
- special, indirect or consequential damages or any damages
- whatsoever resulting from loss of use, data or profits, whether
- in an action of contract, negligence or other tortious action,
- arising out of or in connection with the use or performance of
- this software.
-
-Files: tests/kinputdialogtest.cpp
-Copyright: Nadeem Hasan <nhasan@kde.org>
-License: GPL-2
- Licensed under the GNU General Public License version 2
- .
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published
- by the Free Software Foundation; either version 2 of the License.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-Files: debian/*
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: LGPL-2+
-
-License: LGPL-2+
+License: LGPL-2.1+3+KDEeV
  This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
+ modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
+ Lesser General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
  .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1", likewise,
+ the complete text of the GNU Lesser General Public License version 3 can be
+ found in "/usr/share/common-licenses/LGPL-3".
