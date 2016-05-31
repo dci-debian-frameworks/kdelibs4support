@@ -2575,15 +2575,15 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN9KLockFile4lockE6QFlagsINS_8LockFlagEE@Base 4.96.0
  _ZN9KLockFile6unlockEv@Base 4.96.0
  _ZN9KLockFile7Private12readLockFileEv@Base 4.96.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private13lockFileOExclER4stat@Base 5.13.0
- (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private13lockFileOExclER6stat64@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386 hurd-i386)_ZN9KLockFile7Private13lockFileOExclER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386)_ZN9KLockFile7Private13lockFileOExclER6stat64@Base 5.13.0
  _ZN9KLockFile7Private15deleteStaleLockEv@Base 4.96.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private16lockFileWithLinkER4stat@Base 5.13.0
- (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private16lockFileWithLinkER6stat64@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386 hurd-i386)_ZN9KLockFile7Private16lockFileWithLinkER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386)_ZN9KLockFile7Private16lockFileWithLinkER6stat64@Base 5.13.0
  _ZN9KLockFile7Private17writeIntoLockFileER5QFile@Base 4.96.0
  _ZN9KLockFile7Private23deleteStaleLockWithLinkEv@Base 4.96.0
- (arch=kfreebsd-amd64 kfreebsd-i386)_ZN9KLockFile7Private8lockFileER4stat@Base 5.13.0
- (arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN9KLockFile7Private8lockFileER6stat64@Base 5.13.0
+ (arch=kfreebsd-amd64 kfreebsd-i386 hurd-i386)_ZN9KLockFile7Private8lockFileER4stat@Base 5.13.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386)_ZN9KLockFile7Private8lockFileER6stat64@Base 5.13.0
  _ZN9KLockFileC1ERK7QStringS2_@Base 4.96.0
  _ZN9KLockFileC2ERK7QStringS2_@Base 4.96.0
  _ZN9KLockFileD1Ev@Base 4.96.0
@@ -2841,7 +2841,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
  (optional=templinst|arch=arm64 hppa x32)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
- (optional=templinst|arch=!alpha !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=!alpha !i386 !kfreebsd-i386 !hurd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
