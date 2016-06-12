@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 armhf
+# SymbolsHelper-Confirmed: 5.22.0 arm64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -2838,7 +2838,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK12KColorDialog12defaultColorEv@Base 4.96.0
  _ZNK12KColorDialog21isAlphaChannelEnabledEv@Base 4.96.0
  _ZNK12KColorDialog5colorEv@Base 4.96.0
- (optional=templinst|arch=!armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=!arm64 !armhf)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QDateEET_PKcRKS2_@Base 4.100.0
  (optional=templinst|arch=arm64 hppa x32)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 5.1.0
  (optional=templinst|arch=!alpha !i386 !kfreebsd-i386 !hurd-i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
