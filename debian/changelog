@@ -1,3 +1,12 @@
+kdelibs4support (5.23.0-1~1.gbp605ca4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @605ca48f12e32d03b630e4bc2b6507493be68ddf **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 03:31:45 +0200
+
 kdelibs4support (5.22.0-2) unstable; urgency=medium
 
   * Update symbols for hurd-i386 from build-log
