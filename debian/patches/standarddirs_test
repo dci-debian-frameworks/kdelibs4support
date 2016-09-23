@@ -1,8 +1,17 @@
-Index: kdelibs4support/autotests/kstandarddirstest.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Sun, 10 Apr 2016 15:31:28 +0200
+Subject: standarddirs_test
+
 ===================================================================
---- kdelibs4support.orig/autotests/kstandarddirstest.cpp	2015-03-24 17:03:15.013378363 +0100
-+++ kdelibs4support/autotests/kstandarddirstest.cpp	2015-03-24 17:04:03.579382230 +0100
-@@ -108,9 +108,10 @@
+---
+ autotests/kstandarddirstest.cpp | 36 +++++++++++++++++++++++++-----------
+ 1 file changed, 25 insertions(+), 11 deletions(-)
+
+diff --git a/autotests/kstandarddirstest.cpp b/autotests/kstandarddirstest.cpp
+index 3030116..3851971 100644
+--- a/autotests/kstandarddirstest.cpp
++++ b/autotests/kstandarddirstest.cpp
+@@ -108,9 +108,10 @@ void KStandarddirsTest::testResourceDirs()
  {
      const QStringList configDirs = KGlobal::dirs()->resourceDirs("config");
      Q_FOREACH (const QString &dir, configDirs) {
@@ -16,7 +25,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
      }
  }
  
-@@ -172,6 +173,15 @@
+@@ -172,6 +173,15 @@ static bool oneEndsWith(const QStringList &lst, const QString &str)
      return false;
  }
  
@@ -32,7 +41,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
  void KStandarddirsTest::testFindAllResources()
  {
      if (!isKdeLibs4supportInstalled()) {
-@@ -180,7 +190,8 @@
+@@ -180,7 +190,8 @@ void KStandarddirsTest::testFindAllResources()
  
      const QStringList dbusInterfaceFiles = KGlobal::dirs()->findAllResources("data", "dbus-1/interfaces/");
      QVERIFY(!dbusInterfaceFiles.isEmpty());
@@ -42,7 +51,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
  
      // Create a local config file, the file will be used as expected result
      const QString localConfigFile = m_configHome + "/foorc";
-@@ -192,11 +203,12 @@
+@@ -192,11 +203,12 @@ void KStandarddirsTest::testFindAllResources()
      QVERIFY2(QFile::exists(localConfigFile), qPrintable(localConfigFile));
  
      const QStringList configFiles = KGlobal::dirs()->findAllResources("config");
@@ -56,7 +65,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
      QVERIFY(!oneEndsWith(configFiles, "etc/xdg/colors/Web.colors"));     // recursive was false
  
      {
-@@ -211,10 +223,11 @@
+@@ -211,10 +223,11 @@ void KStandarddirsTest::testFindAllResources()
      {
          const QStringList configFilesRecursiveWithFilter = KGlobal::dirs()->findAllResources("config", "*rc",
                  KStandardDirs::Recursive);
@@ -69,7 +78,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
          QVERIFY(oneEndsWith(configFilesRecursiveWithFilter, "etc/xdg/kdebugrc"));
          QVERIFY(!oneEndsWith(configFilesRecursiveWithFilter, "etc/xdg/colors/Web.colors"));     // didn't match the filter
      }
-@@ -222,9 +235,10 @@
+@@ -222,9 +235,10 @@ void KStandarddirsTest::testFindAllResources()
      {
          QStringList fileNames;
          const QStringList configFilesWithFilter = KGlobal::dirs()->findAllResources("config", "*rc", KStandardDirs::NoDuplicates, fileNames);
@@ -81,7 +90,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
          QVERIFY(oneEndsWith(configFilesWithFilter, "kdebugrc"));     // either global (etc/xdg/) or local (XDG_HOME)
          QVERIFY(!oneEndsWith(configFilesWithFilter, "etc/xdg/ui/ui_standards.rc"));     // recursive not set
          QVERIFY(!oneEndsWith(configFilesWithFilter, "etc/xdg/accept-languages.codes"));     // didn't match the filter
-@@ -283,7 +297,7 @@
+@@ -283,7 +297,7 @@ void KStandarddirsTest::testFindResourceDir()
  {
      const QString configDir = KGlobal::dirs()->findResourceDir("config", "foorc");
      QVERIFY(!configDir.isEmpty());
@@ -90,7 +99,7 @@ Index: kdelibs4support/autotests/kstandarddirstest.cpp
  }
  
  void KStandarddirsTest::testFindExeLibExec()
-@@ -424,14 +438,14 @@
+@@ -424,14 +438,14 @@ void KStandarddirsTest::testAddResourceType()
  
  void KStandarddirsTest::testAddResourceDir()
  {
