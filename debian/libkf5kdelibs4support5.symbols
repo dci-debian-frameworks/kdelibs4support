@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 alpha arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.26.0 amd64 arm64 armel armhf hppa hurd-i386 i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -3950,6 +3950,10 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTSN8KNetwork18KPassiveSocketBaseE@Base 4.96.0
  _ZTSN8KNetwork18KUnixSocketAddressE@Base 4.96.0
  _ZTSN8KNetwork9KResolverE@Base 4.96.0
+ _ZTSPN7K4Style10IconOptionE@Base 5.26.0
+ _ZTSPN7K4Style10TextOptionE@Base 5.26.0
+ _ZTSPN7K4Style11ColorOptionE@Base 5.26.0
+ _ZTSPN7K4Style17TitleButtonOptionE@Base 5.26.0
  _ZTTN8KNetwork13KServerSocketE@Base 4.96.0
  _ZTTN8KNetwork13KSocketDeviceE@Base 4.96.0
  _ZTTN8KNetwork13KStreamSocketE@Base 4.96.0
