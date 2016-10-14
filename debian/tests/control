@@ -1,5 +1,5 @@
 Tests: testsuite
-Depends: @, cmake, debhelper, xvfb, xauth, dbus-x11, openbox, kded5,
+Depends: @, cmake, debhelper, xvfb, xauth, dbus (>= 1.8), openbox, kded5,
          libkf5service-bin
 Restrictions: build-needed
 
