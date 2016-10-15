@@ -1,13 +1,15 @@
-kdelibs4support (5.27.0-1~3.gbp3e7f13) UNRELEASED; urgency=medium
+kdelibs4support (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @3e7f1321353eccc246717b35a5ba1e35f39457ba **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.26.0-1).
   * Refresh patches
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 10 Oct 2016 13:56:02 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:09:45 +0200
 
 kdelibs4support (5.26.0-1) unstable; urgency=medium
 
