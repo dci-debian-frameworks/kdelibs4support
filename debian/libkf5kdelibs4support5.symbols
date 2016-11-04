@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 alpha arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.27.0 amd64
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
