@@ -1,3 +1,11 @@
+kdelibs4support (5.28.0-1~1.gbp55dc35) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @55dc354a12721a387bd0c2af6d1557b90c939c78 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:31:54 +0100
+
 kdelibs4support (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
