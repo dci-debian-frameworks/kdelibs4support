@@ -1,8 +1,14 @@
-kdelibs4support (5.28.0-1~1.gbp55dc35) UNRELEASED; urgency=medium
+kdelibs4support (5.28.0-1~2.gbp88a24e) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @88a24e6ad4197c850036e2682b09bda423a74131 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @55dc354a12721a387bd0c2af6d1557b90c939c78 **
 
   * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Use libssl1.0-dev, following qt decision
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:31:54 +0100
 
