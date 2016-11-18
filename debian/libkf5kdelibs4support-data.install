@@ -6,7 +6,8 @@ etc/xdg/colors/Web.colors
 etc/xdg/kdebug.areas
 etc/xdg/kdebugrc
 etc/xdg/ksslcalist
-usr/share/doc/HTML/*/kcontrol5/kcm_ssl/
+usr/share/doc/HTML/*/kcontrol/
+usr/share/doc/HTML/*/kcontrol/kcm_ssl/
 usr/share/doc/HTML/*/kdebugdialog5/
 usr/share/kf5/kdoctools/customization/catalog4.xml
 usr/share/kf5/kdoctools/customization/dtd/kdex.dtd
