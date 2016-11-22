@@ -1,3 +1,11 @@
+kdelibs4support (5.28.0-2~1.gbpc350ed) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c350ed9e2c8d2a765dcb5bc71b0525583943be22 **
+
+  * Update symbols files from buildds logs (5.28.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 12:32:16 +0100
+
 kdelibs4support (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
