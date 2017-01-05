@@ -81,7 +81,7 @@ Depends: kgendesignerplugin (>= 5.6.0),
          libkf5wallet-dev,
          libkf5webkit-dev,
          libkf5windowsystem-dev (>= 5.28.0~),
-         libssl1.0-dev,
+         libssl-dev,
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: development files for kde4support
