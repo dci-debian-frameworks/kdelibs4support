@@ -1,6 +1,4 @@
-kdelibs4support (5.28.0-2~1.gbpc350ed) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c350ed9e2c8d2a765dcb5bc71b0525583943be22 **
+kdelibs4support (5.28.0-2~) UNRELEASED; urgency=medium
 
   * Update symbols files from buildds logs (5.28.0-1).
 
