@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 amd64
+# SymbolsHelper-Confirmed: 5.28.0 amd64 arm64 armel armhf hppa hurd-i386 i386 powerpc ppc64el s390x x32
 libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _Z12kDebugStream9QtMsgTypeiPKciS1_@Base 4.96.0
  _Z13kAsciiToLowerPc@Base 4.96.0
@@ -868,6 +868,89 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZN14KDiskFreeSpaceD0Ev@Base 4.96.0
  _ZN14KDiskFreeSpaceD1Ev@Base 4.96.0
  _ZN14KDiskFreeSpaceD2Ev@Base 4.96.0
+ _ZN14KLocalePrivate10formatDateERK5QDateN7KLocale10DateFormatE@Base 5.28.0
+ _ZN14KLocalePrivate10initConfigEP7KConfig@Base 5.28.0
+ _ZN14KLocalePrivate10initFormatEv@Base 5.28.0
+ _ZN14KLocalePrivate10setCountryERK7QStringP7KConfig@Base 5.28.0
+ _ZN14KLocalePrivate11initCountryERK7QStringS2_@Base 5.28.0
+ _ZN14KLocalePrivate11setCalendarERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate11setDigitSetEN7KLocale8DigitSetE@Base 5.28.0
+ _ZN14KLocalePrivate11setEncodingEi@Base 5.28.0
+ _ZN14KLocalePrivate11setLanguageERK11QStringList@Base 5.28.0
+ _ZN14KLocalePrivate11setLanguageERK7QStringP7KConfig@Base 5.28.0
+ _ZN14KLocalePrivate11setPageSizeEi@Base 5.28.0
+ _ZN14KLocalePrivate11splitLocaleERK7QStringRS0_S3_S3_S3_@Base 5.28.0
+ _ZN14KLocalePrivate12initCurrencyEv@Base 5.28.0
+ _ZN14KLocalePrivate12initEncodingEv@Base 5.28.0
+ _ZN14KLocalePrivate13setDateFormatERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate13setDayPeriodsERK5QListI10KDayPeriodE@Base 5.28.0
+ _ZN14KLocalePrivate13setTimeFormatERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate14defaultCountryEv@Base 5.28.0
+ _ZN14KLocalePrivate14digitSetStringEN7KLocale8DigitSetE@Base 5.28.0
+ _ZN14KLocalePrivate14formatByteSizeEd@Base 5.28.0
+ _ZN14KLocalePrivate14formatByteSizeEdiN7KLocale17BinaryUnitDialectENS0_15BinarySizeUnitsE@Base 5.28.0
+ _ZN14KLocalePrivate14formatDateTimeEPK7KLocaleRK9QDateTimeNS0_10DateFormatEbii@Base 5.28.0
+ _ZN14KLocalePrivate14formatDateTimeERK9KDateTimeN7KLocale10DateFormatE6QFlagsINS3_20DateTimeFormatOptionEE@Base 5.28.0
+ _ZN14KLocalePrivate14initDayPeriodsERK12KConfigGroup@Base 5.28.0
+ _ZN14KLocalePrivate14toArabicDigitsERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate15defaultLanguageEv@Base 5.28.0
+ _ZN14KLocalePrivate15setCurrencyCodeERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate15setNegativeSignERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate15setPositiveSignERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate15setWeekStartDayEi@Base 5.28.0
+ _ZN14KLocalePrivate16allLanguagesListEv@Base 5.28.0
+ _ZN14KLocalePrivate16dialectUnitsListEN7KLocale17BinaryUnitDialectE@Base 5.28.0
+ _ZN14KLocalePrivate16initLanguageListERK7QStringS2_b@Base 5.28.0
+ _ZN14KLocalePrivate16setDecimalPlacesEi@Base 5.28.0
+ _ZN14KLocalePrivate16setDecimalSymbolERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate16setMeasureSystemEN7KLocale13MeasureSystemE@Base 5.28.0
+ _ZN14KLocalePrivate16setWeekDayOfPrayEi@Base 5.28.0
+ _ZN14KLocalePrivate16weekNumberSystemEv@Base 5.28.0
+ _ZN14KLocalePrivate17setCalendarSystemEN7KLocale14CalendarSystemE@Base 5.28.0
+ _ZN14KLocalePrivate17setCurrencySymbolERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate18decodeFileNameUTF8ERK10QByteArray@Base 5.28.0
+ _ZN14KLocalePrivate18encodeFileNameUTF8ERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate18installedLanguagesEv@Base 5.28.0
+ _ZN14KLocalePrivate18languageCodeToNameERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate18setDateFormatShortERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate19defaultCurrencyCodeEv@Base 5.28.0
+ _ZN14KLocalePrivate19setDateTimeDigitSetEN7KLocale8DigitSetE@Base 5.28.0
+ _ZN14KLocalePrivate19setMonetaryDigitSetEN7KLocale8DigitSetE@Base 5.28.0
+ _ZN14KLocalePrivate19setWeekNumberSystemEN7KLocale16WeekNumberSystemE@Base 5.28.0
+ _ZN14KLocalePrivate20formatSingleDurationENS_12DurationTypeEi@Base 5.28.0
+ _ZN14KLocalePrivate20setBinaryUnitDialectEN7KLocale17BinaryUnitDialectE@Base 5.28.0
+ _ZN14KLocalePrivate20setWorkingWeekEndDayEi@Base 5.28.0
+ _ZN14KLocalePrivate21setThousandsSeparatorERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate22setCountryDivisionCodeERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate22setWorkingWeekStartDayEi@Base 5.28.0
+ _ZN14KLocalePrivate23setNumericDigitGroupingE5QListIiE@Base 5.28.0
+ _ZN14KLocalePrivate24getLanguagesFromVariableER11QStringListPKcb@Base 5.28.0
+ _ZN14KLocalePrivate24setMonetaryDecimalPlacesEi@Base 5.28.0
+ _ZN14KLocalePrivate24setMonetaryDecimalSymbolERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate24setMonetaryDigitGroupingE5QListIiE@Base 5.28.0
+ _ZN14KLocalePrivate26setDateMonthNamePossessiveEb@Base 5.28.0
+ _ZN14KLocalePrivate29setMonetaryThousandsSeparatorERK7QString@Base 5.28.0
+ _ZN14KLocalePrivate31setNegativeMonetarySignPositionEN7KLocale12SignPositionE@Base 5.28.0
+ _ZN14KLocalePrivate31setNegativePrefixCurrencySymbolEb@Base 5.28.0
+ _ZN14KLocalePrivate31setPositiveMonetarySignPositionEN7KLocale12SignPositionE@Base 5.28.0
+ _ZN14KLocalePrivate31setPositivePrefixCurrencySymbolEb@Base 5.28.0
+ _ZN14KLocalePrivate4copyERKS_@Base 5.28.0
+ _ZN14KLocalePrivate4initERK7QStringS2_28QExplicitlySharedDataPointerI13KSharedConfigEP7KConfig@Base 5.28.0
+ _ZN14KLocalePrivate6configEv@Base 5.28.0
+ _ZN14KLocalePrivate8calendarEv@Base 5.28.0
+ _ZN14KLocalePrivate8currencyEv@Base 5.28.0
+ _ZN14KLocalePrivate8encodingEv@Base 5.28.0
+ _ZN14KLocalePrivate8readDateERK7QStringN7KLocale13ReadDateFlagsEPb@Base 5.28.0
+ _ZN14KLocalePrivate8readDateERK7QStringPb@Base 5.28.0
+ _ZN14KLocalePrivate8readDateERK7QStringS2_Pb@Base 5.28.0
+ _ZN14KLocalePrivateC1EP7KLocale@Base 5.28.0
+ _ZN14KLocalePrivateC1ERKS_@Base 5.28.0
+ _ZN14KLocalePrivateC2EP7KLocale@Base 5.28.0
+ _ZN14KLocalePrivateC2ERKS_@Base 5.28.0
+ _ZN14KLocalePrivateD0Ev@Base 5.28.0
+ _ZN14KLocalePrivateD1Ev@Base 5.28.0
+ _ZN14KLocalePrivateD2Ev@Base 5.28.0
+ _ZN14KLocalePrivateaSERKS_@Base 5.28.0
  _ZN14KLocalizedDate10addYearsToEi@Base 4.96.0
  _ZN14KLocalizedDate11addMonthsToEi@Base 4.96.0
  _ZN14KLocalizedDate11currentDateEv@Base 4.96.0
@@ -2982,6 +3065,78 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZNK14KComponentDataeqERKS_@Base 4.96.0
  _ZNK14KComponentDataneERKS_@Base 4.96.0
  _ZNK14KDiskFreeSpace10metaObjectEv@Base 4.96.0
+ _ZNK14KLocalePrivate10dateFormatEv@Base 5.28.0
+ _ZNK14KLocalePrivate10dayPeriodsEv@Base 5.28.0
+ _ZNK14KLocalePrivate10formatLongEl@Base 5.28.0
+ _ZNK14KLocalePrivate10formatTimeERK5QTimebb@Base 5.28.0
+ _ZNK14KLocalePrivate10readNumberERK7QStringPb@Base 5.28.0
+ _ZNK14KLocalePrivate10timeFormatEv@Base 5.28.0
+ _ZNK14KLocalePrivate10use12ClockEv@Base 5.28.0
+ _ZNK14KLocalePrivate11encodingMibEv@Base 5.28.0
+ _ZNK14KLocalePrivate11formatMoneyEdRK7QStringi@Base 5.28.0
+ _ZNK14KLocalePrivate12calendarTypeEv@Base 5.28.0
+ _ZNK14KLocalePrivate12currencyCodeEv@Base 5.28.0
+ _ZNK14KLocalePrivate12formatNumberERK7QStringbi@Base 5.28.0
+ _ZNK14KLocalePrivate12formatNumberEdi@Base 5.28.0
+ _ZNK14KLocalePrivate12languageListEv@Base 5.28.0
+ _ZNK14KLocalePrivate12negativeSignEv@Base 5.28.0
+ _ZNK14KLocalePrivate12positiveSignEv@Base 5.28.0
+ _ZNK14KLocalePrivate12weekStartDayEv@Base 5.28.0
+ _ZNK14KLocalePrivate13convertDigitsERK7QStringN7KLocale8DigitSetEb@Base 5.28.0
+ _ZNK14KLocalePrivate13decimalPlacesEv@Base 5.28.0
+ _ZNK14KLocalePrivate13decimalSymbolEv@Base 5.28.0
+ _ZNK14KLocalePrivate13measureSystemEv@Base 5.28.0
+ _ZNK14KLocalePrivate13systemCodesetEv@Base 5.28.0
+ _ZNK14KLocalePrivate13systemCountryEv@Base 5.28.0
+ _ZNK14KLocalePrivate13weekDayOfPrayEv@Base 5.28.0
+ _ZNK14KLocalePrivate14calendarSystemEv@Base 5.28.0
+ _ZNK14KLocalePrivate14currencySymbolEv@Base 5.28.0
+ _ZNK14KLocalePrivate14digitSetToNameEN7KLocale8DigitSetEb@Base 5.28.0
+ _ZNK14KLocalePrivate14formatDateTimeERK9QDateTimeN7KLocale10DateFormatEb@Base 5.28.0
+ _ZNK14KLocalePrivate14formatDurationEm@Base 5.28.0
+ _ZNK14KLocalePrivate14nounDeclensionEv@Base 5.28.0
+ _ZNK14KLocalePrivate14readLocaleTimeERK7QStringPb6QFlagsIN7KLocale16TimeFormatOptionEES4_INS5_20TimeProcessingOptionEE@Base 5.28.0
+ _ZNK14KLocalePrivate15dateFormatShortEv@Base 5.28.0
+ _ZNK14KLocalePrivate15fileEncodingMibEv@Base 5.28.0
+ _ZNK14KLocalePrivate15parseDigitGroupERK7QStringS2_S2_5QListIiEPb@Base 5.28.0
+ _ZNK14KLocalePrivate16allCountriesListEv@Base 5.28.0
+ _ZNK14KLocalePrivate16allDigitSetsListEv@Base 5.28.0
+ _ZNK14KLocalePrivate16codecForEncodingEv@Base 5.28.0
+ _ZNK14KLocalePrivate16currencyCodeListEv@Base 5.28.0
+ _ZNK14KLocalePrivate16dateTimeDigitSetEv@Base 5.28.0
+ _ZNK14KLocalePrivate16dayPeriodForTimeERK5QTime@Base 5.28.0
+ _ZNK14KLocalePrivate16formatDigitGroupERK7QStringS2_S2_5QListIiE@Base 5.28.0
+ _ZNK14KLocalePrivate16formatLocaleTimeERK5QTime6QFlagsIN7KLocale16TimeFormatOptionEE@Base 5.28.0
+ _ZNK14KLocalePrivate16monetaryDigitSetEv@Base 5.28.0
+ _ZNK14KLocalePrivate17binaryUnitDialectEv@Base 5.28.0
+ _ZNK14KLocalePrivate17countryCodeToNameERK7QString@Base 5.28.0
+ _ZNK14KLocalePrivate17workingWeekEndDayEv@Base 5.28.0
+ _ZNK14KLocalePrivate18systemLanguageListEv@Base 5.28.0
+ _ZNK14KLocalePrivate18thousandsSeparatorEv@Base 5.28.0
+ _ZNK14KLocalePrivate18useDefaultLanguageEv@Base 5.28.0
+ _ZNK14KLocalePrivate19countryDivisionCodeEv@Base 5.28.0
+ _ZNK14KLocalePrivate19workingWeekStartDayEv@Base 5.28.0
+ _ZNK14KLocalePrivate20numericDigitGroupingEv@Base 5.28.0
+ _ZNK14KLocalePrivate20prettyFormatDurationEm@Base 5.28.0
+ _ZNK14KLocalePrivate21monetaryDecimalPlacesEv@Base 5.28.0
+ _ZNK14KLocalePrivate21monetaryDecimalSymbolEv@Base 5.28.0
+ _ZNK14KLocalePrivate21monetaryDigitGroupingEv@Base 5.28.0
+ _ZNK14KLocalePrivate22digitGroupFormatToListERK7QString@Base 5.28.0
+ _ZNK14KLocalePrivate23dateMonthNamePossessiveEv@Base 5.28.0
+ _ZNK14KLocalePrivate26monetaryThousandsSeparatorEv@Base 5.28.0
+ _ZNK14KLocalePrivate28calendarSystemToCalendarTypeEN7KLocale14CalendarSystemE@Base 5.28.0
+ _ZNK14KLocalePrivate28calendarTypeToCalendarSystemERK7QString@Base 5.28.0
+ _ZNK14KLocalePrivate28negativeMonetarySignPositionEv@Base 5.28.0
+ _ZNK14KLocalePrivate28negativePrefixCurrencySymbolEv@Base 5.28.0
+ _ZNK14KLocalePrivate28positiveMonetarySignPositionEv@Base 5.28.0
+ _ZNK14KLocalePrivate28positivePrefixCurrencySymbolEv@Base 5.28.0
+ _ZNK14KLocalePrivate7countryEv@Base 5.28.0
+ _ZNK14KLocalePrivate8digitSetEv@Base 5.28.0
+ _ZNK14KLocalePrivate8languageEv@Base 5.28.0
+ _ZNK14KLocalePrivate8pageSizeEv@Base 5.28.0
+ _ZNK14KLocalePrivate8readTimeERK7QStringN7KLocale13ReadTimeFlagsEPb@Base 5.28.0
+ _ZNK14KLocalePrivate8readTimeERK7QStringPb@Base 5.28.0
+ _ZNK14KLocalePrivate9readMoneyERK7QStringPb@Base 5.28.0
  _ZNK14KLocalizedDate10daysInWeekEv@Base 4.96.0
  _ZNK14KLocalizedDate10daysInYearEv@Base 4.96.0
  _ZNK14KLocalizedDate10formatDateEN7KLocale10DateFormatE@Base 4.96.0
@@ -3740,6 +3895,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTI13KTimeZoneData@Base 4.96.0
  _ZTI14KComponentData@Base 4.96.0
  _ZTI14KDiskFreeSpace@Base 4.96.0
+ _ZTI14KLocalePrivate@Base 5.28.0
  _ZTI14KTemporaryFile@Base 4.96.0
  _ZTI15KCalendarSystem@Base 4.96.0
  _ZTI15KDataToolAction@Base 4.96.0
@@ -3862,6 +4018,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTS13KTimeZoneData@Base 4.96.0
  _ZTS14KComponentData@Base 4.96.0
  _ZTS14KDiskFreeSpace@Base 4.96.0
+ _ZTS14KLocalePrivate@Base 5.28.0
  _ZTS14KTemporaryFile@Base 4.96.0
  _ZTS15KCalendarSystem@Base 4.96.0
  _ZTS15KDataToolAction@Base 4.96.0
@@ -3990,6 +4147,7 @@ libKF5KDELibs4Support.so.5 libkf5kdelibs4support5 #MINVER#
  _ZTV13KTimeZoneData@Base 4.96.0
  _ZTV14KComponentData@Base 4.96.0
  _ZTV14KDiskFreeSpace@Base 4.96.0
+ _ZTV14KLocalePrivate@Base 5.28.0
  _ZTV14KTemporaryFile@Base 4.96.0
  _ZTV15KCalendarSystem@Base 4.96.0
  _ZTV15KDataToolAction@Base 4.96.0

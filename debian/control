@@ -10,7 +10,6 @@ Build-Depends: cmake (>= 2.8.12),
                kdesignerplugin (>= 5.28.0~),
                kdoctools-dev (>= 5.25.0~),
                kgendesignerplugin (>= 5.6.0),
-               kio-dev (>= 5.26.0~),
                libintl-perl,
                libkf5completion-dev (>= 5.28.0~),
                libkf5config-dev (>= 5.28.0~),
@@ -134,6 +133,7 @@ Description: Porting aid from KDELibs4.
 Package: libkf5kdelibs4support-data
 Multi-Arch: foreign
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5kdelibs4support5-data
 Replaces: libkf5kdelibs4support5-data
