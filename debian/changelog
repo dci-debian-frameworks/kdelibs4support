@@ -5,6 +5,7 @@ kdelibs4support (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.0.0.
   * Update build-deps and deps with the info from cmake
   * Drop upstream patches
+  * Add new patch: kmimetypetest-accept-application-x-sharedlib-for-executab.patch
 
   [ Jonathan Riddell ]
   * update .install for moved docs
@@ -13,7 +14,7 @@ kdelibs4support (5.35.0-1~1) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 23:48:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 07:00:00 +0200
 
 kdelibs4support (5.28.0-2) unstable; urgency=medium
 
