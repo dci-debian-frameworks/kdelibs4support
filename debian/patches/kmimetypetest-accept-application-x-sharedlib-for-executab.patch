@@ -1,0 +1,58 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Sat, 8 Jul 2017 06:49:19 +0200
+Subject: kmimetypetest: accept application/x-sharedlib for executables
+
+When the binaries are compiled with -pie the executables may report
+"application/x-sharedlib" as their mimetype.
+
+Also, move the executable test to the by content.
+---
+ autotests/kmimetypetest.cpp | 28 ++++++++++++++++++++--------
+ 1 file changed, 20 insertions(+), 8 deletions(-)
+
+diff --git a/autotests/kmimetypetest.cpp b/autotests/kmimetypetest.cpp
+index 5341a20..b5ceba6 100644
+--- a/autotests/kmimetypetest.cpp
++++ b/autotests/kmimetypetest.cpp
+@@ -254,14 +254,6 @@ void KMimeTypeTest::testFindByPathUsingFileName_data()
+     QTest::newRow("doesn't exist but has known extension") << "IDontExist.txt" << "text/plain";
+     QTest::newRow("png image") << QFINDTESTDATA("image.png") << "image/png";
+ 
+-    const QString exePath = QStandardPaths::findExecutable("cmake");
+-    QVERIFY2(!exePath.isEmpty(), "cmake not found. Isn't it in your $PATH?");
+-#ifdef Q_OS_WIN
+-    const QString executableType = QString::fromLatin1("application/x-ms-dos-executable");
+-#else
+-    const QString executableType = QString::fromLatin1("application/x-executable");
+-#endif
+-    QTest::newRow("executable") << exePath << executableType;
+ }
+ 
+ void KMimeTypeTest::testFindByPathUsingFileName()
+@@ -348,6 +340,26 @@ void KMimeTypeTest::testFindByPathWithContent()
+         QVERIFY(mime);
+         QCOMPARE(mime->name(), QString::fromLatin1("text/plain"));
+     }
++
++    {
++        const QString fileName = QStandardPaths::findExecutable("cmake");
++        QVERIFY2(!fileName.isEmpty(), "cmake not found. Isn't it in your $PATH?");
++
++        KMimeType::Ptr mime = KMimeType::findByPath(fileName);
++        QVERIFY(mime);
++
++#ifdef Q_OS_WIN
++        QCOMPARE(mime->name(), QString::fromLatin1("application/x-ms-dos-executable"));
++#else
++        // The mime type can be application/x-sharedlib when the binaries
++        // compiled with -pie
++        if (mime->name() == QString::fromLatin1("application/x-sharedlib")) {
++            QCOMPARE(mime->name(), QString::fromLatin1("application/x-sharedlib"));
++        } else {
++            QCOMPARE(mime->name(), QString::fromLatin1("application/x-executable"));
++        }
++#endif
++    }
+ }
+ 
+ void KMimeTypeTest::testFindByUrl()

@@ -8,7 +8,7 @@ Subject: standarddirs_test
  1 file changed, 25 insertions(+), 11 deletions(-)
 
 diff --git a/autotests/kstandarddirstest.cpp b/autotests/kstandarddirstest.cpp
-index 30301163..38519714 100644
+index de6150d..14bb5ac 100644
 --- a/autotests/kstandarddirstest.cpp
 +++ b/autotests/kstandarddirstest.cpp
 @@ -108,9 +108,10 @@ void KStandarddirsTest::testResourceDirs()
