@@ -1,4 +1,4 @@
-kdelibs4support (5.35.0-1~1) UNRELEASED; urgency=medium
+kdelibs4support (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -6,6 +6,8 @@ kdelibs4support (5.35.0-1~1) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Drop upstream patches
   * Add new patch: kmimetypetest-accept-application-x-sharedlib-for-executab.patch
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Jonathan Riddell ]
   * update .install for moved docs
@@ -14,7 +16,7 @@ kdelibs4support (5.35.0-1~1) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 07:00:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 14:04:50 +0200
 
 kdelibs4support (5.28.0-2) unstable; urgency=medium
 
