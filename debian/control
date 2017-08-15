@@ -50,7 +50,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdelibs4support.git
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: kdoctools-dev (>= 5.25.0~),
          kgendesignerplugin (>= 5.6.0),
          kinit-dev,
