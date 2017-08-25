@@ -1,14 +1,14 @@
+From 73b956ca38e5de641fa70fbb2c0c6b38c088fd68 Mon Sep 17 00:00:00 2001
 From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Date: Sun, 10 Apr 2016 15:31:28 +0200
-Subject: standarddirs_test
+Date: Fri, 25 Aug 2017 17:13:25 +0530
+Subject: [PATCH] standarddirs_test
 
-===================================================================
 ---
  autotests/kstandarddirstest.cpp | 36 +++++++++++++++++++++++++-----------
  1 file changed, 25 insertions(+), 11 deletions(-)
 
 diff --git a/autotests/kstandarddirstest.cpp b/autotests/kstandarddirstest.cpp
-index 30301163..38519714 100644
+index 2a8b3704..07433dbc 100644
 --- a/autotests/kstandarddirstest.cpp
 +++ b/autotests/kstandarddirstest.cpp
 @@ -108,9 +108,10 @@ void KStandarddirsTest::testResourceDirs()
@@ -90,8 +90,8 @@ index 30301163..38519714 100644
          QVERIFY(oneEndsWith(configFilesWithFilter, "kdebugrc"));     // either global (etc/xdg/) or local (XDG_HOME)
          QVERIFY(!oneEndsWith(configFilesWithFilter, "etc/xdg/ui/ui_standards.rc"));     // recursive not set
          QVERIFY(!oneEndsWith(configFilesWithFilter, "etc/xdg/accept-languages.codes"));     // didn't match the filter
-@@ -283,7 +297,7 @@ void KStandarddirsTest::testFindResourceDir()
- {
+@@ -287,7 +301,7 @@ void KStandarddirsTest::testFindResourceDir()
+ 
      const QString configDir = KGlobal::dirs()->findResourceDir("config", "foorc");
      QVERIFY(!configDir.isEmpty());
 -    QVERIFY2(configDir.endsWith(QLatin1String("/xdg/config/")), qPrintable(configDir));
@@ -99,7 +99,7 @@ index 30301163..38519714 100644
  }
  
  void KStandarddirsTest::testFindExeLibExec()
-@@ -424,14 +438,14 @@ void KStandarddirsTest::testAddResourceType()
+@@ -428,14 +442,14 @@ void KStandarddirsTest::testAddResourceType()
  
  void KStandarddirsTest::testAddResourceDir()
  {
@@ -117,3 +117,6 @@ index 30301163..38519714 100644
  }
  
  void KStandarddirsTest::testSetXdgDataDirs()
+-- 
+2.14.1
+
