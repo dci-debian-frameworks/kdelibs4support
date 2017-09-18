@@ -34,7 +34,7 @@ Build-Depends: cmake (>= 2.8.12),
                libqt5svg5-dev (>= 5.5.0~),
                libqt5x11extras5-dev (>= 5.5.0~),
                libsm-dev,
-               libssl1.0-dev | libssl-dev,
+               libssl1.0-dev,
                liburi-perl,
                libx11-dev,
                network-manager-dev (>= 0.7.0~) [linux-any],
@@ -42,6 +42,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.5.0~)
+Build-Conflicts: libssl-dev
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kdelibs4support
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdelibs4support.git
