@@ -69,13 +69,13 @@ Description: Porting aid from KDELibs4.
 Package: libkf5kdelibs4support-dev
 Section: libdevel
 Architecture: any
-Depends: kdoctools-dev (>= 5.25.0~),
-         kgendesignerplugin (>= 5.6.0),
+Depends: kgendesignerplugin (>= 5.6.0),
          kinit-dev,
          kross-dev,
          libkf5configwidgets-dev (>= 5.41.0~),
          libkf5crash-dev (>= 5.41.0~),
          libkf5dnssd-dev,
+         libkf5doctools-dev (>= 5.25.0~),
          libkf5emoticons-dev (>= 5.41.0~),
          libkf5guiaddons-dev (>= 5.41.0~),
          libkf5iconthemes-dev (>= 5.41.0~),
