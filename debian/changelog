@@ -1,10 +1,14 @@
-kdelibs4support (5.41.0-1~) UNRELEASED; urgency=medium
+kdelibs4support (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.38.0).
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.2.
+  * Refresh patches
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 13:55:37 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:41:43 -0300
 
 kdelibs4support (5.37.0-2) sid; urgency=medium
 
